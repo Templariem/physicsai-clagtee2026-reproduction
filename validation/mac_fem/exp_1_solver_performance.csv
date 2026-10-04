@@ -1,0 +1,4 @@
+Mesh Strategy,Nodes,Elements,Assembly Time (s),Electrostatic Solve Time (s),Electrostatic Matrix Condition Number,Magnetostatic Solve Time (s),Magnetostatic Matrix Condition Number,Harmonic Solve Time (s),Transient Solve Time (40 steps) (s)
+Blossom,911,858,0.052805,0.055878,8.8878e+02,0.055453,5.4791e+02,0.057500,0.106011
+Transfinite,1157,1086,0.066438,0.070804,8.6815e+02,0.070218,5.1073e+02,0.072183,0.140883
+Subdivision,445,408,0.025032,0.026846,4.1376e+02,0.027040,2.4615e+02,0.027767,0.045331

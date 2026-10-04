@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-02",
+  "policy": "virtual_query",
+  "authorization": "Author requested complete visualization with or without LEDs, replacing the N/A panels.",
+  "columns_without_query": [
+    1,
+    2,
+    4,
+    6,
+    7
+  ],
+  "frames_without_query": [
+    "frame_016.jpg",
+    "frame_050.jpg",
+    "frame_121.jpg",
+    "frame_161.jpg",
+    "frame_191.jpg"
+  ],
+  "geometric_rule": "Using the original integer sphere centroid and pixel radius from the regression loader, choose (cx + sign*2*Rpx, cy); sign points toward the wider horizontal image margin, right on ties. Require an in-image point outside all annotated conductors.",
+  "fixed_before_inference": true,
+  "empirical_profile_row_retained": true,
+  "feature_rule": "Recompute the nearest-conductor surface distance, sphere-centre distance without an added radius, FEM sample, empirical derivative and normalized image coordinates at each virtual query.",
+  "reference_rule": "g(query-to-conductor distance) is a model-generated display reference only, not an observation or new regression label.",
+  "training_or_scoring": false,
+  "new_optimization": false,
+  "marker": "Black-outlined white cross in both hybrid rows for the five virtual-query examples.",
+  "unchanged": "Original RGB and latent/PCA pixels, existing valid-query profiles, model weights, regression predictions, scores and timing tables."
+}

@@ -1,0 +1,3 @@
+# Optional: the exact paper meshes are already included.
+-r requirements.txt
+gmsh==4.15.2

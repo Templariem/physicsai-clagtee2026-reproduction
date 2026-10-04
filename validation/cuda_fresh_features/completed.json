@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "source": "saved heads; no retraining",
+  "input_features": "runs/cuda_features",
+  "device": "cuda",
+  "holdout_frames": 36,
+  "fresh_backbone_features": true
+}

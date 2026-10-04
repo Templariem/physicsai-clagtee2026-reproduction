@@ -1,0 +1,92 @@
+{
+  "calibration_pairs": 5,
+  "amplitude_V": 6.019078473682064,
+  "exponent": 0.40580894137904955,
+  "log_space_R2": 0.8749823928059325,
+  "law": "V(d)=A*(d/1 cm)^(-gamma)",
+  "distance_reference": "Sphere surface along y=0.1225 m for the FEM profile",
+  "calibration_interval_cm": [
+    5.0,
+    17.0
+  ],
+  "outside_interval": "Extrapolated surrogate, not an independent observation",
+  "measurement_provenance": "Manual LED activation distances; color-assigned forward voltages; 2 cm leg separation",
+  "uncertainty": "No retained repeats, threshold tolerances or controlled operator/environmental records",
+  "FEM_formulation": "Cartesian 2D, -div[(sigma+j*omega*epsilon)*grad(V)]=0; no cylindrical weighting",
+  "excitation": {
+    "amplitude_V": 45000.0,
+    "frequency_Hz": 876000.0,
+    "basis": "45 kV approximate 3 MV/m times 1.5 cm breakdown estimate; frequency assumed"
+  },
+  "epsilon_F_per_m": 8.854e-12,
+  "conductivity_S_per_m_by_material": {
+    "1": 1e-15,
+    "2": 58000000.0,
+    "3": 35000000.0
+  },
+  "boundary_conditions": "45 kV for x<0.002 m, 0.098<y<0.147 m; zero at x=5/y=5 m; other fluxes zero; no separate winding-base ground",
+  "remapping": "FEM magnitude -> equivalent surface distance on 1000-point radial profile -> five-LED power law",
+  "display_range_V": [
+    0.1,
+    8.0
+  ],
+  "colormap": "turbo, linear",
+  "data_voltage_clipping": false,
+  "marker_meaning": "Observed activation locations; contours indicate assigned voltages and need not pass through markers",
+  "mesh_sha256": "70d25aaefa730ae7aca7269c1132c09024080c3b7efc32981a8602cc9db4751b",
+  "script_sha256": "b0f39770c3bce3a15461716ce6b3aa9eb6dd6662fa2672ef138cfe8b9db43150",
+  "nodes": 53827,
+  "Q4_elements": 53500,
+  "LED_records": [
+    {
+      "LED_Color": "White",
+      "Measured_activation_distance_cm": 5.0,
+      "Assigned_LED_voltage_V": 3.3,
+      "FEM_magnitude_kV": 39.99810285880996,
+      "LED_to_FEM_ratio": 8.250391303929416e-05,
+      "1e5_LED_to_FEM_ratio": 8.250391303929415,
+      "Fitted_surrogate_at_observed_distance_V": 3.1324325482699638,
+      "Fitted_surface_distance_at_assigned_voltage_cm": 4.397434658902483
+    },
+    {
+      "LED_Color": "Blue",
+      "Measured_activation_distance_cm": 6.0,
+      "Assigned_LED_voltage_V": 3.1,
+      "FEM_magnitude_kV": 39.32828315036242,
+      "LED_to_FEM_ratio": 7.882367984760181e-05,
+      "1e5_LED_to_FEM_ratio": 7.882367984760181,
+      "Fitted_surrogate_at_observed_distance_V": 2.9090371691568793,
+      "Fitted_surface_distance_at_assigned_voltage_cm": 5.1298933335262555
+    },
+    {
+      "LED_Color": "Green",
+      "Measured_activation_distance_cm": 6.5,
+      "Assigned_LED_voltage_V": 2.5,
+      "FEM_magnitude_kV": 39.012205517997785,
+      "LED_to_FEM_ratio": 6.408250871247608e-05,
+      "1e5_LED_to_FEM_ratio": 6.408250871247607,
+      "Fitted_surrogate_at_observed_distance_V": 2.816063844981398,
+      "Fitted_surface_distance_at_assigned_voltage_cm": 8.716042558839021
+    },
+    {
+      "LED_Color": "Yellow",
+      "Measured_activation_distance_cm": 12.0,
+      "Assigned_LED_voltage_V": 2.1,
+      "FEM_magnitude_kV": 36.06753477682898,
+      "LED_to_FEM_ratio": 5.822410688709205e-05,
+      "1e5_LED_to_FEM_ratio": 5.822410688709205,
+      "Fitted_surrogate_at_observed_distance_V": 2.1957788948337793,
+      "Fitted_surface_distance_at_assigned_voltage_cm": 13.394033215696957
+    },
+    {
+      "LED_Color": "Red",
+      "Measured_activation_distance_cm": 17.0,
+      "Assigned_LED_voltage_V": 2.0,
+      "FEM_magnitude_kV": 33.92144796612891,
+      "LED_to_FEM_ratio": 5.8959747296077425e-05,
+      "1e5_LED_to_FEM_ratio": 5.895974729607743,
+      "Fitted_surrogate_at_observed_distance_V": 1.9063508450379145,
+      "Fitted_surface_distance_at_assigned_voltage_cm": 15.105194964073377
+    }
+  ]
+}

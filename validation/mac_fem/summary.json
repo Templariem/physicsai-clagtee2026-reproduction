@@ -1,0 +1,69 @@
+{
+  "method": "Five refits, each omitting one documented LED pair; no new observations or refitting of reported ML models.",
+  "interpretation": "Descriptive sensitivity to the five assigned pairs, not a confidence interval, measurement uncertainty, or independent field validation.",
+  "full_fit_A_V": 6.019078473682064,
+  "full_fit_gamma": 0.40580894137904955,
+  "full_fit_R2_log": 0.8749823928059325,
+  "A_range_V": [
+    5.378710364952021,
+    7.206643932985814
+  ],
+  "gamma_range": [
+    0.36151550531281745,
+    0.5048347729738408
+  ],
+  "maximum_relative_change_5_17_cm_percent": 9.560775071174499,
+  "omitted_pair_MAE_V": 0.2833249559181853,
+  "fits": [
+    {
+      "omitted_LED": "White",
+      "A_V": 5.378710364952021,
+      "gamma": 0.36151550531281745,
+      "omitted_distance_cm": 5.0,
+      "assigned_voltage_V": 3.3,
+      "omitted_prediction_V": 3.006004763937054,
+      "omitted_error_V": -0.29399523606294586,
+      "maximum_relative_change_5_17_cm_percent": 4.03608960080355
+    },
+    {
+      "omitted_LED": "Blue",
+      "A_V": 5.5746497057141555,
+      "gamma": 0.3781661589221999,
+      "omitted_distance_cm": 6.0,
+      "assigned_voltage_V": 3.1,
+      "omitted_prediction_V": 2.8310472214628724,
+      "omitted_error_V": -0.26895277853712773,
+      "maximum_relative_change_5_17_cm_percent": 3.1701959226712373
+    },
+    {
+      "omitted_LED": "Green",
+      "A_V": 6.719130091619901,
+      "gamma": 0.4426293378887592,
+      "omitted_distance_cm": 6.5,
+      "assigned_voltage_V": 2.5,
+      "omitted_prediction_V": 2.934227269289594,
+      "omitted_error_V": 0.4342272692895941,
+      "maximum_relative_change_5_17_cm_percent": 5.207497761028024
+    },
+    {
+      "omitted_LED": "Yellow",
+      "A_V": 5.81386229613473,
+      "gamma": 0.3831897845320355,
+      "omitted_distance_cm": 12.0,
+      "assigned_voltage_V": 2.1,
+      "omitted_prediction_V": 2.243538424377664,
+      "omitted_error_V": 0.14353842437766406,
+      "maximum_relative_change_5_17_cm_percent": 2.9832166531376325
+    },
+    {
+      "omitted_LED": "Red",
+      "A_V": 7.206643932985814,
+      "gamma": 0.5048347729738408,
+      "omitted_distance_cm": 17.0,
+      "assigned_voltage_V": 2.0,
+      "omitted_prediction_V": 1.7240889286764052,
+      "omitted_error_V": -0.2759110713235948,
+      "maximum_relative_change_5_17_cm_percent": 9.560775071174499
+    }
+  ]
+}

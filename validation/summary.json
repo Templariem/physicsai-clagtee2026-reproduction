@@ -1,0 +1,9 @@
+{
+  "max_saved_head_CUDA_prediction_delta_V": 7.423522947469507e-07,
+  "MPS_retraining_max_reported_metric_delta": 0.0,
+  "CUDA_retraining_max_R2_delta": 0.00030882962216138843,
+  "CUDA_vision_only_is_bitwise_reproduction": false,
+  "paper_metrics_modified_by_CUDA_validation": false,
+  "repository_visibility": "PUBLIC",
+  "public_release": "clagtee-2026-full-v1.0"
+}

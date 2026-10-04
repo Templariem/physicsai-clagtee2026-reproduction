@@ -1,0 +1,829 @@
+{
+  "date": "2026-10-03",
+  "range_V": [
+    0.1,
+    8.0
+  ],
+  "normalization": "linear, shared",
+  "colormap": "turbo",
+  "per_panel_autoscaling": false,
+  "fig4_above_range": "saturated at 8 V; upper colorbar extension",
+  "mapping_samples_rgb": {
+    "0.1": [
+      48,
+      18,
+      59
+    ],
+    "1": [
+      69,
+      99,
+      217
+    ],
+    "2": [
+      45,
+      180,
+      241
+    ],
+    "3": [
+      41,
+      238,
+      160
+    ],
+    "4": [
+      158,
+      253,
+      62
+    ],
+    "5": [
+      234,
+      211,
+      57
+    ],
+    "6": [
+      251,
+      128,
+      34
+    ],
+    "7": [
+      210,
+      48,
+      5
+    ],
+    "8": [
+      122,
+      4,
+      2
+    ]
+  },
+  "figure4": {
+    "mapping": "five-LED fitted power law applied to surface distances associated with FEM contour magnitudes",
+    "within_interval_holdout": 15,
+    "extrapolated_holdout": 21,
+    "display_range_V": [
+      0.1,
+      8.0
+    ],
+    "targets_clipped": false
+  },
+  "figure5": {
+    "source_sha256": "0007f5c05d6917e3455e0ece3f4182fdc5940e716317346604b55fbe927bb921",
+    "unchanged_rgb_pixels": true,
+    "latent_source": "official checkpoints, regenerated spatial PCA displays",
+    "dinov3_display_palette": "fixed green/orange/purple RGB transform; reference/figures/dino_display_palette.json; visualization only",
+    "source_mosaic_extent_xyxy": [
+      377,
+      3,
+      3181,
+      1861
+    ],
+    "display_saturation_V": [
+      0.1,
+      8.0
+    ],
+    "labels_or_predictions_clipped": false,
+    "profile_calibration": "power-law fit to the five documented LED pairs only",
+    "surface_regularization": "half one source-image pixel outside conductor contours; visualization only",
+    "distance_convention": "nearest signed conductor-polygon distance and integer sphere scale, identical to regression labels",
+    "conductor_interiors": "masked; original photo remains visible, scalar arrays store NaN",
+    "hybrid_profile_normalization": "P(x) * prediction(q) / P(q), then saturate colors at 0.1--8 V; P(q) uses the same bilinear display grid",
+    "scalar_interpolation": "evaluate the surface-distance law at displayed pixel centres; bilinear sampling only for query normalization",
+    "RGB_blending": true,
+    "map_opacity": 0.6,
+    "photo_opacity": 0.4,
+    "colorbar_before_blending": true,
+    "query_marker_legend": {
+      "rows": [
+        7,
+        8
+      ],
+      "circle": "annotated probe location",
+      "cross": "virtual query excluded from fitting and scoring"
+    },
+    "layout": {
+      "figure_size_inches": [
+        15.0,
+        8.1
+      ],
+      "colorbar": "vertical, right of mosaic",
+      "row_label_fontsize_pt": 14.5,
+      "row_label_fontweight": "bold",
+      "row_label_alignment": "right",
+      "set_label_fontsize_pt": 14.5,
+      "set_label_fontweight": "bold",
+      "set_labels": [
+        "Training and cross-validation (Videos 1-7)",
+        "Holdout (Videos 8-9)"
+      ],
+      "group_columns": [
+        [
+          1,
+          8
+        ],
+        [
+          9,
+          12
+        ]
+      ],
+      "removed_source_separator_x": [
+        929,
+        937
+      ],
+      "remaining_group_separator_after_column": 8,
+      "row_label_gap_inches": 0.065
+    },
+    "panels": [
+      {
+        "row": 2,
+        "column": 1,
+        "frame": "frame_016.jpg",
+        "multiplier": 1.0,
+        "min_V": 1.589058681730441,
+        "max_V": 8.0
+      },
+      {
+        "row": 7,
+        "column": 1,
+        "frame": "frame_016.jpg",
+        "multiplier": 0.9930357791305778,
+        "min_V": 1.5779921260963974,
+        "max_V": 8.0,
+        "query_xy_px": [
+          438,
+          648
+        ],
+        "query_xy_display": [
+          93.6962962962963,
+          138.8074074074074
+        ],
+        "prediction_V": 4.3804545402526855,
+        "profile_at_query_V": 4.411174936806264,
+        "displayed_at_query_V": 4.3804545402526855,
+        "normalization": "prediction / displayed base-profile value at query",
+        "query_kind": "virtual",
+        "marker": "white cross with black outline",
+        "status": "virtual_query",
+        "g_reference_V": 4.410535060288827,
+        "g_reference_used_for_normalization": false,
+        "reference_is_measurement": false,
+        "used_for_fitting_or_scoring": false
+      },
+      {
+        "row": 8,
+        "column": 1,
+        "frame": "frame_016.jpg",
+        "multiplier": 0.9960351615668231,
+        "min_V": 1.5827583207965428,
+        "max_V": 8.0,
+        "query_xy_px": [
+          438,
+          648
+        ],
+        "query_xy_display": [
+          93.6962962962963,
+          138.8074074074074
+        ],
+        "prediction_V": 4.393685340881348,
+        "profile_at_query_V": 4.411174936806264,
+        "displayed_at_query_V": 4.393685340881348,
+        "normalization": "prediction / displayed base-profile value at query",
+        "query_kind": "virtual",
+        "marker": "white cross with black outline",
+        "status": "virtual_query",
+        "g_reference_V": 4.410535060288827,
+        "g_reference_used_for_normalization": false,
+        "reference_is_measurement": false,
+        "used_for_fitting_or_scoring": false
+      },
+      {
+        "row": 2,
+        "column": 2,
+        "frame": "frame_050.jpg",
+        "multiplier": 1.0,
+        "min_V": 2.7637691992257296,
+        "max_V": 8.0
+      },
+      {
+        "row": 7,
+        "column": 2,
+        "frame": "frame_050.jpg",
+        "multiplier": 0.9946720993802604,
+        "min_V": 2.7490441115963575,
+        "max_V": 8.0,
+        "query_xy_px": [
+          889,
+          296
+        ],
+        "query_xy_display": [
+          191.4013888888889,
+          63.19259259259259
+        ],
+        "prediction_V": 4.284480094909668,
+        "profile_at_query_V": 4.3074296520221615,
+        "displayed_at_query_V": 4.284480094909667,
+        "normalization": "prediction / displayed base-profile value at query",
+        "query_kind": "virtual",
+        "marker": "white cross with black outline",
+        "status": "virtual_query",
+        "g_reference_V": 4.30723329435404,
+        "g_reference_used_for_normalization": false,
+        "reference_is_measurement": false,
+        "used_for_fitting_or_scoring": false
+      },
+      {
+        "row": 8,
+        "column": 2,
+        "frame": "frame_050.jpg",
+        "multiplier": 0.9986689622399572,
+        "min_V": 2.7600905180615167,
+        "max_V": 8.0,
+        "query_xy_px": [
+          889,
+          296
+        ],
+        "query_xy_display": [
+          191.4013888888889,
+          63.19259259259259
+        ],
+        "prediction_V": 4.301696300506592,
+        "profile_at_query_V": 4.3074296520221615,
+        "displayed_at_query_V": 4.301696300506592,
+        "normalization": "prediction / displayed base-profile value at query",
+        "query_kind": "virtual",
+        "marker": "white cross with black outline",
+        "status": "virtual_query",
+        "g_reference_V": 4.30723329435404,
+        "g_reference_used_for_normalization": false,
+        "reference_is_measurement": false,
+        "used_for_fitting_or_scoring": false
+      },
+      {
+        "row": 2,
+        "column": 3,
+        "frame": "frame_085.jpg",
+        "multiplier": 1.0,
+        "min_V": 1.986148522525156,
+        "max_V": 8.0
+      },
+      {
+        "row": 7,
+        "column": 3,
+        "frame": "frame_085.jpg",
+        "multiplier": 1.0102715358094707,
+        "min_V": 2.0065493181972007,
+        "max_V": 8.0,
+        "query_xy_px": [
+          353,
+          41
+        ],
+        "query_xy_display": [
+          75.43703703703704,
+          8.414814814814815
+        ],
+        "prediction_V": 2.162014961242676,
+        "profile_at_query_V": 2.1400335302037203,
+        "displayed_at_query_V": 2.162014961242676,
+        "normalization": "prediction / displayed base-profile value at query",
+        "query_kind": "annotated_probe",
+        "marker": "white circle with black outline"
+      },
+      {
+        "row": 8,
+        "column": 3,
+        "frame": "frame_085.jpg",
+        "multiplier": 1.0101817403123237,
+        "min_V": 2.0063709710032125,
+        "max_V": 8.0,
+        "query_xy_px": [
+          353,
+          41
+        ],
+        "query_xy_display": [
+          75.43703703703704,
+          8.414814814814815
+        ],
+        "prediction_V": 2.16182279586792,
+        "profile_at_query_V": 2.1400335302037203,
+        "displayed_at_query_V": 2.16182279586792,
+        "normalization": "prediction / displayed base-profile value at query",
+        "query_kind": "annotated_probe",
+        "marker": "white circle with black outline"
+      },
+      {
+        "row": 2,
+        "column": 4,
+        "frame": "frame_121.jpg",
+        "multiplier": 1.0,
+        "min_V": 2.1789119514325677,
+        "max_V": 8.0
+      },
+      {
+        "row": 7,
+        "column": 4,
+        "frame": "frame_121.jpg",
+        "multiplier": 0.9947633201625101,
+        "min_V": 2.167501687148835,
+        "max_V": 8.0,
+        "query_xy_px": [
+          417,
+          517
+        ],
+        "query_xy_display": [
+          89.18518518518519,
+          110.66666666666667
+        ],
+        "prediction_V": 4.28342866897583,
+        "profile_at_query_V": 4.305977695554823,
+        "displayed_at_query_V": 4.28342866897583,
+        "normalization": "prediction / displayed base-profile value at query",
+        "query_kind": "virtual",
+        "marker": "white cross with black outline",
+        "status": "virtual_query",
+        "g_reference_V": 4.30597659189005,
+        "g_reference_used_for_normalization": false,
+        "reference_is_measurement": false,
+        "used_for_fitting_or_scoring": false
+      },
+      {
+        "row": 8,
+        "column": 4,
+        "frame": "frame_121.jpg",
+        "multiplier": 0.9946836992399257,
+        "min_V": 2.167328200169032,
+        "max_V": 8.0,
+        "query_xy_px": [
+          417,
+          517
+        ],
+        "query_xy_display": [
+          89.18518518518519,
+          110.66666666666667
+        ],
+        "prediction_V": 4.283085823059082,
+        "profile_at_query_V": 4.305977695554823,
+        "displayed_at_query_V": 4.283085823059082,
+        "normalization": "prediction / displayed base-profile value at query",
+        "query_kind": "virtual",
+        "marker": "white cross with black outline",
+        "status": "virtual_query",
+        "g_reference_V": 4.30597659189005,
+        "g_reference_used_for_normalization": false,
+        "reference_is_measurement": false,
+        "used_for_fitting_or_scoring": false
+      },
+      {
+        "row": 2,
+        "column": 5,
+        "frame": "frame_150.jpg",
+        "multiplier": 1.0,
+        "min_V": 2.027672162878605,
+        "max_V": 8.0
+      },
+      {
+        "row": 7,
+        "column": 5,
+        "frame": "frame_150.jpg",
+        "multiplier": 1.022207596900081,
+        "min_V": 2.0727018889173285,
+        "max_V": 8.0,
+        "query_xy_px": [
+          17,
+          654
+        ],
+        "query_xy_display": [
+          3.275462962962963,
+          140.0962962962963
+        ],
+        "prediction_V": 2.720238208770752,
+        "profile_at_query_V": 2.661140669488343,
+        "displayed_at_query_V": 2.7202382087707515,
+        "normalization": "prediction / displayed base-profile value at query",
+        "query_kind": "annotated_probe",
+        "marker": "white circle with black outline"
+      },
+      {
+        "row": 8,
+        "column": 5,
+        "frame": "frame_150.jpg",
+        "multiplier": 1.0222539162874058,
+        "min_V": 2.072795809449609,
+        "max_V": 8.0,
+        "query_xy_px": [
+          17,
+          654
+        ],
+        "query_xy_display": [
+          3.275462962962963,
+          140.0962962962963
+        ],
+        "prediction_V": 2.7203614711761475,
+        "profile_at_query_V": 2.661140669488343,
+        "displayed_at_query_V": 2.7203614711761475,
+        "normalization": "prediction / displayed base-profile value at query",
+        "query_kind": "annotated_probe",
+        "marker": "white circle with black outline"
+      },
+      {
+        "row": 2,
+        "column": 6,
+        "frame": "frame_161.jpg",
+        "multiplier": 1.0,
+        "min_V": 2.141337280708412,
+        "max_V": 8.0
+      },
+      {
+        "row": 7,
+        "column": 6,
+        "frame": "frame_161.jpg",
+        "multiplier": 0.9926794187267152,
+        "min_V": 2.1256614471114714,
+        "max_V": 8.0,
+        "query_xy_px": [
+          716,
+          484
+        ],
+        "query_xy_display": [
+          153.4148148148148,
+          103.57777777777778
+        ],
+        "prediction_V": 4.23891019821167,
+        "profile_at_query_V": 4.270170327142284,
+        "displayed_at_query_V": 4.23891019821167,
+        "normalization": "prediction / displayed base-profile value at query",
+        "query_kind": "virtual",
+        "marker": "white cross with black outline",
+        "status": "virtual_query",
+        "g_reference_V": 4.270041799443663,
+        "g_reference_used_for_normalization": false,
+        "reference_is_measurement": false,
+        "used_for_fitting_or_scoring": false
+      },
+      {
+        "row": 8,
+        "column": 6,
+        "frame": "frame_161.jpg",
+        "multiplier": 0.9955093957942645,
+        "min_V": 2.1317213825097645,
+        "max_V": 8.0,
+        "query_xy_px": [
+          716,
+          484
+        ],
+        "query_xy_display": [
+          153.4148148148148,
+          103.57777777777778
+        ],
+        "prediction_V": 4.250994682312012,
+        "profile_at_query_V": 4.270170327142284,
+        "displayed_at_query_V": 4.250994682312012,
+        "normalization": "prediction / displayed base-profile value at query",
+        "query_kind": "virtual",
+        "marker": "white cross with black outline",
+        "status": "virtual_query",
+        "g_reference_V": 4.270041799443663,
+        "g_reference_used_for_normalization": false,
+        "reference_is_measurement": false,
+        "used_for_fitting_or_scoring": false
+      },
+      {
+        "row": 2,
+        "column": 7,
+        "frame": "frame_191.jpg",
+        "multiplier": 1.0,
+        "min_V": 2.1649189685952175,
+        "max_V": 8.0
+      },
+      {
+        "row": 7,
+        "column": 7,
+        "frame": "frame_191.jpg",
+        "multiplier": 0.993227227774339,
+        "min_V": 2.1502564655339094,
+        "max_V": 8.0,
+        "query_xy_px": [
+          748,
+          481
+        ],
+        "query_xy_display": [
+          160.2888888888889,
+          102.93333333333334
+        ],
+        "prediction_V": 4.296609878540039,
+        "profile_at_query_V": 4.325908269921319,
+        "displayed_at_query_V": 4.296609878540038,
+        "normalization": "prediction / displayed base-profile value at query",
+        "query_kind": "virtual",
+        "marker": "white cross with black outline",
+        "status": "virtual_query",
+        "g_reference_V": 4.325576561848408,
+        "g_reference_used_for_normalization": false,
+        "reference_is_measurement": false,
+        "used_for_fitting_or_scoring": false
+      },
+      {
+        "row": 8,
+        "column": 7,
+        "frame": "frame_191.jpg",
+        "multiplier": 0.9933170637717035,
+        "min_V": 2.150450953188666,
+        "max_V": 8.0,
+        "query_xy_px": [
+          748,
+          481
+        ],
+        "query_xy_display": [
+          160.2888888888889,
+          102.93333333333334
+        ],
+        "prediction_V": 4.296998500823975,
+        "profile_at_query_V": 4.325908269921319,
+        "displayed_at_query_V": 4.296998500823975,
+        "normalization": "prediction / displayed base-profile value at query",
+        "query_kind": "virtual",
+        "marker": "white cross with black outline",
+        "status": "virtual_query",
+        "g_reference_V": 4.325576561848408,
+        "g_reference_used_for_normalization": false,
+        "reference_is_measurement": false,
+        "used_for_fitting_or_scoring": false
+      },
+      {
+        "row": 2,
+        "column": 8,
+        "frame": "frame_223.jpg",
+        "multiplier": 1.0,
+        "min_V": 1.7507487907204458,
+        "max_V": 8.0
+      },
+      {
+        "row": 7,
+        "column": 8,
+        "frame": "frame_223.jpg",
+        "multiplier": 1.0655237166503209,
+        "min_V": 1.865464358409504,
+        "max_V": 8.0,
+        "query_xy_px": [
+          614,
+          983
+        ],
+        "query_xy_display": [
+          132.07268518518518,
+          210.77037037037036
+        ],
+        "prediction_V": 2.704422950744629,
+        "profile_at_query_V": 2.5381161474720653,
+        "displayed_at_query_V": 2.704422950744629,
+        "normalization": "prediction / displayed base-profile value at query",
+        "query_kind": "annotated_probe",
+        "marker": "white circle with black outline"
+      },
+      {
+        "row": 8,
+        "column": 8,
+        "frame": "frame_223.jpg",
+        "multiplier": 1.066267965649368,
+        "min_V": 1.866767351444581,
+        "max_V": 8.0,
+        "query_xy_px": [
+          614,
+          983
+        ],
+        "query_xy_display": [
+          132.07268518518518,
+          210.77037037037036
+        ],
+        "prediction_V": 2.7063119411468506,
+        "profile_at_query_V": 2.5381161474720653,
+        "displayed_at_query_V": 2.7063119411468506,
+        "normalization": "prediction / displayed base-profile value at query",
+        "query_kind": "annotated_probe",
+        "marker": "white circle with black outline"
+      },
+      {
+        "row": 2,
+        "column": 9,
+        "frame": "frame_241.jpg",
+        "multiplier": 1.0,
+        "min_V": 1.915413896145137,
+        "max_V": 8.0
+      },
+      {
+        "row": 7,
+        "column": 9,
+        "frame": "frame_241.jpg",
+        "multiplier": 1.0108805257212385,
+        "min_V": 1.9362546063089618,
+        "max_V": 8.0,
+        "query_xy_px": [
+          971,
+          499
+        ],
+        "query_xy_display": [
+          208.1925925925926,
+          106.8
+        ],
+        "prediction_V": 3.018690586090088,
+        "profile_at_query_V": 2.9861991692206415,
+        "displayed_at_query_V": 3.0186905860900883,
+        "normalization": "prediction / displayed base-profile value at query",
+        "query_kind": "annotated_probe",
+        "marker": "white circle with black outline"
+      },
+      {
+        "row": 8,
+        "column": 9,
+        "frame": "frame_241.jpg",
+        "multiplier": 1.0037587048147016,
+        "min_V": 1.9226133715787241,
+        "max_V": 8.0,
+        "query_xy_px": [
+          971,
+          499
+        ],
+        "query_xy_display": [
+          208.1925925925926,
+          106.8
+        ],
+        "prediction_V": 2.9974234104156494,
+        "profile_at_query_V": 2.9861991692206415,
+        "displayed_at_query_V": 2.997423410415649,
+        "normalization": "prediction / displayed base-profile value at query",
+        "query_kind": "annotated_probe",
+        "marker": "white circle with black outline"
+      },
+      {
+        "row": 2,
+        "column": 10,
+        "frame": "frame_247.jpg",
+        "multiplier": 1.0,
+        "min_V": 1.60296899600584,
+        "max_V": 8.0
+      },
+      {
+        "row": 7,
+        "column": 10,
+        "frame": "frame_247.jpg",
+        "multiplier": 0.9826183430652777,
+        "min_V": 1.5751067388402702,
+        "max_V": 8.0,
+        "query_xy_px": [
+          396,
+          784
+        ],
+        "query_xy_display": [
+          84.67407407407407,
+          168.0222222222222
+        ],
+        "prediction_V": 4.771486282348633,
+        "profile_at_query_V": 4.855889691071695,
+        "displayed_at_query_V": 4.771486282348633,
+        "normalization": "prediction / displayed base-profile value at query",
+        "query_kind": "annotated_probe",
+        "marker": "white circle with black outline"
+      },
+      {
+        "row": 8,
+        "column": 10,
+        "frame": "frame_247.jpg",
+        "multiplier": 0.983329392549968,
+        "min_V": 1.5762465291188548,
+        "max_V": 8.0,
+        "query_xy_px": [
+          396,
+          784
+        ],
+        "query_xy_display": [
+          84.67407407407407,
+          168.0222222222222
+        ],
+        "prediction_V": 4.774939060211182,
+        "profile_at_query_V": 4.855889691071695,
+        "displayed_at_query_V": 4.7749390602111825,
+        "normalization": "prediction / displayed base-profile value at query",
+        "query_kind": "annotated_probe",
+        "marker": "white circle with black outline"
+      },
+      {
+        "row": 2,
+        "column": 11,
+        "frame": "frame_259.jpg",
+        "multiplier": 1.0,
+        "min_V": 1.7291011122218707,
+        "max_V": 8.0
+      },
+      {
+        "row": 7,
+        "column": 11,
+        "frame": "frame_259.jpg",
+        "multiplier": 1.0500355047080923,
+        "min_V": 1.8156175590632158,
+        "max_V": 8.0,
+        "query_xy_px": [
+          792,
+          775
+        ],
+        "query_xy_display": [
+          170.47453703703704,
+          166.0888888888889
+        ],
+        "prediction_V": 2.796938419342041,
+        "profile_at_query_V": 2.6636608065168086,
+        "displayed_at_query_V": 2.7969384193420415,
+        "normalization": "prediction / displayed base-profile value at query",
+        "query_kind": "annotated_probe",
+        "marker": "white circle with black outline"
+      },
+      {
+        "row": 8,
+        "column": 11,
+        "frame": "frame_259.jpg",
+        "multiplier": 1.0632598435139866,
+        "min_V": 1.8384837780008865,
+        "max_V": 8.0,
+        "query_xy_px": [
+          792,
+          775
+        ],
+        "query_xy_display": [
+          170.47453703703704,
+          166.0888888888889
+        ],
+        "prediction_V": 2.8321635723114014,
+        "profile_at_query_V": 2.6636608065168086,
+        "displayed_at_query_V": 2.832163572311402,
+        "normalization": "prediction / displayed base-profile value at query",
+        "query_kind": "annotated_probe",
+        "marker": "white circle with black outline"
+      },
+      {
+        "row": 2,
+        "column": 12,
+        "frame": "frame_266.jpg",
+        "multiplier": 1.0,
+        "min_V": 1.842592330470134,
+        "max_V": 8.0
+      },
+      {
+        "row": 7,
+        "column": 12,
+        "frame": "frame_266.jpg",
+        "multiplier": 1.008751037200477,
+        "min_V": 1.858716924499392,
+        "max_V": 8.0,
+        "query_xy_px": [
+          343,
+          558
+        ],
+        "query_xy_display": [
+          73.28888888888889,
+          119.47407407407407
+        ],
+        "prediction_V": 3.364600419998169,
+        "profile_at_query_V": 3.3354121045919634,
+        "displayed_at_query_V": 3.364600419998169,
+        "normalization": "prediction / displayed base-profile value at query",
+        "query_kind": "annotated_probe",
+        "marker": "white circle with black outline"
+      },
+      {
+        "row": 8,
+        "column": 12,
+        "frame": "frame_266.jpg",
+        "multiplier": 1.0151974793381948,
+        "min_V": 1.87059508934117,
+        "max_V": 8.0,
+        "query_xy_px": [
+          343,
+          558
+        ],
+        "query_xy_display": [
+          73.28888888888889,
+          119.47407407407407
+        ],
+        "prediction_V": 3.3861019611358643,
+        "profile_at_query_V": 3.3354121045919634,
+        "displayed_at_query_V": 3.3861019611358647,
+        "normalization": "prediction / displayed base-profile value at query",
+        "query_kind": "annotated_probe",
+        "marker": "white circle with black outline"
+      }
+    ]
+  },
+  "curated_holdout_metrics": {
+    "Physical": {
+      "MSE_V2": 0.0061042189169258545,
+      "MAE_V": 0.06196690527930011,
+      "R2": 0.9888529931960126
+    },
+    "DINOv3": {
+      "MSE_V2": 0.00605964959505211,
+      "MAE_V": 0.05782142215871157,
+      "R2": 0.9889343819110861
+    },
+    "I-JEPA": {
+      "MSE_V2": 0.006303957698882015,
+      "MAE_V": 0.06229120090604639,
+      "R2": 0.988488247174976
+    }
+  },
+  "missing_query_policy": "Virtual geometry-defined queries provide illustrative hybrid profiles in five frames; crosses mark their positions. These frames remain excluded from fitting and scoring."
+}

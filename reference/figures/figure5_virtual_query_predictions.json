@@ -1,0 +1,187 @@
+{
+  "date": "2026-10-03",
+  "device": "cpu",
+  "torch_threads": 4,
+  "policy_sha256": "86a59a0c330b2eb96b9f09fa4650b258f31b8389af5e956b06058aae089336aa",
+  "inference_script_sha256": "90cc47e3a804f2163ed2470ad67482f7596240f2e677d35b090f7fa304ca6bc8",
+  "training": false,
+  "metrics_recomputed": false,
+  "models": {
+    "DINOv3": {
+      "checkpoint": "facebook/dinov3-vits16-pretrain-lvd1689m",
+      "revision": "114c1379950215c8b35dfcd4e90a5c251dde0d32",
+      "head_sha256": "f2fccac0ba2ddaf30822c9f71312ae9721b28696062f1ddec985875607f06aad",
+      "center_pooling_control_max_abs_difference_from_archived_features": 6.571412086486816e-06
+    },
+    "I-JEPA": {
+      "checkpoint": "facebook/ijepa_vith14_1k",
+      "revision": "f157467ea509bc356ff9f61fd3c0d840eec5e04e",
+      "head_sha256": "e6724afb2d04ed88e24337a6aea7ed34a13b05aff553e4e85f2bb881a9ada258",
+      "center_pooling_control_max_abs_difference_from_archived_features": 0.000102996826171875
+    }
+  },
+  "queries": [
+    {
+      "frame": "frame_016.jpg",
+      "column": 1,
+      "query_kind": "virtual",
+      "sphere_xy_radius_px": [
+        572,
+        648,
+        67
+      ],
+      "query_xy_px": [
+        438,
+        648
+      ],
+      "image_wh_px": [
+        1080,
+        1080
+      ],
+      "distance_to_conductor_cm": 2.1516136763697333,
+      "physical_features": [
+        42216.3984375,
+        0.8321101665496826,
+        4.5,
+        0.4055555462837219,
+        0.6000000238418579
+      ],
+      "g_reference_V": 4.410535060288827,
+      "reference_is_measurement": false,
+      "used_for_fitting_or_scoring": false,
+      "DINOv3_prediction_V": 4.3804545402526855,
+      "physical_prediction_V": 4.395871639251709,
+      "I-JEPA_prediction_V": 4.393685340881348
+    },
+    {
+      "frame": "frame_050.jpg",
+      "column": 2,
+      "query_kind": "virtual",
+      "sphere_xy_radius_px": [
+        535,
+        296,
+        177
+      ],
+      "query_xy_px": [
+        889,
+        296
+      ],
+      "image_wh_px": [
+        1080,
+        1080
+      ],
+      "distance_to_conductor_cm": 2.281015108029145,
+      "physical_features": [
+        42216.3984375,
+        0.7664952874183655,
+        4.5,
+        0.8231481313705444,
+        0.27407407760620117
+      ],
+      "g_reference_V": 4.30723329435404,
+      "reference_is_measurement": false,
+      "used_for_fitting_or_scoring": false,
+      "DINOv3_prediction_V": 4.284480094909668,
+      "physical_prediction_V": 4.28688383102417,
+      "I-JEPA_prediction_V": 4.301696300506592
+    },
+    {
+      "frame": "frame_121.jpg",
+      "column": 4,
+      "query_kind": "virtual",
+      "sphere_xy_radius_px": [
+        685,
+        517,
+        134
+      ],
+      "query_xy_px": [
+        417,
+        517
+      ],
+      "image_wh_px": [
+        1080,
+        1080
+      ],
+      "distance_to_conductor_cm": 2.282655925003518,
+      "physical_features": [
+        42216.3984375,
+        0.765720546245575,
+        4.5,
+        0.3861111104488373,
+        0.47870370745658875
+      ],
+      "g_reference_V": 4.30597659189005,
+      "reference_is_measurement": false,
+      "used_for_fitting_or_scoring": false,
+      "DINOv3_prediction_V": 4.28342866897583,
+      "physical_prediction_V": 4.287979602813721,
+      "I-JEPA_prediction_V": 4.283085823059082
+    },
+    {
+      "frame": "frame_161.jpg",
+      "column": 6,
+      "query_kind": "virtual",
+      "sphere_xy_radius_px": [
+        488,
+        484,
+        114
+      ],
+      "query_xy_px": [
+        716,
+        484
+      ],
+      "image_wh_px": [
+        1080,
+        1080
+      ],
+      "distance_to_conductor_cm": 2.3302850752334905,
+      "physical_features": [
+        42216.3984375,
+        0.7438021302223206,
+        4.5,
+        0.6629629731178284,
+        0.4481481611728668
+      ],
+      "g_reference_V": 4.270041799443663,
+      "reference_is_measurement": false,
+      "used_for_fitting_or_scoring": false,
+      "DINOv3_prediction_V": 4.23891019821167,
+      "physical_prediction_V": 4.241000652313232,
+      "I-JEPA_prediction_V": 4.250994682312012
+    },
+    {
+      "frame": "frame_191.jpg",
+      "column": 7,
+      "query_kind": "virtual",
+      "sphere_xy_radius_px": [
+        524,
+        481,
+        112
+      ],
+      "query_xy_px": [
+        748,
+        481
+      ],
+      "image_wh_px": [
+        1080,
+        1080
+      ],
+      "distance_to_conductor_cm": 2.2572527398236395,
+      "physical_features": [
+        42216.3984375,
+        0.7778673768043518,
+        4.5,
+        0.6925926208496094,
+        0.4453703761100769
+      ],
+      "g_reference_V": 4.325576561848408,
+      "reference_is_measurement": false,
+      "used_for_fitting_or_scoring": false,
+      "DINOv3_prediction_V": 4.296609878540039,
+      "physical_prediction_V": 4.300477504730225,
+      "I-JEPA_prediction_V": 4.296998500823975
+    }
+  ],
+  "calibration": "five-LED fitted power law only",
+  "normalization": "The renderer uses prediction/P(query), not the empirical voltage reference."
+}

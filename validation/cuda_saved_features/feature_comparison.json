@@ -1,0 +1,12 @@
+{
+  "dinov3": {
+    "max_abs": 0.0,
+    "mean_abs": 0.0,
+    "valid_frames": 164
+  },
+  "ijepa": {
+    "max_abs": 0.0,
+    "mean_abs": 0.0,
+    "valid_frames": 164
+  }
+}

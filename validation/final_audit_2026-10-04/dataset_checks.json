@@ -1,0 +1,27 @@
+{
+  "original_frames": 271,
+  "retained": 164,
+  "excluded_missing_query": 107,
+  "development": 128,
+  "holdout": 36,
+  "within_interval_development": 71,
+  "extrapolated_development": 57,
+  "within_interval_holdout": 15,
+  "extrapolated_holdout": 21,
+  "distance_range_cm": [
+    0.6159361711223484,
+    24.992063618398227
+  ],
+  "holdout_target_range_V": [
+    2.365676851191861,
+    5.72226705144716
+  ],
+  "calibration_A_V": 6.019078473682064,
+  "calibration_gamma": 0.40580894137904955,
+  "label_clipping": false,
+  "centre_distance_offset_removed_cm": 2.25,
+  "labels_empirical_slopes_and_image_coordinates_unchanged": true,
+  "frozen_visual_features_unchanged": true,
+  "labels_and_derivatives_independently_checked": true,
+  "missing_query_targets_are_NaN": true
+}

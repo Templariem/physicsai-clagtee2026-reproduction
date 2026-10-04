@@ -1,0 +1,95 @@
+{
+  "environment": {
+    "created_utc": "2026-10-04T17:28:45.609897+00:00",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "python": "3.14.6 | packaged by Anaconda, Inc. | (main, Jun 18 2026, 21:19:57) [Clang 20.1.8 ]",
+    "device": "mps",
+    "hardware": "Apple M4 Pro",
+    "torch_threads": 4,
+    "packages": {
+      "torch": "2.13.0",
+      "torchvision": "0.28.0",
+      "transformers": "5.14.1",
+      "numpy": "2.5.1",
+      "scipy": "1.18.0",
+      "scikit-learn": "1.9.0",
+      "pandas": "3.0.3",
+      "opencv-python": "5.0.0.93",
+      "Pillow": "12.3.0",
+      "matplotlib": "3.11.0",
+      "huggingface-hub": "1.24.0"
+    },
+    "cuda_runtime": null,
+    "FP32": true,
+    "TF32": false,
+    "AMP": false
+  },
+  "models": {
+    "dinov3": {
+      "checkpoint": {
+        "id": "facebook/dinov3-vits16-pretrain-lvd1689m",
+        "revision": "114c1379950215c8b35dfcd4e90a5c251dde0d32",
+        "dimension": 768,
+        "batch_size": 16
+      },
+      "fit_videos": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "fit_frames": 234,
+      "fit_patch_tokens": 45864,
+      "grid": 14,
+      "dimensions": 384,
+      "spatial_components": 128,
+      "display_components": 3,
+      "per_panel_minmax_RGB": true,
+      "physical_units": null
+    },
+    "ijepa": {
+      "checkpoint": {
+        "id": "facebook/ijepa_vith14_1k",
+        "revision": "f157467ea509bc356ff9f61fd3c0d840eec5e04e",
+        "dimension": 2560,
+        "batch_size": 2
+      },
+      "fit_videos": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "fit_frames": 234,
+      "fit_patch_tokens": 59904,
+      "grid": 16,
+      "dimensions": 1280,
+      "spatial_components": 128,
+      "display_components": 3,
+      "per_panel_minmax_RGB": true,
+      "physical_units": null
+    }
+  },
+  "predictor_PCA": false,
+  "frames": [
+    "frame_016.jpg",
+    "frame_050.jpg",
+    "frame_085.jpg",
+    "frame_121.jpg",
+    "frame_150.jpg",
+    "frame_161.jpg",
+    "frame_191.jpg",
+    "frame_223.jpg",
+    "frame_241.jpg",
+    "frame_247.jpg",
+    "frame_259.jpg",
+    "frame_266.jpg"
+  ],
+  "change": "Replaced archived DINOv2 visualization with actual official DINOv3-S/16; regenerated both encoders consistently."
+}

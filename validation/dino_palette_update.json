@@ -1,0 +1,12 @@
+{
+  "changed_rows": [
+    3,
+    5
+  ],
+  "other_rows_pixel_identical": true,
+  "all_voltage_panel_records_identical": true,
+  "raw_latent_tiles_sha256": "3e1965f6d44dc1bf88af412039c7cf15f161d7b0564604bca420b15a89089155",
+  "palette": "green/orange/purple, fixed affine RGB mapping, both DINO rows",
+  "features_and_PCA_refitted": false,
+  "predictions_and_metrics_changed": false
+}

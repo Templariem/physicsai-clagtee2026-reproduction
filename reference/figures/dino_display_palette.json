@@ -1,0 +1,18 @@
+{
+  "name": "historical green-orange-purple DINO display palette",
+  "scope": "Figure 5 rows 3 and 5 only; identical fixed transform across all 12 columns",
+  "formula": "display_RGB = clip(normalized_RGB @ matrix + offset, 0, 1)",
+  "matrix": [
+    [0.4728471163766158, 0.003171479026882787, -0.10041877071713773],
+    [0.8564217936603307, -0.694492209301339, 0.123887828702258],
+    [0.6040662916410431, 0.15341027275404598, -0.36765378097695633]
+  ],
+  "offset": [-0.4842420817707526, 0.6698604141668397, 0.3362353362196208],
+  "selection": "Least-squares affine alignment of current DINOv3 RGB thumbnails to the historical palette, using Figure 5 development columns 1-8 only, downsampled every 16 flattened pixels. No holdout thumbnails or voltage labels were used to select the coefficients.",
+  "historical_source": "data/figure5_original.png, DINO latent row, for color appearance only",
+  "feature_source": "reference/figures/latent_tiles.npz, official DINOv3-S/16",
+  "backbone_and_PCA_refitted": false,
+  "regression_features_predictions_or_metrics_changed": false,
+  "voltage_color_scale_changed": false,
+  "physical_units": null
+}

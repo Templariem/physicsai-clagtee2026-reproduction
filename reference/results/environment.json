@@ -1,0 +1,27 @@
+{
+  "started_utc": "2026-10-03T06:41:18.026719+00:00",
+  "device": "mps",
+  "python": "3.14.6 | packaged by Anaconda, Inc. | (main, Jun 18 2026, 21:19:57) [Clang 20.1.8 ]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "torch_threads": 4,
+  "hardware": "Apple M4 Pro",
+  "packages": {
+    "torch": "2.13.0",
+    "torchvision": "0.28.0",
+    "transformers": "5.14.1",
+    "numpy": "2.5.1",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "pandas": "3.0.3",
+    "opencv-python": "5.0.0.93",
+    "Pillow": "12.3.0"
+  },
+  "cache_sha256": {
+    "features_dinov3_s16_aug14.npz": "2464ab58128a286d6205e072177e9019e96041f6f025c5537864fa7b8319afda",
+    "features_ijepa_h14_aug14.npz": "13c10a9ac2d3ab0948ccda15d31394951aa0a47c13245e07240742ba857f4220"
+  },
+  "run_script_sha256": "ab117c961bef79b4829e8b485318583e17c89bbf258dca7ae2719378261741f5",
+  "protocol_sha256": "03900c339b50038cb0b511b112a11ddac63fc6b93442aa351c97388f91a4db89",
+  "calibration_source_sha256": "16c82ed18b81bbc48a7f5a5e15ce947d93baae1ff7b189cda26b6c60c268f413",
+  "loader_sha256": "64b0651417da2325b9269df68e8791ab0eaa073e02d223bd2c69caa66f0d0444"
+}

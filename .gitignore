@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.cache/
+.env
+.env.*
+*.safetensors
+pytorch_model*.bin
+runs/
+fem/results/
+fem/mesh_images/
+# Manuscript files are maintained outside this reproduction repository.
+/paper/
+/manuscript/
+/PhysicsAI_CLAGTEE2026*.pdf
+/CLAGTEE2026_Overleaf.zip

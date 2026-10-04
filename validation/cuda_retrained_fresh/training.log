@@ -1,0 +1,37 @@
+2026-10-04T14:39:09 Fixed-protocol CV fold 1: train=116, validation=12
+2026-10-04T14:39:09 cv_fold_1: physical seed 52 completed in 0.8s
+2026-10-04T14:39:10 cv_fold_1: physical seed 53 completed in 0.6s
+2026-10-04T14:39:11 cv_fold_1: physical seed 54 completed in 0.6s
+2026-10-04T14:39:11 cv_fold_1: DINOv3 residual completed in 0.3s
+2026-10-04T14:39:11 cv_fold_1: I-JEPA residual completed in 0.5s
+2026-10-04T14:39:11 Fixed-protocol CV fold 2: train=105, validation=23
+2026-10-04T14:39:12 cv_fold_2: physical seed 62 completed in 0.7s
+2026-10-04T14:39:13 cv_fold_2: physical seed 63 completed in 0.6s
+2026-10-04T14:39:13 cv_fold_2: physical seed 64 completed in 0.7s
+2026-10-04T14:39:14 cv_fold_2: DINOv3 residual completed in 0.3s
+2026-10-04T14:39:14 cv_fold_2: I-JEPA residual completed in 0.7s
+2026-10-04T14:39:14 Fixed-protocol CV fold 3: train=112, validation=16
+2026-10-04T14:39:15 cv_fold_3: physical seed 72 completed in 0.7s
+2026-10-04T14:39:16 cv_fold_3: physical seed 73 completed in 0.7s
+2026-10-04T14:39:16 cv_fold_3: physical seed 74 completed in 0.7s
+2026-10-04T14:39:17 cv_fold_3: DINOv3 residual completed in 0.4s
+2026-10-04T14:39:17 cv_fold_3: I-JEPA residual completed in 0.6s
+2026-10-04T14:39:17 Fixed-protocol CV fold 4: train=89, validation=39
+2026-10-04T14:39:18 cv_fold_4: physical seed 82 completed in 0.5s
+2026-10-04T14:39:18 cv_fold_4: physical seed 83 completed in 0.5s
+2026-10-04T14:39:19 cv_fold_4: physical seed 84 completed in 0.5s
+2026-10-04T14:39:19 cv_fold_4: DINOv3 residual completed in 0.4s
+2026-10-04T14:39:20 cv_fold_4: I-JEPA residual completed in 0.7s
+2026-10-04T14:39:20 Fixed-protocol CV fold 5: train=90, validation=38
+2026-10-04T14:39:21 cv_fold_5: physical seed 92 completed in 0.5s
+2026-10-04T14:39:21 cv_fold_5: physical seed 93 completed in 0.5s
+2026-10-04T14:39:22 cv_fold_5: physical seed 94 completed in 0.5s
+2026-10-04T14:39:22 cv_fold_5: DINOv3 residual completed in 0.5s
+2026-10-04T14:39:23 cv_fold_5: I-JEPA residual completed in 0.7s
+2026-10-04T14:39:23 Final five-LED refit on 128 development frames; same 36-frame holdout.
+2026-10-04T14:39:23 corrected_final: physical seed 42 completed in 0.6s
+2026-10-04T14:39:24 corrected_final: physical seed 43 completed in 0.6s
+2026-10-04T14:39:25 corrected_final: physical seed 44 completed in 0.6s
+2026-10-04T14:39:25 corrected_final: DINOv3 residual completed in 0.3s
+2026-10-04T14:39:26 corrected_final: I-JEPA residual completed in 0.6s
+2026-10-04T14:39:26 Completed fixed five-LED protocol without hyperparameter selection.

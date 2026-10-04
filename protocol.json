@@ -1,0 +1,130 @@
+{
+  "created_utc": "2026-10-03T06:40:16.084579+00:00",
+  "development_videos": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "holdout_videos": [
+    8,
+    9
+  ],
+  "validation_video_groups": [
+    [
+      6
+    ],
+    [
+      4
+    ],
+    [
+      2
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      3,
+      7
+    ]
+  ],
+  "hyperparameters": "Fixed to the published residual configuration; no new search or score-based dataset selection.",
+  "physics": {
+    "epochs": 180,
+    "seeds_final": [
+      42,
+      43,
+      44
+    ],
+    "seeds_fold": "42 + 10*fold + offset, fold=1..5, offset=0..2",
+    "batch_size": 32,
+    "lr": 0.005,
+    "weight_decay": 0.0001,
+    "loss": "SmoothL1 beta=0.5"
+  },
+  "visual_residual": {
+    "pca_components": 128,
+    "augmentations": 4,
+    "epochs": 160,
+    "lr": 0.001,
+    "weight_decay": 0.01,
+    "gate": 0.25,
+    "seed_final": 170,
+    "seed_fold": "42 + 100*fold + 128"
+  },
+  "preprocessing": "Fit physical scaler, PCA and visual scaler only on each training fold. Use clean validation/test features. Recompute local visual features when an annotation is recovered.",
+  "training_order": "Train physical ensemble, freeze it, then fit the visual residual sequentially on in-sample physical residuals, matching the previous protocol.",
+  "original_annotation_sha256": "8a3ca989b334731542ab34920be91ce82c190bb7c84bf92a11e68e4d3b10d179",
+  "original_missing_count": 107,
+  "original_missing_by_video": {
+    "1": 5,
+    "2": 22,
+    "3": 20,
+    "4": 15,
+    "5": 18,
+    "6": 26,
+    "9": 1
+  },
+  "date": "2026-10-03",
+  "calibration": {
+    "colors": [
+      "white",
+      "blue",
+      "green",
+      "yellow",
+      "red"
+    ],
+    "distance_cm": [
+      5,
+      6,
+      6.5,
+      12,
+      17
+    ],
+    "assigned_voltage_V": [
+      3.3,
+      3.1,
+      2.5,
+      2.1,
+      2.0
+    ],
+    "fit": "ordinary least squares of ln(V/1 V) against ln(d/1 cm), one global calibration fitted only to the five experimental LED pairs",
+    "label_curve": "A*(d/1 cm)**(-gamma), positive distances; no artificial endpoint anchors and no target clipping",
+    "range_cm": [
+      5,
+      17
+    ],
+    "out_of_range_policy": "Retain positive query distances; identify extrapolated labels and separately report interval/extrapolation subsets. Applies to every model, without selection on results.",
+    "empirical_feature": "negative centered finite-difference derivative, half-step 0.05 cm, same fitted power law; no slope clipping required at retained queries",
+    "source": "Figure 3 and author confirmation; observed manual activation distances, color-estimated threshold voltages, LED legs separated by 2 cm"
+  },
+  "fixed_before_fitting": true,
+  "hyperparameter_search": false,
+  "new_independent_holdout": false,
+  "geometry": {
+    "centre_distance_cm": "s*norm(probe_centroid - sphere_centroid), without adding Rs again",
+    "FEM_query_m": "(centre_distance_cm/100, 0.1225)",
+    "label_distance": "same signed nearest-conductor polygon surface distance as previous run",
+    "figure5": "same nearest-conductor surface-distance law outside masked conductor polygons; half-source-pixel positive floor for display only"
+  },
+  "purpose": "Reproduce only the revised CLAGTEE 2026 paper; no hyperparameter search or extended models.",
+  "hardware_original": "Apple MacBook M4 Pro, 48 GB unified memory; PyTorch MPS, four CPU threads.",
+  "models": {
+    "dinov3": {
+      "id": "facebook/dinov3-vits16-pretrain-lvd1689m",
+      "revision": "114c1379950215c8b35dfcd4e90a5c251dde0d32",
+      "dimension": 768,
+      "batch_size": 16
+    },
+    "ijepa": {
+      "id": "facebook/ijepa_vith14_1k",
+      "revision": "f157467ea509bc356ff9f61fd3c0d840eec5e04e",
+      "dimension": 2560,
+      "batch_size": 2
+    }
+  }
+}

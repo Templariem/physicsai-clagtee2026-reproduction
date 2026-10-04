@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-10-04T17:29:19.023555+00:00",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "python": "3.14.6 | packaged by Anaconda, Inc. | (main, Jun 18 2026, 21:19:57) [Clang 20.1.8 ]",
+  "device": "mps",
+  "hardware": "Apple M4 Pro",
+  "torch_threads": 4,
+  "packages": {
+    "torch": "2.13.0",
+    "torchvision": "0.28.0",
+    "transformers": "5.14.1",
+    "numpy": "2.5.1",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "pandas": "3.0.3",
+    "opencv-python": "5.0.0.93",
+    "Pillow": "12.3.0",
+    "matplotlib": "3.11.0",
+    "huggingface-hub": "1.24.0"
+  },
+  "cuda_runtime": null,
+  "FP32": true,
+  "TF32": false,
+  "AMP": false
+}

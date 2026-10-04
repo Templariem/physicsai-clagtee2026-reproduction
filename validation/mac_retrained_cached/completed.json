@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "finished_utc": "2026-10-04T17:30:03.091464+00:00",
+  "elapsed_seconds": 45.61417995893862,
+  "device": "mps",
+  "retrained_physics_ensembles": 6,
+  "retrained_visual_heads": 12,
+  "hyperparameters_unchanged": true,
+  "new_independent_holdout": false,
+  "original_annotations_and_caches_unchanged": true,
+  "calibration": "five_LED_power_law_only"
+}

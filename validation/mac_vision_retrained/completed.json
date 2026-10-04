@@ -1,0 +1,5 @@
+{
+  "status": "complete",
+  "models_trained": 10,
+  "device": "mps"
+}

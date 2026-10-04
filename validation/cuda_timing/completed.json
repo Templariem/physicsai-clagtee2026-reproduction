@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "passes_per_model": 5,
+  "frames_per_pass": 36,
+  "batch_size": 1,
+  "warmup_frames_per_pass": 5,
+  "load_time_included": false,
+  "included": "RGB preprocessing, transfer, frozen backbone, pooling, CPU transfer, PCA/scalers, three physical adapters and residual head",
+  "excluded": "disk decode, acquisition, annotations, geometry, FEM solve, rendering, model loading",
+  "FPS_definition": "1000 / mean of all timed per-frame latencies"
+}

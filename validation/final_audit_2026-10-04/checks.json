@@ -1,0 +1,16 @@
+{
+  "MSE_V2_matches_paper_at_4_decimals": true,
+  "MAE_V_matches_paper_at_4_decimals": true,
+  "R2_matches_paper_at_4_decimals": true,
+  "CV_R2_mean_4_decimals": true,
+  "CV_R2_SD_4_decimals": true,
+  "final_partitions_identical_for_all_modules": true,
+  "gates_fixed_at_0_25": true,
+  "PCA_training_samples_include_five_variants": true,
+  "current_protocol_sha256": "56a9b8257eed7007cb3e4e87da8754b62c392901cf0f2a3c4a242c0ddc27f53d",
+  "saved_checkpoint_source_protocol_sha256": "03900c339b50038cb0b511b112a11ddac63fc6b93442aa351c97388f91a4db89",
+  "original_protocol_matches": {
+    "reference/provenance/original_training_protocol.json": true
+  },
+  "timing_summary_recomputed_from_five_passes": true
+}

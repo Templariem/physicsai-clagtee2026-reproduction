@@ -1,0 +1,122 @@
+{
+  "created_utc": "2026-10-03T06:40:16.084579+00:00",
+  "purpose": "Author-authorized correction of the duplicated 2.25 cm offset in the sphere-centre FEM query feature; all labels, annotations, splits and hyperparameters fixed.",
+  "annotation_rule": "Recover a missing polygon only when the probe can be unambiguously localized in the actual frame. Do not infer a location from default distances or prediction errors. Otherwise exclude that frame from scalar regression, retaining it for visualization.",
+  "existing_valid_annotations": "Retain all polygons and the same nearest-conductor surface-distance labels. Remove the duplicated sphere-radius addition only from the centre-distance FEM query.",
+  "development_videos": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "holdout_videos": [
+    8,
+    9
+  ],
+  "validation_video_groups": [
+    [
+      6
+    ],
+    [
+      4
+    ],
+    [
+      2
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      3,
+      7
+    ]
+  ],
+  "hyperparameters": "Fixed to the published residual configuration; no new search or score-based dataset selection.",
+  "physics": {
+    "epochs": 180,
+    "seeds_final": [
+      42,
+      43,
+      44
+    ],
+    "seeds_fold": "42 + 10*fold + offset, fold=1..5, offset=0..2",
+    "batch_size": 32,
+    "lr": 0.005,
+    "weight_decay": 0.0001,
+    "loss": "SmoothL1 beta=0.5"
+  },
+  "visual_residual": {
+    "pca_components": 128,
+    "augmentations": 4,
+    "epochs": 160,
+    "lr": 0.001,
+    "weight_decay": 0.01,
+    "gate": 0.25,
+    "seed_final": 170,
+    "seed_fold": "42 + 100*fold + 128"
+  },
+  "preprocessing": "Fit physical scaler, PCA and visual scaler only on each training fold. Use clean validation/test features. Recompute local visual features when an annotation is recovered.",
+  "training_order": "Train physical ensemble, freeze it, then fit the visual residual sequentially on in-sample physical residuals, matching the previous protocol.",
+  "comparison": "Report original saved and corrected predictions on common holdout frames; recovered holdout frames, if any, reported separately. No claim of a fresh independent test.",
+  "paper_status": "Integrate this fixed correction into the 10-page camera-ready manuscript.",
+  "original_annotation_sha256": "8a3ca989b334731542ab34920be91ce82c190bb7c84bf92a11e68e4d3b10d179",
+  "original_loader_sha256": "2f834e93ca34c933afdc34fbdbd6d702714ef077bd66023190623e5648d5049b",
+  "original_missing_count": 107,
+  "original_missing_by_video": {
+    "1": 5,
+    "2": 22,
+    "3": 20,
+    "4": 15,
+    "5": 18,
+    "6": 26,
+    "9": 1
+  },
+  "date": "2026-10-03",
+  "calibration": {
+    "colors": [
+      "white",
+      "blue",
+      "green",
+      "yellow",
+      "red"
+    ],
+    "distance_cm": [
+      5,
+      6,
+      6.5,
+      12,
+      17
+    ],
+    "assigned_voltage_V": [
+      3.3,
+      3.1,
+      2.5,
+      2.1,
+      2.0
+    ],
+    "fit": "ordinary least squares of ln(V/1 V) against ln(d/1 cm), one global calibration fitted only to the five experimental LED pairs",
+    "label_curve": "A*(d/1 cm)**(-gamma), positive distances; no artificial endpoint anchors and no target clipping",
+    "range_cm": [
+      5,
+      17
+    ],
+    "out_of_range_policy": "Retain positive query distances; identify extrapolated labels and separately report interval/extrapolation subsets. Applies to every model, without selection on results.",
+    "empirical_feature": "negative centered finite-difference derivative, half-step 0.05 cm, same fitted power law; no slope clipping required at retained queries",
+    "source": "Figure 3 and author confirmation; observed manual activation distances, color-estimated threshold voltages, LED legs separated by 2 cm"
+  },
+  "fixed_before_fitting": true,
+  "hyperparameter_search": false,
+  "original_curation_run": "2026-10-02_probe_curation",
+  "new_independent_holdout": false,
+  "previous_run": "2026-10-03_five_led_calibration",
+  "geometry": {
+    "centre_distance_cm": "s*norm(probe_centroid - sphere_centroid), without adding Rs again",
+    "FEM_query_m": "(centre_distance_cm/100, 0.1225)",
+    "label_distance": "same signed nearest-conductor polygon surface distance as previous run",
+    "figure5": "same nearest-conductor surface-distance law outside masked conductor polygons; half-source-pixel positive floor for display only"
+  }
+}
