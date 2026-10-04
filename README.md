@@ -8,9 +8,20 @@ School of Electrical Engineering, Pontificia Universidad Católica de Valparaís
 
 [![Fig. 5. RGB frames, latent displays and calibrated DINOv3/I-JEPA voltage profiles.](assets/fig5.png)](assets/fig5.png)
 
-Public reproduction repository for **A Physics-AI Framework for Video-Assisted Electric Potential Mapping Using 2D FEM: A Tesla Coil Case Study**. The paper's complete code/data snapshot is [release clagtee-2026-full-v1.0](https://github.com/Templariem/physicsai-clagtee2026-reproduction/releases/tag/clagtee-2026-full-v1.0). The existing public FEM repository and its earlier release are unchanged.
+Public reproduction repository for **A Physics-AI Framework for Video-Assisted Electric Potential Mapping Using 2D FEM: A Tesla Coil Case Study**. The paper's complete code/data snapshot is [release clagtee-2026-full-v1.0](https://github.com/Templariem/physicsai-clagtee2026-reproduction/releases/tag/clagtee-2026-full-v1.0). [Version 1.0.1](https://github.com/Templariem/physicsai-clagtee2026-reproduction/releases/tag/clagtee-2026-full-v1.0.1) adds licensing and documentation only, with identical scientific files.
 
 This package contains the code, annotated data, meshes and trained adapters needed to reproduce Experiments I–IV and the figures/tables in the revised paper. Pretrained backbone weights are obtained separately from the official sources described below.
+
+## Licenses
+
+The authors' code and software documentation are licensed under [MIT](LICENSE).
+The author-owned data and research artifacts are licensed under
+[CC BY 4.0](LICENSE-DATA), with attribution to **Giovanni Cocca-Guardia**.
+[LICENSING.md](LICENSING.md) specifies the covered paths, application to the
+original v1.0 release, and exclusions for the article and its prepared figures.
+The pretrained backbones and dependencies retain their own terms; see
+[third-party notices](THIRD_PARTY_NOTICES.md). Our licenses do not override
+DINOv3's conditions or I-JEPA's noncommercial backbone license.
 
 ## Hardware and environment
 

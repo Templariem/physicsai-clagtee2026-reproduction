@@ -1,4 +1,16 @@
-# CLAGTEE 2026 — complete paper reproduction v1.0
+# CLAGTEE 2026 — complete paper reproduction v1.0.1
+
+Licensing update, October 4, 2026 (`clagtee-2026-full-v1.0.1`).
+
+- Adds MIT for the authors' software and accompanying software documentation.
+- Adds CC BY 4.0 for author-owned data and research artifacts, with explicit path scope and attribution to Giovanni Cocca-Guardia.
+- Excludes the article and prepared publication figures from these grants; preserves third-party model and dependency terms.
+- Extends the same scoped grants to the original v1.0 files through `LICENSING.md` without moving the original tag.
+- Changes licensing and documentation only. All scientific code, data, meshes, checkpoints, figure assets, results and the existing `MANIFEST.sha256` are byte-identical to v1.0.
+
+See [LICENSING.md](LICENSING.md), [LICENSE](LICENSE), [LICENSE-DATA](LICENSE-DATA) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+## Original complete paper reproduction v1.0
 
 Public release `clagtee-2026-full-v1.0`, approved by the first author on October 4, 2026. This version pins the complete reproduction package used for the revised paper.
 
