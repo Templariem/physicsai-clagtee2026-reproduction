@@ -1,0 +1,64 @@
+{
+  "dinov3": {
+    "dimension": 384,
+    "grid": 28,
+    "input_size": 448,
+    "views": 2287,
+    "weights_sha256": "4610ad75edef83e75afdebf162d148dc628045ea6cbb83d67d4708c709c4f91d",
+    "processor": {
+      "data_format": "channels_first",
+      "default_to_square": true,
+      "do_normalize": true,
+      "do_rescale": true,
+      "do_resize": true,
+      "image_mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "image_processor_type": "DINOv3ViTImageProcessor",
+      "image_std": [
+        0.229,
+        0.224,
+        0.225
+      ],
+      "resample": 2,
+      "rescale_factor": 0.00392156862745098,
+      "size": {
+        "height": 224,
+        "width": 224
+      }
+    },
+    "peak_gpu_bytes": 150619136
+  },
+  "ijepa": {
+    "dimension": 1280,
+    "grid": 32,
+    "input_size": 448,
+    "views": 2287,
+    "weights_sha256": "ad6c1f6e318ace5633bea4496bc5c76248f6dc59c9a0d8a010cf31ed9dee2da8",
+    "processor": {
+      "do_normalize": true,
+      "do_rescale": true,
+      "do_resize": true,
+      "image_mean": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "image_processor_type": "ViTImageProcessor",
+      "image_std": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "resample": 2,
+      "rescale_factor": 0.00392156862745098,
+      "size": {
+        "height": 224,
+        "width": 224
+      }
+    },
+    "peak_gpu_bytes": 1366063104
+  }
+}

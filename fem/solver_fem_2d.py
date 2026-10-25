@@ -1,3 +1,4 @@
+import scipy.sparse as sp
 import numpy as np
 import scipy.sparse as sp
 import scipy.sparse.linalg as spla
@@ -107,7 +108,7 @@ def calcular_matrices_locales(coords_elemento, c_K, c_C, c_M, f_val, precision=2
         fe += f_val * N * detJ * peso
 
     return Ke, Ce, Me, fe
-def ensamblar_sistema_maestro(nodes, elements, materials, prop_K, prop_C, prop_M, fuentes, tipo_analisis='static'):
+def ensamblar_sistema_q4(nodes, elements, materials, prop_K, prop_C, prop_M, fuentes, tipo_analisis='static'):
     n_nodes = len(nodes)
     I, J = [], []
     V_K, V_C, V_M, V_F = [], [], [], []
@@ -271,3 +272,27 @@ def resolver_sistema_maestro(nodes, elements, materials, prop_K, prop_C, prop_M,
 
     else:
         raise ValueError(f"Unsupported analysis type: {tipo_analisis}")
+
+def ensamblar_sistema_p1(nodes,elements,materials,pk,pc,pm,source,tipo_analisis='static'):
+    e=np.asarray(elements);assert e.shape[1]==3
+    p=nodes[e];x=p[:,:,0];y=p[:,:,1]
+    det=(x[:,1]-x[:,0])*(y[:,2]-y[:,0])-(x[:,2]-x[:,0])*(y[:,1]-y[:,0]);assert np.all(det>0)
+    area=det/2
+    grad=np.stack([np.stack([y[:,1]-y[:,2],y[:,2]-y[:,0],y[:,0]-y[:,1]],axis=1),np.stack([x[:,2]-x[:,1],x[:,0]-x[:,2],x[:,1]-x[:,0]],axis=1)],axis=2)/det[:,None,None]
+    stiff=area[:,None,None]*np.einsum('eik,ejk->eij',grad,grad)
+    mass=area[:,None,None]/12*(np.ones((3,3))+np.eye(3))
+    ii=np.repeat(e,3,axis=1).ravel();jj=np.tile(e,(1,3)).ravel();shape=(len(nodes),len(nodes))
+    dtype=complex if tipo_analisis=='harmonic' or any(np.iscomplexobj(v) for d in [pk,pc,pm,source] for v in d.values()) else float
+    def coeff(d):return np.array([d.get(int(m),0) for m in materials],dtype=dtype)
+    def mat(local,d):return sp.coo_matrix(((local*coeff(d)[:,None,None]).ravel(),(ii,jj)),shape=shape).tocsr()
+    f=np.zeros(len(nodes),dtype=dtype);np.add.at(f,e.ravel(),np.repeat(area*coeff(source)/3,3))
+    return mat(stiff,pk),mat(mass,pc),mat(mass,pm),f
+
+def ensamblar_sistema_maestro(nodes,elements,materials,prop_K,prop_C,prop_M,fuentes,tipo_analisis='static'):
+    """Dispatch by actual connectivity: linear P1 triangles or bilinear Q4 quads."""
+    elements=np.asarray(elements)
+    if elements.shape[1]==3:
+        return ensamblar_sistema_p1(nodes,elements,materials,prop_K,prop_C,prop_M,fuentes,tipo_analisis)
+    if elements.shape[1]==4:
+        return ensamblar_sistema_q4(nodes,elements,materials,prop_K,prop_C,prop_M,fuentes,tipo_analisis)
+    raise ValueError('Expected P1 (3 nodes) or Q4 (4 nodes) elements')

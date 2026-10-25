@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "source": "/data/projects/physicsai_comun_led_regla_v3",
+  "teacher_manifest_sha256": "3e4d609983354eef16c824ca6c5cbcbbf3fe050da38ed46671e3c974e46e681f",
+  "calibration_sha256": "165ea0251524c0d8226bd3b08f28b0b1ab7c0c140bb5dfd29f05b1e1c4dccd53",
+  "solver_sha256": "7168d78dc059548f45e21ae73e4dc4c74ddb42e0152efbd63d2fae68acdbccc8",
+  "source_solver_sha256": "7168d78dc059548f45e21ae73e4dc4c74ddb42e0152efbd63d2fae68acdbccc8",
+  "teacher_hashes_verified": 1143,
+  "train": 926,
+  "val": 99,
+  "test": 118,
+  "test_used_for_training_or_selection": false,
+  "baseline_sha256": "0d41934c78bd25e1cfbbd362d91ea9bdf0d3653e1fa13f28b2830d331811d3f8",
+  "seconds": 34.06270504799977
+}

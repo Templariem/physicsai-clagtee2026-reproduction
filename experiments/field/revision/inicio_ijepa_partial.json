@@ -1,0 +1,12 @@
+{
+  "kind": "ijepa",
+  "arm": "partial",
+  "micro_batch": 1,
+  "effective_batch": 16,
+  "trainable_encoder_parameters": 157422080,
+  "partial_blocks": 8,
+  "encoder_block_path": "layers",
+  "decoder_initialization_seed": 4242,
+  "teacher_manifest_sha256": "3e4d609983354eef16c824ca6c5cbcbbf3fe050da38ed46671e3c974e46e681f",
+  "protocol_sha256": "e71a250414e71338e6b144e7fc492868d608063c93913046b05ee2748dd87fbc"
+}

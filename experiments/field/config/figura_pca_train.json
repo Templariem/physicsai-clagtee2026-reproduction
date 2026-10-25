@@ -1,0 +1,2096 @@
+[
+  {
+    "id": "led_original_frame_001",
+    "split": "train",
+    "camera": "legacy_led",
+    "group": "legacy_led:video_1",
+    "video_id": "original_video_1",
+    "capture_session": null,
+    "image": "datos/imagenes/led_original_frame_001.jpg",
+    "mask": "datos/mascaras/led_original_frame_001.png",
+    "image_sha256": "6fb47d93e6d3d828849985c0836394bff7d05de8fc0e9c601be2d1a3e7e39737",
+    "mask_sha256": "77884d139038aad76042ff7dc02311720bb56b0a0b5508280b5d99513191de92",
+    "original_image": "/Users/alfergar/Desktop/03_Fisica_IA_Electromagnetismo/ProyectoFinal-PhysicsAI/paper_CLAGTEE2026_v2/revision_P1_integrada/experimentos/data/frames/frame_001.jpg",
+    "original_sha256": "23102e5fc4c7e5784ff4eb2dbd667d8e02066a03a7268bbc5776bcb0989acfe0",
+    "original_width": 1080,
+    "original_height": 1080,
+    "letterbox": {
+      "scale": 0.4148148148148148,
+      "left": 0,
+      "top": 0,
+      "width": 448,
+      "height": 448
+    },
+    "annotation_sha256": "8a3ca989b334731542ab34920be91ce82c190bb7c84bf92a11e68e4d3b10d179",
+    "label_origin": "original_reviewed_polygons",
+    "dataset_source": "original_LED_paper",
+    "previous_split": "development",
+    "legacy_LED_target": null,
+    "legacy_frame": "frame_001.jpg",
+    "teacher": "datos/docente/led_original_frame_001.npz",
+    "teacher_sha256": "6719cedad0d09a583b35c119fd9243fef21fee9e398944e8e631f135fac792a7",
+    "scene": {
+      "x_cm": 11.0,
+      "y_cm": 14.0,
+      "angle_deg": 90.0,
+      "length_cm": 17.0,
+      "width_cm": 1.7,
+      "mode": "none",
+      "mesh_mm": 1.5,
+      "domain_scale": 16
+    },
+    "transform": [
+      [
+        206.46643668247808,
+        265.47304872789994
+      ],
+      [
+        [
+          0.9999256577227462,
+          0.012193400991250209
+        ],
+        [
+          0.012193400991250209,
+          -0.9999256577227462
+        ]
+      ],
+      0.0008283020431447532
+    ],
+    "valid_pixels": 200704,
+    "air_pixels": 193922,
+    "content_coverage": 1.0,
+    "mesh_metrics": {
+      "nodes": 11198,
+      "triangles": 22055,
+      "solve_total_ms": 189.28,
+      "phi_min": 0.0,
+      "phi_max": 1.0,
+      "air_residual_max": 2.7755575615628914e-15,
+      "ruler_charge_normalized": null,
+      "ruler_phi": null,
+      "ruler_equipotential_spread": null,
+      "total_charge_balance": -9.882394381988124e-15
+    }
+  },
+  {
+    "id": "led_original_frame_042",
+    "split": "train",
+    "camera": "legacy_led",
+    "group": "legacy_led:video_2",
+    "video_id": "original_video_2",
+    "capture_session": null,
+    "image": "datos/imagenes/led_original_frame_042.jpg",
+    "mask": "datos/mascaras/led_original_frame_042.png",
+    "image_sha256": "e024ccc364394390fcfd4004070256b4c1d5c9990ef7ed95bdc2e8c25c35e7c6",
+    "mask_sha256": "09c6ad8e9ea103028eb8032cd435f71090ed6369dd2b533e86a7423fd84aa8b4",
+    "original_image": "/Users/alfergar/Desktop/03_Fisica_IA_Electromagnetismo/ProyectoFinal-PhysicsAI/paper_CLAGTEE2026_v2/revision_P1_integrada/experimentos/data/frames/frame_042.jpg",
+    "original_sha256": "075a9965df47d86512b3417826c5778bae5a4c6596b83e0cc5778403ac281cec",
+    "original_width": 1080,
+    "original_height": 1080,
+    "letterbox": {
+      "scale": 0.4148148148148148,
+      "left": 0,
+      "top": 0,
+      "width": 448,
+      "height": 448
+    },
+    "annotation_sha256": "8a3ca989b334731542ab34920be91ce82c190bb7c84bf92a11e68e4d3b10d179",
+    "label_origin": "original_reviewed_polygons",
+    "dataset_source": "original_LED_paper",
+    "previous_split": "development",
+    "legacy_LED_target": "4.099799623215051",
+    "legacy_frame": "frame_042.jpg",
+    "teacher": "datos/docente/led_original_frame_042.npz",
+    "teacher_sha256": "a1f9bc6660002f9816b3bfbcc0ff806f56177cc9c49b5350116475daa0935c74",
+    "scene": {
+      "x_cm": 11.0,
+      "y_cm": 14.0,
+      "angle_deg": 90.0,
+      "length_cm": 17.0,
+      "width_cm": 1.7,
+      "mode": "none",
+      "mesh_mm": 1.5,
+      "domain_scale": 16
+    },
+    "transform": [
+      [
+        169.79169976922785,
+        261.19116256194906
+      ],
+      [
+        [
+          0.9972188515721029,
+          -0.07452893444304834
+        ],
+        [
+          -0.07452893444304834,
+          -0.9972188515721029
+        ]
+      ],
+      0.00030050157177379633
+    ],
+    "valid_pixels": 200704,
+    "air_pixels": 171366,
+    "content_coverage": 1.0,
+    "mesh_metrics": {
+      "nodes": 11198,
+      "triangles": 22055,
+      "solve_total_ms": 189.28,
+      "phi_min": 0.0,
+      "phi_max": 1.0,
+      "air_residual_max": 2.7755575615628914e-15,
+      "ruler_charge_normalized": null,
+      "ruler_phi": null,
+      "ruler_equipotential_spread": null,
+      "total_charge_balance": -9.882394381988124e-15
+    }
+  },
+  {
+    "id": "led_original_frame_084",
+    "split": "train",
+    "camera": "legacy_led",
+    "group": "legacy_led:video_3",
+    "video_id": "original_video_3",
+    "capture_session": null,
+    "image": "datos/imagenes/led_original_frame_084.jpg",
+    "mask": "datos/mascaras/led_original_frame_084.png",
+    "image_sha256": "33125268542a1d2cc195125dd6ee2c94e406a91515d9f1630f1dc778dd9c917b",
+    "mask_sha256": "5186f3cc4391b97640608028521f883a606d026b9d615b5e5519ff1e2c69b2b2",
+    "original_image": "/Users/alfergar/Desktop/03_Fisica_IA_Electromagnetismo/ProyectoFinal-PhysicsAI/paper_CLAGTEE2026_v2/revision_P1_integrada/experimentos/data/frames/frame_084.jpg",
+    "original_sha256": "cb575199d01a9dbe95a59dbdf7686be92fd62a93ba89420ec14ec126b9a4dd00",
+    "original_width": 1080,
+    "original_height": 1080,
+    "letterbox": {
+      "scale": 0.4148148148148148,
+      "left": 0,
+      "top": 0,
+      "width": 448,
+      "height": 448
+    },
+    "annotation_sha256": "8a3ca989b334731542ab34920be91ce82c190bb7c84bf92a11e68e4d3b10d179",
+    "label_origin": "original_reviewed_polygons",
+    "dataset_source": "original_LED_paper",
+    "previous_split": "development",
+    "legacy_LED_target": "2.312574025971188",
+    "legacy_frame": "frame_084.jpg",
+    "teacher": "datos/docente/led_original_frame_084.npz",
+    "teacher_sha256": "70e5b70a98b1c88571efd944f53d3deee65148db5373a8131cfe4d88e0c3e91c",
+    "scene": {
+      "x_cm": 11.0,
+      "y_cm": 14.0,
+      "angle_deg": 90.0,
+      "length_cm": 17.0,
+      "width_cm": 1.7,
+      "mode": "none",
+      "mesh_mm": 1.5,
+      "domain_scale": 16
+    },
+    "transform": [
+      [
+        211.83240416612645,
+        354.3276863016264
+      ],
+      [
+        [
+          0.9989349515286933,
+          -0.0461406828554519
+        ],
+        [
+          -0.0461406828554519,
+          -0.9989349515286933
+        ]
+      ],
+      0.00037077385527117075
+    ],
+    "valid_pixels": 200704,
+    "air_pixels": 186132,
+    "content_coverage": 1.0,
+    "mesh_metrics": {
+      "nodes": 11198,
+      "triangles": 22055,
+      "solve_total_ms": 189.28,
+      "phi_min": 0.0,
+      "phi_max": 1.0,
+      "air_residual_max": 2.7755575615628914e-15,
+      "ruler_charge_normalized": null,
+      "ruler_phi": null,
+      "ruler_equipotential_spread": null,
+      "total_charge_balance": -9.882394381988124e-15
+    }
+  },
+  {
+    "id": "led_original_frame_127",
+    "split": "train",
+    "camera": "legacy_led",
+    "group": "legacy_led:video_4",
+    "video_id": "original_video_4",
+    "capture_session": null,
+    "image": "datos/imagenes/led_original_frame_127.jpg",
+    "mask": "datos/mascaras/led_original_frame_127.png",
+    "image_sha256": "effa1aa311e8f7c9ef9481fc2cb5c84b4f2c21d777aad7435f126e8a2c74dbba",
+    "mask_sha256": "e7f5634e29437494966625e0ef2bfc2d863392cae619236b52bca1afa41402a2",
+    "original_image": "/Users/alfergar/Desktop/03_Fisica_IA_Electromagnetismo/ProyectoFinal-PhysicsAI/paper_CLAGTEE2026_v2/revision_P1_integrada/experimentos/data/frames/frame_127.jpg",
+    "original_sha256": "d97bbe2c305bec0516f13a27a94f3f1173149bf0ef84964b4654b927fd407021",
+    "original_width": 1080,
+    "original_height": 1080,
+    "letterbox": {
+      "scale": 0.4148148148148148,
+      "left": 0,
+      "top": 0,
+      "width": 448,
+      "height": 448
+    },
+    "annotation_sha256": "8a3ca989b334731542ab34920be91ce82c190bb7c84bf92a11e68e4d3b10d179",
+    "label_origin": "original_reviewed_polygons",
+    "dataset_source": "original_LED_paper",
+    "previous_split": "development",
+    "legacy_LED_target": "3.0297153182983365",
+    "legacy_frame": "frame_127.jpg",
+    "teacher": "datos/docente/led_original_frame_127.npz",
+    "teacher_sha256": "b023a218d69c3e7557392886b38f4371e3ce60d4f0c3a930fa1bb74bc33bd2d8",
+    "scene": {
+      "x_cm": 11.0,
+      "y_cm": 14.0,
+      "angle_deg": 90.0,
+      "length_cm": 17.0,
+      "width_cm": 1.7,
+      "mode": "none",
+      "mesh_mm": 1.5,
+      "domain_scale": 16
+    },
+    "transform": [
+      [
+        179.0736079124489,
+        238.27011586595967
+      ],
+      [
+        [
+          0.9898799448926213,
+          0.1419073454736606
+        ],
+        [
+          0.1419073454736606,
+          -0.9898799448926213
+        ]
+      ],
+      0.00041283550315107545
+    ],
+    "valid_pixels": 200704,
+    "air_pixels": 179670,
+    "content_coverage": 1.0,
+    "mesh_metrics": {
+      "nodes": 11198,
+      "triangles": 22055,
+      "solve_total_ms": 189.28,
+      "phi_min": 0.0,
+      "phi_max": 1.0,
+      "air_residual_max": 2.7755575615628914e-15,
+      "ruler_charge_normalized": null,
+      "ruler_phi": null,
+      "ruler_equipotential_spread": null,
+      "total_charge_balance": -9.882394381988124e-15
+    }
+  },
+  {
+    "id": "led_original_frame_168",
+    "split": "train",
+    "camera": "legacy_led",
+    "group": "legacy_led:video_5",
+    "video_id": "original_video_5",
+    "capture_session": null,
+    "image": "datos/imagenes/led_original_frame_168.jpg",
+    "mask": "datos/mascaras/led_original_frame_168.png",
+    "image_sha256": "95ddda5bfd01b73f14fff145f82b816e3e3423f37baff9ba93a6eb31fe97e131",
+    "mask_sha256": "8354fa21f53026827c301f1a20501341102b83ebc63c903dbf4573a62b9fb66e",
+    "original_image": "/Users/alfergar/Desktop/03_Fisica_IA_Electromagnetismo/ProyectoFinal-PhysicsAI/paper_CLAGTEE2026_v2/revision_P1_integrada/experimentos/data/frames/frame_168.jpg",
+    "original_sha256": "91b95684ef33de78020c11511bbeba49ac695daa986aa2d269c606f919b852d4",
+    "original_width": 1080,
+    "original_height": 1080,
+    "letterbox": {
+      "scale": 0.4148148148148148,
+      "left": 0,
+      "top": 0,
+      "width": 448,
+      "height": 448
+    },
+    "annotation_sha256": "8a3ca989b334731542ab34920be91ce82c190bb7c84bf92a11e68e4d3b10d179",
+    "label_origin": "original_reviewed_polygons",
+    "dataset_source": "original_LED_paper",
+    "previous_split": "development",
+    "legacy_LED_target": null,
+    "legacy_frame": "frame_168.jpg",
+    "teacher": "datos/docente/led_original_frame_168.npz",
+    "teacher_sha256": "891d1b0ae9c3dab4931fb07727e9deddd7c61d09f2db8bc7f44a6253c9d4775c",
+    "scene": {
+      "x_cm": 11.0,
+      "y_cm": 14.0,
+      "angle_deg": 90.0,
+      "length_cm": 17.0,
+      "width_cm": 1.7,
+      "mode": "none",
+      "mesh_mm": 1.5,
+      "domain_scale": 16
+    },
+    "transform": [
+      [
+        188.39453435924648,
+        225.06633059166887
+      ],
+      [
+        [
+          0.9972633183401296,
+          0.07393154870035758
+        ],
+        [
+          0.07393154870035758,
+          -0.9972633183401296
+        ]
+      ],
+      0.0005302037540742042
+    ],
+    "valid_pixels": 200704,
+    "air_pixels": 184646,
+    "content_coverage": 1.0,
+    "mesh_metrics": {
+      "nodes": 11198,
+      "triangles": 22055,
+      "solve_total_ms": 189.28,
+      "phi_min": 0.0,
+      "phi_max": 1.0,
+      "air_residual_max": 2.7755575615628914e-15,
+      "ruler_charge_normalized": null,
+      "ruler_phi": null,
+      "ruler_equipotential_spread": null,
+      "total_charge_balance": -9.882394381988124e-15
+    }
+  },
+  {
+    "id": "led_original_frame_209",
+    "split": "train",
+    "camera": "legacy_led",
+    "group": "legacy_led:video_6",
+    "video_id": "original_video_6",
+    "capture_session": null,
+    "image": "datos/imagenes/led_original_frame_209.jpg",
+    "mask": "datos/mascaras/led_original_frame_209.png",
+    "image_sha256": "dad9c1348c5087ac7c9f1d7189ce95ffeb4fecc03d708434630803686c7a37b9",
+    "mask_sha256": "4d2c3e1c40feae9fd2c85c20e385bba49bc471beedecad4e39f8ee63c8b03a03",
+    "original_image": "/Users/alfergar/Desktop/03_Fisica_IA_Electromagnetismo/ProyectoFinal-PhysicsAI/paper_CLAGTEE2026_v2/revision_P1_integrada/experimentos/data/frames/frame_209.jpg",
+    "original_sha256": "be842c27a91890d1d438ff6959e243bbdecc1f81bd9bed836e1083a8d7ea742e",
+    "original_width": 1080,
+    "original_height": 1080,
+    "letterbox": {
+      "scale": 0.4148148148148148,
+      "left": 0,
+      "top": 0,
+      "width": 448,
+      "height": 448
+    },
+    "annotation_sha256": "8a3ca989b334731542ab34920be91ce82c190bb7c84bf92a11e68e4d3b10d179",
+    "label_origin": "original_reviewed_polygons",
+    "dataset_source": "original_LED_paper",
+    "previous_split": "development",
+    "legacy_LED_target": null,
+    "legacy_frame": "frame_209.jpg",
+    "teacher": "datos/docente/led_original_frame_209.npz",
+    "teacher_sha256": "6049d05997a737252abe690d3daf927a3a085bf4ff5b3fe3000070549e00162f",
+    "scene": {
+      "x_cm": 11.0,
+      "y_cm": 14.0,
+      "angle_deg": 90.0,
+      "length_cm": 17.0,
+      "width_cm": 1.7,
+      "mode": "none",
+      "mesh_mm": 1.5,
+      "domain_scale": 16
+    },
+    "transform": [
+      [
+        232.3882896221094,
+        276.8220882684715
+      ],
+      [
+        [
+          0.9990518196883703,
+          0.04353689903238496
+        ],
+        [
+          0.04353689903238496,
+          -0.9990518196883703
+        ]
+      ],
+      0.000579304941925044
+    ],
+    "valid_pixels": 200704,
+    "air_pixels": 188975,
+    "content_coverage": 1.0,
+    "mesh_metrics": {
+      "nodes": 11198,
+      "triangles": 22055,
+      "solve_total_ms": 189.28,
+      "phi_min": 0.0,
+      "phi_max": 1.0,
+      "air_residual_max": 2.7755575615628914e-15,
+      "ruler_charge_normalized": null,
+      "ruler_phi": null,
+      "ruler_equipotential_spread": null,
+      "total_charge_balance": -9.882394381988124e-15
+    }
+  },
+  {
+    "id": "regla_var_0001",
+    "split": "train",
+    "camera": "synthetic",
+    "group": "synthetic:laboratorio_01",
+    "capture_session": null,
+    "image": "datos/imagenes/regla_var_0001.jpg",
+    "mask": "datos/mascaras/regla_var_0001.png",
+    "image_sha256": "d89dd2f2a04f1d6fcb102e2247260e9a98da19fd4c69540208a8593b95dfbd04",
+    "mask_sha256": "8afd65e943132217b32199e5ffc95ff56f4b397f273d33dd8774e8e3121591df",
+    "original_image": "/Users/alfergar/Desktop/PhysicsAI_Regla_Experimental/datos/dataset_regla_visual_v2/etiquetado_esfera_bobina_regla_v1/images/train/regla_var_0001.png",
+    "original_sha256": "5f1ecde174af73c64c750ce4be9603db0ddc8b5817658ec04d0f4e00e07f268a",
+    "annotation_sha256": "80ea0d0022e1f9978302489eaf6220e66e33b52112da10b14f7160476d4e11ff",
+    "review_sha256": null,
+    "original_width": 1280,
+    "original_height": 960,
+    "letterbox": {
+      "scale": 0.35,
+      "left": 0,
+      "top": 56,
+      "width": 448,
+      "height": 336
+    },
+    "masks": [
+      {
+        "class_id": 0,
+        "pixels_original": 4712,
+        "source_mask_sha256": "ef67d2b29b894830e48a1f9bf5251c2a10b374c584493446658e2c46bda88a9a"
+      },
+      {
+        "class_id": 1,
+        "pixels_original": 5422,
+        "source_mask_sha256": "10c377bba2d78655ebcf4ef12fb60bdfe9dd19330468d38b926571d066007e68"
+      },
+      {
+        "class_id": 2,
+        "pixels_original": 11581,
+        "source_mask_sha256": "1abcddd1eac18b563224284e19ccd3e2dbac95bb1a992f483720ae4503dd3aa0"
+      }
+    ],
+    "video_id": null,
+    "frame_index": null,
+    "timestamp_s": null,
+    "label_origin": "previous_human_reviewed",
+    "teacher": "datos/docente/regla_var_0001.npz",
+    "teacher_sha256": "835f3b6367ecab28411329fbf9d50446e1c657e433d0d71bb584a1158bc90d9e",
+    "scene": {
+      "x_cm": 12.200000000000001,
+      "y_cm": 11.600000000000001,
+      "angle_deg": -2,
+      "length_cm": 17.0,
+      "width_cm": 1.7,
+      "mode": "ground",
+      "mesh_mm": 1.5,
+      "domain_scale": 16
+    },
+    "transform": [
+      [
+        223.37962100031064,
+        223.44516930723827
+      ],
+      [
+        [
+          0.9995568096463063,
+          0.029768847638055176
+        ],
+        [
+          0.029768847638055176,
+          -0.9995568096463063
+        ]
+      ],
+      0.001719749437843198
+    ],
+    "valid_pixels": 150528,
+    "air_pixels": 147977,
+    "content_coverage": 1.0,
+    "mesh_metrics": {
+      "nodes": 16613,
+      "triangles": 32635,
+      "solve_total_ms": 330.15,
+      "phi_min": 0.0,
+      "phi_max": 1.0,
+      "air_residual_max": 3.9968028886505635e-15,
+      "ruler_charge_normalized": -4.474072526392641,
+      "ruler_phi": 0.0,
+      "ruler_equipotential_spread": 0.0,
+      "total_charge_balance": -5.305380700731943e-15
+    },
+    "dataset_source": "ruler_corpus_v2",
+    "previous_split": "train",
+    "source_teacher": "physicsai_potencial_led_finetuning_v2/datos/docente/regla_var_0001.npz"
+  },
+  {
+    "id": "regla_var_0061",
+    "split": "train",
+    "camera": "synthetic",
+    "group": "synthetic:sala_03",
+    "capture_session": null,
+    "image": "datos/imagenes/regla_var_0061.jpg",
+    "mask": "datos/mascaras/regla_var_0061.png",
+    "image_sha256": "4d95ae775837390597ebf3b71c942400539857e52d2ae9e5ffc412f8e17f4b79",
+    "mask_sha256": "456f3a198c753a554be36b8a3b3efca26adcd40e9b835bf4638fe4c1dbe27fca",
+    "original_image": "/Users/alfergar/Desktop/PhysicsAI_Regla_Experimental/datos/dataset_regla_visual_v2/etiquetado_esfera_bobina_regla_v1/images/train/regla_var_0061.png",
+    "original_sha256": "10a6c0e7c6c4142962b9bbc70e9035521596a2958084ec2ba28df8fe594d1eb3",
+    "annotation_sha256": "80ea0d0022e1f9978302489eaf6220e66e33b52112da10b14f7160476d4e11ff",
+    "review_sha256": null,
+    "original_width": 1280,
+    "original_height": 960,
+    "letterbox": {
+      "scale": 0.35,
+      "left": 0,
+      "top": 56,
+      "width": 448,
+      "height": 336
+    },
+    "masks": [
+      {
+        "class_id": 0,
+        "pixels_original": 9478,
+        "source_mask_sha256": "7fc2af044f026c453a33169e848221c55aea6a0eddd358898b1198c04b16cf3b"
+      },
+      {
+        "class_id": 1,
+        "pixels_original": 8968,
+        "source_mask_sha256": "1711fe389bbde506463ef063980443249c48ded33d6d979c9829bbf3a7b19652"
+      },
+      {
+        "class_id": 2,
+        "pixels_original": 14642,
+        "source_mask_sha256": "af26984c8247e6559eee56a51ead248a11aa68d5090e36caa47099a782beb1b9"
+      }
+    ],
+    "video_id": null,
+    "frame_index": null,
+    "timestamp_s": null,
+    "label_origin": "previous_human_reviewed",
+    "teacher": "datos/docente/regla_var_0061.npz",
+    "teacher_sha256": "24644a503c46ce2bfdfe364849480b64ca0f86cdf2953dc3f6d761619e5333ab",
+    "scene": {
+      "x_cm": 12.0,
+      "y_cm": 14.600000000000001,
+      "angle_deg": 14,
+      "length_cm": 17.0,
+      "width_cm": 1.7,
+      "mode": "ground",
+      "mesh_mm": 1.5,
+      "domain_scale": 16
+    },
+    "transform": [
+      [
+        222.55490549054906,
+        231.26897689768975
+      ],
+      [
+        [
+          0.9997656785133421,
+          0.021646895083513893
+        ],
+        [
+          0.021646895083513893,
+          -0.9997656785133421
+        ]
+      ],
+      0.0011952381688895143
+    ],
+    "valid_pixels": 150528,
+    "air_pixels": 145257,
+    "content_coverage": 1.0,
+    "mesh_metrics": {
+      "nodes": 16765,
+      "triangles": 32939,
+      "solve_total_ms": 312.53,
+      "phi_min": 0.0,
+      "phi_max": 1.0,
+      "air_residual_max": 3.4416913763379853e-15,
+      "ruler_charge_normalized": -4.249361694951524,
+      "ruler_phi": 0.0,
+      "ruler_equipotential_spread": 0.0,
+      "total_charge_balance": 1.2696224280239754e-14
+    },
+    "dataset_source": "ruler_corpus_v2",
+    "previous_split": "train",
+    "source_teacher": "physicsai_potencial_led_finetuning_v2/datos/docente/regla_var_0061.npz"
+  },
+  {
+    "id": "regla_var_0118",
+    "split": "train",
+    "camera": "synthetic",
+    "group": "synthetic:taller_04",
+    "capture_session": null,
+    "image": "datos/imagenes/regla_var_0118.jpg",
+    "mask": "datos/mascaras/regla_var_0118.png",
+    "image_sha256": "cadeeae7e6e93235c4c2cbfe2d1aa2fbc6ce59733f249299362dcfc8658e1f94",
+    "mask_sha256": "89914691dced8129e684e627a292f947007919e3336c01c8af309acb1747faa2",
+    "original_image": "/Users/alfergar/Desktop/PhysicsAI_Regla_Experimental/datos/dataset_regla_visual_v2/etiquetado_esfera_bobina_regla_v1/images/train/regla_var_0118.png",
+    "original_sha256": "1906addd87cf863effb441666947819af4c5098831ce34bd39c5519a1e9e6528",
+    "annotation_sha256": "80ea0d0022e1f9978302489eaf6220e66e33b52112da10b14f7160476d4e11ff",
+    "review_sha256": null,
+    "original_width": 1280,
+    "original_height": 960,
+    "letterbox": {
+      "scale": 0.35,
+      "left": 0,
+      "top": 56,
+      "width": 448,
+      "height": 336
+    },
+    "masks": [
+      {
+        "class_id": 0,
+        "pixels_original": 24114,
+        "source_mask_sha256": "813056215ffad4710ba0d2bd95b115777521c72198772c9f6de08435a5d47382"
+      },
+      {
+        "class_id": 1,
+        "pixels_original": 25546,
+        "source_mask_sha256": "a3b771ad71533602944a070c622f582068748762c828eeb4f3c1a77f7aa4e751"
+      },
+      {
+        "class_id": 2,
+        "pixels_original": 47448,
+        "source_mask_sha256": "c3be7503b5dbdd7229e91729f2c4f3fe3a8036f7cf7fcbadc2db83659a5e7800"
+      }
+    ],
+    "video_id": null,
+    "frame_index": null,
+    "timestamp_s": null,
+    "label_origin": "previous_human_reviewed",
+    "teacher": "datos/docente/regla_var_0118.npz",
+    "teacher_sha256": "ededd77de5f822b8372c670eed7ca51038c0c38679f32675cfcd1dfa9c3d977e",
+    "scene": {
+      "x_cm": 4.800000000000001,
+      "y_cm": 8.4,
+      "angle_deg": -94,
+      "length_cm": 17.0,
+      "width_cm": 1.7,
+      "mode": "ground",
+      "mesh_mm": 1.5,
+      "domain_scale": 16
+    },
+    "transform": [
+      [
+        223.9330883210827,
+        186.86524326216312
+      ],
+      [
+        [
+          0.9999959987743794,
+          0.0028288575841384353
+        ],
+        [
+          0.0028288575841384353,
+          -0.9999959987743794
+        ]
+      ],
+      0.00074540773981507
+    ],
+    "valid_pixels": 150528,
+    "air_pixels": 136994,
+    "content_coverage": 1.0,
+    "mesh_metrics": {
+      "nodes": 14835,
+      "triangles": 29079,
+      "solve_total_ms": 274.12,
+      "phi_min": 0.0,
+      "phi_max": 1.0,
+      "air_residual_max": 3.9968028886505635e-15,
+      "ruler_charge_normalized": -8.635189711033188,
+      "ruler_phi": 0.0,
+      "ruler_equipotential_spread": 0.0,
+      "total_charge_balance": -3.3695702478242495e-14
+    },
+    "dataset_source": "ruler_corpus_v2",
+    "previous_split": "train",
+    "source_teacher": "physicsai_potencial_led_finetuning_v2/datos/docente/regla_var_0118.npz"
+  },
+  {
+    "id": "regla_var_0183",
+    "split": "train",
+    "camera": "synthetic",
+    "group": "synthetic:casa_07",
+    "capture_session": null,
+    "image": "datos/imagenes/regla_var_0183.jpg",
+    "mask": "datos/mascaras/regla_var_0183.png",
+    "image_sha256": "8ef07460f8c9bc1adf6adcebdd6977d3a7284dd1f280b2b77685c9d643036f7f",
+    "mask_sha256": "899c188179e4281d0c969f33b352e87eaf6aa5527da982b861ec7daa1bb656d8",
+    "original_image": "/Users/alfergar/Desktop/PhysicsAI_Regla_Experimental/datos/dataset_regla_visual_v2/etiquetado_esfera_bobina_regla_v1/images/train/regla_var_0183.png",
+    "original_sha256": "c4a7bbbd649f637294fbbb60fd75be1d326653473d7fe9e57700e87060f1d8de",
+    "annotation_sha256": "80ea0d0022e1f9978302489eaf6220e66e33b52112da10b14f7160476d4e11ff",
+    "review_sha256": null,
+    "original_width": 1280,
+    "original_height": 960,
+    "letterbox": {
+      "scale": 0.35,
+      "left": 0,
+      "top": 56,
+      "width": 448,
+      "height": 336
+    },
+    "masks": [
+      {
+        "class_id": 0,
+        "pixels_original": 13546,
+        "source_mask_sha256": "72f72daae3f7c46c7a22cb2215bde5f7e1a2cf9e12d9d0c86986904513afe1bb"
+      },
+      {
+        "class_id": 1,
+        "pixels_original": 14685,
+        "source_mask_sha256": "7ff06aa366b50dcd0e29f2d44d4fea8d68084cec6cae0bf5d17ba679c234a6de"
+      },
+      {
+        "class_id": 2,
+        "pixels_original": 34581,
+        "source_mask_sha256": "1b442cc00e01bc2ad49cd1a27f144517ae439a6be2bbb91b402b084dbd5449e8"
+      }
+    ],
+    "video_id": null,
+    "frame_index": null,
+    "timestamp_s": null,
+    "label_origin": "previous_human_reviewed",
+    "teacher": "datos/docente/regla_var_0183.npz",
+    "teacher_sha256": "7f743ea5864f0eadcdaa195fedb4628a4d00b032f1cef5deac5b531773e86f6c",
+    "scene": {
+      "x_cm": -8.0,
+      "y_cm": 4.800000000000001,
+      "angle_deg": -118,
+      "length_cm": 17.0,
+      "width_cm": 1.7,
+      "mode": "ground",
+      "mesh_mm": 1.5,
+      "domain_scale": 16
+    },
+    "transform": [
+      [
+        230.7479009235936,
+        183.13738455079763
+      ],
+      [
+        [
+          0.9996452324038869,
+          0.026634739198622553
+        ],
+        [
+          0.026634739198622553,
+          -0.9996452324038869
+        ]
+      ],
+      0.0010006995862936348
+    ],
+    "valid_pixels": 150528,
+    "air_pixels": 143006,
+    "content_coverage": 1.0,
+    "mesh_metrics": {
+      "nodes": 16022,
+      "triangles": 31453,
+      "solve_total_ms": 296.19,
+      "phi_min": 0.0,
+      "phi_max": 1.0,
+      "air_residual_max": 3.3306690738754696e-15,
+      "ruler_charge_normalized": -5.797644609922695,
+      "ruler_phi": 0.0,
+      "ruler_equipotential_spread": 0.0,
+      "total_charge_balance": -4.133293100144764e-14
+    },
+    "dataset_source": "ruler_corpus_v2",
+    "previous_split": "train",
+    "source_teacher": "physicsai_potencial_led_finetuning_v2/datos/docente/regla_var_0183.npz"
+  },
+  {
+    "id": "regla_var_0233",
+    "split": "train",
+    "camera": "synthetic",
+    "group": "synthetic:patio_07",
+    "capture_session": null,
+    "image": "datos/imagenes/regla_var_0233.jpg",
+    "mask": "datos/mascaras/regla_var_0233.png",
+    "image_sha256": "b2c204e4f655f7d124624f97414094d8aa41e0d1cb6d0565a3a1570d66e4d694",
+    "mask_sha256": "7809ebe1bea061dce8028ffe9eb361289824a810c3bd1f3f5c528d24951488af",
+    "original_image": "/Users/alfergar/Desktop/PhysicsAI_Regla_Experimental/datos/dataset_regla_visual_v2/etiquetado_esfera_bobina_regla_v1/images/train/regla_var_0233.png",
+    "original_sha256": "a4d560d2c1c28c8789fa21c6d7fe020ca76f94098c5ba5f29ff62cb93bc9ec63",
+    "annotation_sha256": "80ea0d0022e1f9978302489eaf6220e66e33b52112da10b14f7160476d4e11ff",
+    "review_sha256": null,
+    "original_width": 1280,
+    "original_height": 960,
+    "letterbox": {
+      "scale": 0.35,
+      "left": 0,
+      "top": 56,
+      "width": 448,
+      "height": 336
+    },
+    "masks": [
+      {
+        "class_id": 0,
+        "pixels_original": 18594,
+        "source_mask_sha256": "9792082a1e4a3375962815559d9396ab6e2a9a2e69bfaf3b91e8ebcac03466b7"
+      },
+      {
+        "class_id": 1,
+        "pixels_original": 17926,
+        "source_mask_sha256": "37741f37fd49a4e63b0c5be6cfadc143d27b40c5f6674302e09e06e24e663aad"
+      },
+      {
+        "class_id": 2,
+        "pixels_original": 35261,
+        "source_mask_sha256": "505c2f444992b8288830d8c0ab844255e63073b9812a92cc1e0b3e5bfe44f9c7"
+      }
+    ],
+    "video_id": null,
+    "frame_index": null,
+    "timestamp_s": null,
+    "label_origin": "previous_human_reviewed",
+    "teacher": "datos/docente/regla_var_0233.npz",
+    "teacher_sha256": "0b6618a96210f53ac7cb3c3ea81170a75d37f8880da6634c0022e89c48f5c27a",
+    "scene": {
+      "x_cm": 4.4,
+      "y_cm": 5.4,
+      "angle_deg": -86,
+      "length_cm": 17.0,
+      "width_cm": 1.7,
+      "mode": "ground",
+      "mesh_mm": 1.5,
+      "domain_scale": 16
+    },
+    "transform": [
+      [
+        214.9016219493709,
+        197.16818250720024
+      ],
+      [
+        [
+          0.9999946327642254,
+          -0.003276345943608068
+        ],
+        [
+          -0.003276345943608068,
+          -0.9999946327642254
+        ]
+      ],
+      0.000849445463555772
+    ],
+    "valid_pixels": 150528,
+    "air_pixels": 140112,
+    "content_coverage": 1.0,
+    "mesh_metrics": {
+      "nodes": 14433,
+      "triangles": 28275,
+      "solve_total_ms": 274.83,
+      "phi_min": 0.0,
+      "phi_max": 1.0,
+      "air_residual_max": 4.440892098500626e-15,
+      "ruler_charge_normalized": -10.995097422661512,
+      "ruler_phi": 0.0,
+      "ruler_equipotential_spread": 0.0,
+      "total_charge_balance": 4.6349642873755315e-15
+    },
+    "dataset_source": "ruler_corpus_v2",
+    "previous_split": "train",
+    "source_teacher": "physicsai_potencial_led_finetuning_v2/datos/docente/regla_var_0233.npz"
+  },
+  {
+    "id": "regla_var_0299",
+    "split": "train",
+    "camera": "synthetic",
+    "group": "synthetic:calle_10",
+    "capture_session": null,
+    "image": "datos/imagenes/regla_var_0299.jpg",
+    "mask": "datos/mascaras/regla_var_0299.png",
+    "image_sha256": "e71e1bd76e37aea593f83f10ab5532726cbfe294ab254546a983c8389a81dfab",
+    "mask_sha256": "2af0da34d1c112d2ccc54f0a18f0c658bd3f2da24023dbd13391530514772dd7",
+    "original_image": "/Users/alfergar/Desktop/PhysicsAI_Regla_Experimental/datos/dataset_regla_visual_v2/etiquetado_esfera_bobina_regla_v1/images/train/regla_var_0299.png",
+    "original_sha256": "ff83f58bab9f55de29b9ca282bf83c5649671db2a6cb8645188fa0b37a08da49",
+    "annotation_sha256": "80ea0d0022e1f9978302489eaf6220e66e33b52112da10b14f7160476d4e11ff",
+    "review_sha256": null,
+    "original_width": 960,
+    "original_height": 1280,
+    "letterbox": {
+      "scale": 0.35,
+      "left": 56,
+      "top": 0,
+      "width": 336,
+      "height": 448
+    },
+    "masks": [
+      {
+        "class_id": 0,
+        "pixels_original": 11222,
+        "source_mask_sha256": "aadb1b3b603455a1149e539086af3f78a5c30c40b2be6d44a84b4dc6c731d081"
+      },
+      {
+        "class_id": 1,
+        "pixels_original": 10231,
+        "source_mask_sha256": "a6c0e4557dba0e9f1ab98c5178ec5918a0cd05c669f0d4357fba6f8fdb0aa755"
+      },
+      {
+        "class_id": 2,
+        "pixels_original": 28488,
+        "source_mask_sha256": "365e9b9efca80c839ab602086855cd83299cbcbe0e85751d175b6a5bff1496ba"
+      }
+    ],
+    "video_id": null,
+    "frame_index": null,
+    "timestamp_s": null,
+    "label_origin": "previous_human_reviewed",
+    "teacher": "datos/docente/regla_var_0299.npz",
+    "teacher_sha256": "159ab2245a33c7412bce93832782acd06794d3dbce41e8829a956d3174e9077e",
+    "scene": {
+      "x_cm": 5.4,
+      "y_cm": 7.800000000000001,
+      "angle_deg": -88,
+      "length_cm": 17.0,
+      "width_cm": 1.7,
+      "mode": "ground",
+      "mesh_mm": 1.5,
+      "domain_scale": 16
+    },
+    "transform": [
+      [
+        220.78653530377667,
+        211.62889983579637
+      ],
+      [
+        [
+          0.9998521590501059,
+          0.017194767891469478
+        ],
+        [
+          0.017194767891469478,
+          -0.9998521590501059
+        ]
+      ],
+      0.0010971872001384931
+    ],
+    "valid_pixels": 150528,
+    "air_pixels": 144265,
+    "content_coverage": 1.0,
+    "mesh_metrics": {
+      "nodes": 15392,
+      "triangles": 30193,
+      "solve_total_ms": 289.41,
+      "phi_min": 0.0,
+      "phi_max": 1.0,
+      "air_residual_max": 2.9976021664879227e-15,
+      "ruler_charge_normalized": -7.000052187396563,
+      "ruler_phi": 0.0,
+      "ruler_equipotential_spread": 0.0,
+      "total_charge_balance": 4.0036225203154974e-14
+    },
+    "dataset_source": "ruler_corpus_v2",
+    "previous_split": "train",
+    "source_teacher": "physicsai_potencial_led_finetuning_v2/datos/docente/regla_var_0299.npz"
+  },
+  {
+    "id": "iphone_05s_IMG_6777_0000067",
+    "split": "train",
+    "camera": "iphone",
+    "group": "iphone:IMG_6777",
+    "video_id": "IMG_6777",
+    "frame_index": 67,
+    "timestamp_s": 1.117450017537706,
+    "image": "datos/imagenes/iphone_05s_IMG_6777_0000067.jpg",
+    "mask": "datos/mascaras/iphone_05s_IMG_6777_0000067.png",
+    "image_sha256": "2840105b9127bd2dae038c2ea7c8e66e7af1d5aa0dc8bf77b212697e20c8a3b4",
+    "mask_sha256": "549f33ec1f1adddebc5baa07f80616a766e037d56cdd8dca1f7d3a0996ef33ed",
+    "original_image": "/Users/alfergar/Desktop/PhysicsAI_Regla_Experimental/Ampliacion_Frames_05s_YOLO_v1/nuevos/imagenes/iphone_05s_IMG_6777_0000067.jpg",
+    "original_sha256": "0fa40fe224686bd6d4a789dfacbcab3993eab4b5a13487a5d79bf17cfc7af266",
+    "original_width": 1080,
+    "original_height": 1080,
+    "letterbox": {
+      "scale": 0.4148148148148148,
+      "left": 0,
+      "top": 0,
+      "width": 448,
+      "height": 448
+    },
+    "masks": [
+      {
+        "class_id": 0,
+        "pixels_original": 9480,
+        "source_mask_sha256": "1ee2a88b69e90cfc616ca388cf400b40b8a61b4c09c1a278b9dd57e5cf385ac4"
+      },
+      {
+        "class_id": 1,
+        "pixels_original": 15627,
+        "source_mask_sha256": "7b947b357371cf2fcdb9fd2084c8d835fb8aebda9c7a38a295fa7b43826b09b4"
+      },
+      {
+        "class_id": 2,
+        "pixels_original": 3439,
+        "source_mask_sha256": "d65c330784ad8821fbd17d114132ae3b247a5624220324b4fce4ac596c832f95"
+      }
+    ],
+    "review_sha256": "78a834f91467a14953debb8a69628df2d7303da69302066d5db5cdb1949fb01d",
+    "annotation_sha256": "8a032403424d8a4e2cc24261f5d95a8c465e582974ee1e9837c6c95b62d49ed6",
+    "label_origin": "new_human_reviewed",
+    "annotation_revision": 1,
+    "teacher": "datos/docente/iphone_05s_IMG_6777_0000067.npz",
+    "teacher_sha256": "b26bd1c6a4a778a2bbe67dfb3119f34c990f580be57319a77b0b05e02ac93d3f",
+    "scene": {
+      "x_cm": 20.8,
+      "y_cm": 30.200000000000003,
+      "angle_deg": 90,
+      "length_cm": 17.0,
+      "width_cm": 1.7,
+      "mode": "ground",
+      "mesh_mm": 1.5,
+      "domain_scale": 16
+    },
+    "transform": [
+      [
+        232.58536585365854,
+        245.66356439880187
+      ],
+      [
+        [
+          0.9998884187407563,
+          -0.014938208329983986
+        ],
+        [
+          -0.014938208329983986,
+          -0.9998884187407563
+        ]
+      ],
+      0.001010348350601286
+    ],
+    "valid_pixels": 200704,
+    "air_pixels": 193650,
+    "content_coverage": 1.0,
+    "mesh_metrics": {
+      "nodes": 18857,
+      "triangles": 37123,
+      "solve_total_ms": 351.34,
+      "phi_min": 0.0,
+      "phi_max": 1.0,
+      "air_residual_max": 3.219646771412954e-15,
+      "ruler_charge_normalized": -1.3306342613284246,
+      "ruler_phi": 0.0,
+      "ruler_equipotential_spread": 0.0,
+      "total_charge_balance": -6.169934355093609e-14
+    },
+    "dataset_source": "ruler_corpus_v2",
+    "previous_split": "train",
+    "source_teacher": "physicsai_potencial_led_finetuning_v2/datos/docente/iphone_05s_IMG_6777_0000067.npz"
+  },
+  {
+    "id": "iphone_05s_IMG_6781_0000246",
+    "split": "train",
+    "camera": "iphone",
+    "group": "iphone:IMG_6781",
+    "video_id": "IMG_6781",
+    "frame_index": 246,
+    "timestamp_s": 4.102907801418439,
+    "image": "datos/imagenes/iphone_05s_IMG_6781_0000246.jpg",
+    "mask": "datos/mascaras/iphone_05s_IMG_6781_0000246.png",
+    "image_sha256": "d749654859aee960a2117cf48f8adab922c4d5d12344687bb3d98d1bc06c1778",
+    "mask_sha256": "3e8815fc1a8b84e6d09a8664f006ff8d8d3a9564dc3ea71641aef3fb26bd982c",
+    "original_image": "/Users/alfergar/Desktop/PhysicsAI_Regla_Experimental/Ampliacion_Frames_05s_YOLO_v1/nuevos/imagenes/iphone_05s_IMG_6781_0000246.jpg",
+    "original_sha256": "ed1b9b799274acd2bfff0eda3ec7d6faa969a3d182851b65cd8866703ec03b15",
+    "original_width": 1080,
+    "original_height": 1080,
+    "letterbox": {
+      "scale": 0.4148148148148148,
+      "left": 0,
+      "top": 0,
+      "width": 448,
+      "height": 448
+    },
+    "masks": [
+      {
+        "class_id": 0,
+        "pixels_original": 19976,
+        "source_mask_sha256": "950ee95245be37727ea3f390448c39fdc7f11f8cbca398c61f56c3b6fd147a4e"
+      },
+      {
+        "class_id": 1,
+        "pixels_original": 31698,
+        "source_mask_sha256": "59c72960cd137f03d8b419ca1f4f50f5cf26d3fc06523fb3c5245c2f02f71d58"
+      },
+      {
+        "class_id": 2,
+        "pixels_original": 20780,
+        "source_mask_sha256": "840aed2546fdb22f9765502d8bfa957eeea19ff6eaa5b2b3a4f6bdefac846e13"
+      }
+    ],
+    "review_sha256": "78a834f91467a14953debb8a69628df2d7303da69302066d5db5cdb1949fb01d",
+    "annotation_sha256": "8a032403424d8a4e2cc24261f5d95a8c465e582974ee1e9837c6c95b62d49ed6",
+    "label_origin": "new_human_reviewed",
+    "annotation_revision": 1,
+    "teacher": "datos/docente/iphone_05s_IMG_6781_0000246.npz",
+    "teacher_sha256": "269654a6e9fff0a38cb0f491429aa55b4ef464782973a0a0a2a82ea385442306",
+    "scene": {
+      "x_cm": 13.4,
+      "y_cm": 11.600000000000001,
+      "angle_deg": 2,
+      "length_cm": 17.0,
+      "width_cm": 1.7,
+      "mode": "ground",
+      "mesh_mm": 1.5,
+      "domain_scale": 16
+    },
+    "transform": [
+      [
+        250.4768823646894,
+        206.84501697623327
+      ],
+      [
+        [
+          0.9960584283954278,
+          0.08869953338338553
+        ],
+        [
+          0.08869953338338553,
+          -0.9960584283954278
+        ]
+      ],
+      0.0006906833699607566
+    ],
+    "valid_pixels": 200704,
+    "air_pixels": 187836,
+    "content_coverage": 1.0,
+    "mesh_metrics": {
+      "nodes": 16991,
+      "triangles": 33391,
+      "solve_total_ms": 320.77,
+      "phi_min": 0.0,
+      "phi_max": 1.0,
+      "air_residual_max": 3.1086244689504383e-15,
+      "ruler_charge_normalized": -3.479540308652429,
+      "ruler_phi": 0.0,
+      "ruler_equipotential_spread": 0.0,
+      "total_charge_balance": -7.340807649247605e-15
+    },
+    "dataset_source": "ruler_corpus_v2",
+    "previous_split": "train",
+    "source_teacher": "physicsai_potencial_led_finetuning_v2/datos/docente/iphone_05s_IMG_6781_0000246.npz"
+  },
+  {
+    "id": "iphone_05s_IMG_6786_0000216",
+    "split": "train",
+    "camera": "iphone",
+    "group": "iphone:IMG_6786",
+    "video_id": "IMG_6786",
+    "frame_index": 216,
+    "timestamp_s": 3.602696629213483,
+    "image": "datos/imagenes/iphone_05s_IMG_6786_0000216.jpg",
+    "mask": "datos/mascaras/iphone_05s_IMG_6786_0000216.png",
+    "image_sha256": "a2973980071fe166928baf4154453bcff784bd3a9f79b9ef8a5b1fcd22dce1ea",
+    "mask_sha256": "9d683f8d75c363ab53a32a6f80f19309375191a8045c27af412ef75df976573e",
+    "original_image": "/Users/alfergar/Desktop/PhysicsAI_Regla_Experimental/Ampliacion_Frames_05s_YOLO_v1/nuevos/imagenes/iphone_05s_IMG_6786_0000216.jpg",
+    "original_sha256": "237d2224a7f9f3b181e377d63b0ecb24eb07b97cec3d8546a036d5e4e971c1be",
+    "original_width": 1080,
+    "original_height": 1080,
+    "letterbox": {
+      "scale": 0.4148148148148148,
+      "left": 0,
+      "top": 0,
+      "width": 448,
+      "height": 448
+    },
+    "masks": [
+      {
+        "class_id": 0,
+        "pixels_original": 17980,
+        "source_mask_sha256": "782b05cc6713c8f80aa27d8fe5c155d703dc18fbd378cb0c5e9c6db5f32a0b94"
+      },
+      {
+        "class_id": 1,
+        "pixels_original": 30358,
+        "source_mask_sha256": "d94b4f25fca8a037771258ca708111546b3cf952a35d536bf663034e12cecafc"
+      },
+      {
+        "class_id": 2,
+        "pixels_original": 20498,
+        "source_mask_sha256": "ead1e311100cf8c9c63e33368928b0904b9923bb29f4a470e8fd1df4f1aec435"
+      }
+    ],
+    "review_sha256": "78a834f91467a14953debb8a69628df2d7303da69302066d5db5cdb1949fb01d",
+    "annotation_sha256": "8a032403424d8a4e2cc24261f5d95a8c465e582974ee1e9837c6c95b62d49ed6",
+    "label_origin": "new_human_reviewed",
+    "annotation_revision": 1,
+    "teacher": "datos/docente/iphone_05s_IMG_6786_0000216.npz",
+    "teacher_sha256": "f27b571b723b1df0bb04f41dbeb4ee1025f426a6275d3d10823d72011be8fcc0",
+    "scene": {
+      "x_cm": 12.4,
+      "y_cm": 4.6000000000000005,
+      "angle_deg": 2,
+      "length_cm": 17.0,
+      "width_cm": 1.7,
+      "mode": "ground",
+      "mesh_mm": 1.5,
+      "domain_scale": 16
+    },
+    "transform": [
+      [
+        247.35814419225633,
+        201.84078771695593
+      ],
+      [
+        [
+          0.999960055274316,
+          -0.008938000659366117
+        ],
+        [
+          -0.008938000659366117,
+          -0.999960055274316
+        ]
+      ],
+      0.000728649546171023
+    ],
+    "valid_pixels": 200704,
+    "air_pixels": 188573,
+    "content_coverage": 1.0,
+    "mesh_metrics": {
+      "nodes": 16788,
+      "triangles": 32985,
+      "solve_total_ms": 315.16,
+      "phi_min": 0.0,
+      "phi_max": 1.0,
+      "air_residual_max": 3.774758283725532e-15,
+      "ruler_charge_normalized": -4.057258367548739,
+      "ruler_phi": 0.0,
+      "ruler_equipotential_spread": 0.0,
+      "total_charge_balance": -1.370030391217858e-14
+    },
+    "dataset_source": "ruler_corpus_v2",
+    "previous_split": "train",
+    "source_teacher": "physicsai_potencial_led_finetuning_v2/datos/docente/iphone_05s_IMG_6786_0000216.npz"
+  },
+  {
+    "id": "regla_real_000042",
+    "split": "train",
+    "camera": "iphone",
+    "group": "iphone:IMG_6777",
+    "capture_session": "laboratorio_2026-10-22",
+    "image": "datos/imagenes/regla_real_000042.jpg",
+    "mask": "datos/mascaras/regla_real_000042.png",
+    "image_sha256": "674f6355f510e3276ed1952797079cbe03ee0536837b3b57f3f47903148b2d8f",
+    "mask_sha256": "61b85e6eca9ff8138f45a9a3597c212c645cd214c87dbb2846b0361898ba55af",
+    "original_image": "/Users/alfergar/Desktop/PhysicsAI_Regla_Experimental/datos/dataset_regla_real_v1/imagenes/regla_real_000042.png",
+    "original_sha256": "c0a10608576d13483d805860a9c3da341150b6980ca545ce242a9361239ddb58",
+    "annotation_sha256": "a84fa1f0dd3c8cdb910f4a7c08f60d59091f265d5f549a3854342eb5f07fa06b",
+    "review_sha256": "ed13a35ce842ed22e2ba7f34bdeb85e99ee92d8b64b6519e7c4cea06fb13e27b",
+    "original_width": 1080,
+    "original_height": 1080,
+    "letterbox": {
+      "scale": 0.4148148148148148,
+      "left": 0,
+      "top": 0,
+      "width": 448,
+      "height": 448
+    },
+    "masks": [
+      {
+        "class_id": 0,
+        "pixels_original": 14524,
+        "source_mask_sha256": "b439b51bf7971738df73a729a356512471b8d56289464cb9aa73c7c38c04aa6d"
+      },
+      {
+        "class_id": 1,
+        "pixels_original": 19136,
+        "source_mask_sha256": "c3ae512b07bac6fe5a4d36314bf2e5ba61b295640820c89880cfe0cfd3634a37"
+      },
+      {
+        "class_id": 2,
+        "pixels_original": 28814,
+        "source_mask_sha256": "fb609b15808b698b4790a55a1fe58c69e794cd899b2fbda90726964c76d072a5"
+      }
+    ],
+    "video_id": "IMG_6777",
+    "frame_index": 2488,
+    "timestamp_s": 41.495755875131536,
+    "label_origin": "previous_human_reviewed",
+    "teacher": "datos/docente/regla_real_000042.npz",
+    "teacher_sha256": "6431bb6ba3df7fe63364e4a1ff68050532fdfb6681ca574f7e1667f31f0bd3a9",
+    "scene": {
+      "x_cm": 11.200000000000001,
+      "y_cm": 7.6000000000000005,
+      "angle_deg": -2,
+      "length_cm": 17.0,
+      "width_cm": 1.7,
+      "mode": "ground",
+      "mesh_mm": 1.5,
+      "domain_scale": 16
+    },
+    "transform": [
+      [
+        207.84672897196262,
+        285.81149186569746
+      ],
+      [
+        [
+          0.9999980871087517,
+          0.0019559598251458784
+        ],
+        [
+          0.0019559598251458784,
+          -0.9999980871087517
+        ]
+      ],
+      0.0008125860978194
+    ],
+    "valid_pixels": 200704,
+    "air_pixels": 189349,
+    "content_coverage": 1.0,
+    "mesh_metrics": {
+      "nodes": 16365,
+      "triangles": 32139,
+      "solve_total_ms": 313.97,
+      "phi_min": 0.0,
+      "phi_max": 1.0,
+      "air_residual_max": 3.9968028886505635e-15,
+      "ruler_charge_normalized": -5.75582626738629,
+      "ruler_phi": 0.0,
+      "ruler_equipotential_spread": 0.0,
+      "total_charge_balance": 7.32172569101186e-15
+    },
+    "dataset_source": "ruler_corpus_v2",
+    "previous_split": "train",
+    "source_teacher": "physicsai_potencial_led_finetuning_v2/datos/docente/regla_real_000042.npz"
+  },
+  {
+    "id": "regla_real_000118",
+    "split": "train",
+    "camera": "iphone",
+    "group": "iphone:IMG_6783",
+    "capture_session": "laboratorio_2026-10-22",
+    "image": "datos/imagenes/regla_real_000118.jpg",
+    "mask": "datos/mascaras/regla_real_000118.png",
+    "image_sha256": "336cd92d7ab445b8dbb17f9499c83ae625ed90cf5b18c2e2af82612fa496e329",
+    "mask_sha256": "021b6211dd1785609ebeeb356f14fac27671d498a24bb052a84e8a5b284ced4f",
+    "original_image": "/Users/alfergar/Desktop/PhysicsAI_Regla_Experimental/datos/dataset_regla_real_v1/imagenes/regla_real_000118.png",
+    "original_sha256": "810d4aab1df87cc634776d52d841991c7428f469103f33e50ff7b33d13635bce",
+    "annotation_sha256": "a84fa1f0dd3c8cdb910f4a7c08f60d59091f265d5f549a3854342eb5f07fa06b",
+    "review_sha256": "ed13a35ce842ed22e2ba7f34bdeb85e99ee92d8b64b6519e7c4cea06fb13e27b",
+    "original_width": 1080,
+    "original_height": 1080,
+    "letterbox": {
+      "scale": 0.4148148148148148,
+      "left": 0,
+      "top": 0,
+      "width": 448,
+      "height": 448
+    },
+    "masks": [
+      {
+        "class_id": 0,
+        "pixels_original": 16578,
+        "source_mask_sha256": "8bcad8ee831322438bdfbc4d2af96bd9998064f368a399dd647fd3012d5ee3d0"
+      },
+      {
+        "class_id": 1,
+        "pixels_original": 26052,
+        "source_mask_sha256": "61b42731fcb03a3fd8dfe2f98f61e1450ace74e2197462378e97bfa98d3915e0"
+      },
+      {
+        "class_id": 2,
+        "pixels_original": 31272,
+        "source_mask_sha256": "25d66e58ab34fbeea88683835b809205100cebad816b5f586134cbdc0b73651f"
+      }
+    ],
+    "video_id": "IMG_6783",
+    "frame_index": 973,
+    "timestamp_s": 16.228175268817203,
+    "label_origin": "previous_human_reviewed",
+    "teacher": "datos/docente/regla_real_000118.npz",
+    "teacher_sha256": "29a9168614c65a3307762350b557feb554f2c067f90814ba64a546932f6cc9d1",
+    "scene": {
+      "x_cm": -6.4,
+      "y_cm": 4.0,
+      "angle_deg": -104,
+      "length_cm": 17.0,
+      "width_cm": 1.7,
+      "mode": "ground",
+      "mesh_mm": 1.5,
+      "domain_scale": 16
+    },
+    "transform": [
+      [
+        306.50828962440465,
+        159.61662747935128
+      ],
+      [
+        [
+          0.994331763504785,
+          0.10632188902321182
+        ],
+        [
+          0.10632188902321182,
+          -0.994331763504785
+        ]
+      ],
+      0.0007580069985119345
+    ],
+    "valid_pixels": 200704,
+    "air_pixels": 187597,
+    "content_coverage": 1.0,
+    "mesh_metrics": {
+      "nodes": 15749,
+      "triangles": 30907,
+      "solve_total_ms": 298.85,
+      "phi_min": 0.0,
+      "phi_max": 1.0,
+      "air_residual_max": 2.9976021664879227e-15,
+      "ruler_charge_normalized": -6.407228736424743,
+      "ruler_phi": 0.0,
+      "ruler_equipotential_spread": 0.0,
+      "total_charge_balance": 2.283833929264678e-14
+    },
+    "dataset_source": "ruler_corpus_v2",
+    "previous_split": "train",
+    "source_teacher": "physicsai_potencial_led_finetuning_v2/datos/docente/regla_real_000118.npz"
+  },
+  {
+    "id": "regla_real_000220",
+    "split": "train",
+    "camera": "iphone",
+    "group": "iphone:IMG_6786",
+    "capture_session": "laboratorio_2026-10-22",
+    "image": "datos/imagenes/regla_real_000220.jpg",
+    "mask": "datos/mascaras/regla_real_000220.png",
+    "image_sha256": "e5c5d717202cc5a3ca284ec89dc8536e9c5403ff9c732da047359149b43d61e8",
+    "mask_sha256": "13e31b85a545c30cf323f2fffb5e75c5fdecd4a96405360a82bcd9bfff358905",
+    "original_image": "/Users/alfergar/Desktop/PhysicsAI_Regla_Experimental/datos/dataset_regla_real_v1/imagenes/regla_real_000220.png",
+    "original_sha256": "723b78ef978767420fe7bfd5fedd09786d7d75d2ea855031a2431ebecd1b19bd",
+    "annotation_sha256": "a84fa1f0dd3c8cdb910f4a7c08f60d59091f265d5f549a3854342eb5f07fa06b",
+    "review_sha256": "ed13a35ce842ed22e2ba7f34bdeb85e99ee92d8b64b6519e7c4cea06fb13e27b",
+    "original_width": 1080,
+    "original_height": 1080,
+    "letterbox": {
+      "scale": 0.4148148148148148,
+      "left": 0,
+      "top": 0,
+      "width": 448,
+      "height": 448
+    },
+    "masks": [
+      {
+        "class_id": 0,
+        "pixels_original": 19551,
+        "source_mask_sha256": "5db50c8a98402fe3ce7f1777714929f689c31e3e02f219506cc9b1617623e266"
+      },
+      {
+        "class_id": 1,
+        "pixels_original": 31548,
+        "source_mask_sha256": "69e56d567d35797725e62c90032d4c59560e001fbc2ae7b1907770adbbe2aad7"
+      },
+      {
+        "class_id": 2,
+        "pixels_original": 0,
+        "source_mask_sha256": "9dc629a905a660d9316eddf9e7916ccc266bc81be97590938e60d2ee90d7e15e"
+      }
+    ],
+    "video_id": "IMG_6786",
+    "frame_index": 2385,
+    "timestamp_s": 39.779775280898875,
+    "label_origin": "previous_human_reviewed",
+    "teacher": "datos/docente/regla_real_000220.npz",
+    "teacher_sha256": "048e18491b7b0c0832e97eb0576e3502ca14654435dff155a3f6cef266573219",
+    "scene": {
+      "x_cm": 11.0,
+      "y_cm": 14.0,
+      "angle_deg": 90.0,
+      "length_cm": 17.0,
+      "width_cm": 1.7,
+      "mode": "none",
+      "mesh_mm": 1.5,
+      "domain_scale": 16
+    },
+    "transform": [
+      [
+        241.28312945973494,
+        150.2203363914373
+      ],
+      [
+        [
+          0.9998493091446481,
+          0.01735969478331681
+        ],
+        [
+          0.01735969478331681,
+          -0.9998493091446481
+        ]
+      ],
+      0.0006971881822983551
+    ],
+    "valid_pixels": 200704,
+    "air_pixels": 191162,
+    "content_coverage": 1.0,
+    "mesh_metrics": {
+      "nodes": 11198,
+      "triangles": 22055,
+      "solve_total_ms": 218.66,
+      "phi_min": 0.0,
+      "phi_max": 1.0,
+      "air_residual_max": 2.7755575615628914e-15,
+      "ruler_charge_normalized": null,
+      "ruler_phi": null,
+      "ruler_equipotential_spread": null,
+      "total_charge_balance": -9.882394381988124e-15
+    },
+    "dataset_source": "ruler_corpus_v2",
+    "previous_split": "train",
+    "source_teacher": "physicsai_potencial_led_finetuning_v2/datos/docente/regla_real_000220.npz"
+  },
+  {
+    "id": "webcam_05s_web1_0000018",
+    "split": "train",
+    "camera": "webcam",
+    "group": "webcam:web1",
+    "video_id": "web1",
+    "frame_index": 18,
+    "timestamp_s": 0.6,
+    "image": "datos/imagenes/webcam_05s_web1_0000018.jpg",
+    "mask": "datos/mascaras/webcam_05s_web1_0000018.png",
+    "image_sha256": "70cc7b9478b330476e0577d837191324bc2ae94d10c232e00457ee48f9e0c574",
+    "mask_sha256": "ae3bc04b5361236277e6fe8c4cde2441c6d47b71d0594ef6f2f2a4f4eea918ae",
+    "original_image": "/Users/alfergar/Desktop/PhysicsAI_Regla_Experimental/Ampliacion_Frames_05s_YOLO_v1/nuevos/imagenes/webcam_05s_web1_0000018.jpg",
+    "original_sha256": "70d502129c3f8738fdca4780916833b31825e294115ea3f95e3549d519890d12",
+    "original_width": 1280,
+    "original_height": 720,
+    "letterbox": {
+      "scale": 0.35,
+      "left": 0,
+      "top": 98,
+      "width": 448,
+      "height": 252
+    },
+    "masks": [
+      {
+        "class_id": 0,
+        "pixels_original": 4206,
+        "source_mask_sha256": "5608773c2dce90c3edae700fe91a76c0df3008789341bc9c217d2705cd249e4b"
+      },
+      {
+        "class_id": 1,
+        "pixels_original": 6865,
+        "source_mask_sha256": "d346d8a059f18055970357958dcc5d2abff35f51a3a78434146ca94d8f60f96f"
+      },
+      {
+        "class_id": 2,
+        "pixels_original": 0,
+        "source_mask_sha256": "9e355810b89772e4a0bd95f4c5f78a0e7e7e4438334064d84d6dad53a54b614f"
+      }
+    ],
+    "review_sha256": "78a834f91467a14953debb8a69628df2d7303da69302066d5db5cdb1949fb01d",
+    "annotation_sha256": "8a032403424d8a4e2cc24261f5d95a8c465e582974ee1e9837c6c95b62d49ed6",
+    "label_origin": "new_human_reviewed",
+    "annotation_revision": 1,
+    "teacher": "datos/docente/webcam_05s_web1_0000018.npz",
+    "teacher_sha256": "1346e6f1d21e4729e7ab588380b702240d151a9452ff88b2750569f298b3dcf1",
+    "scene": {
+      "x_cm": 11.0,
+      "y_cm": 14.0,
+      "angle_deg": 90.0,
+      "length_cm": 17.0,
+      "width_cm": 1.7,
+      "mode": "none",
+      "mesh_mm": 1.5,
+      "domain_scale": 16
+    },
+    "transform": [
+      [
+        198.30640763462847,
+        235.34560327198363
+      ],
+      [
+        [
+          0.9999992789906268,
+          0.0012008406331991317
+        ],
+        [
+          0.0012008406331991317,
+          -0.9999992789906268
+        ]
+      ],
+      0.0017997799106144526
+    ],
+    "valid_pixels": 112896,
+    "air_pixels": 111443,
+    "content_coverage": 1.0,
+    "mesh_metrics": {
+      "nodes": 11198,
+      "triangles": 22055,
+      "solve_total_ms": 218.75,
+      "phi_min": 0.0,
+      "phi_max": 1.0,
+      "air_residual_max": 2.7755575615628914e-15,
+      "ruler_charge_normalized": null,
+      "ruler_phi": null,
+      "ruler_equipotential_spread": null,
+      "total_charge_balance": -9.882394381988124e-15
+    },
+    "dataset_source": "ruler_corpus_v2",
+    "previous_split": "train",
+    "source_teacher": "physicsai_potencial_led_finetuning_v2/datos/docente/webcam_05s_web1_0000018.npz"
+  },
+  {
+    "id": "webcam_05s_web2_0000192",
+    "split": "train",
+    "camera": "webcam",
+    "group": "webcam:web2",
+    "video_id": "web2",
+    "frame_index": 192,
+    "timestamp_s": 6.4,
+    "image": "datos/imagenes/webcam_05s_web2_0000192.jpg",
+    "mask": "datos/mascaras/webcam_05s_web2_0000192.png",
+    "image_sha256": "c2ca3eba8df239609fd7ef6a5b2a4fae96ffa7e99266130e424bc7ed80dcbe00",
+    "mask_sha256": "572ea946c0e28ead8bbec1b41b4bbe72886283ce5678edd071d2cb84c3c8a6d3",
+    "original_image": "/Users/alfergar/Desktop/PhysicsAI_Regla_Experimental/Ampliacion_Frames_05s_YOLO_v1/nuevos/imagenes/webcam_05s_web2_0000192.jpg",
+    "original_sha256": "35357b9bcf0ec2775ab6090f19d51fc25c13e5bd07bf923ea9b6ebc3a299a535",
+    "original_width": 1280,
+    "original_height": 720,
+    "letterbox": {
+      "scale": 0.35,
+      "left": 0,
+      "top": 98,
+      "width": 448,
+      "height": 252
+    },
+    "masks": [
+      {
+        "class_id": 0,
+        "pixels_original": 9565,
+        "source_mask_sha256": "2b49e7e6df2aa5836c88974fca891d760982531db63c67da43492f22c72661d5"
+      },
+      {
+        "class_id": 1,
+        "pixels_original": 14534,
+        "source_mask_sha256": "128f1fb077d981c51a09f5e6339d19c4e163a76f3af5a431e2c3a758a7016854"
+      },
+      {
+        "class_id": 2,
+        "pixels_original": 16073,
+        "source_mask_sha256": "461d710ac30341ff12fe2e6faaff6b6c4986ed4e0d6de7c5e56a3785596536df"
+      }
+    ],
+    "review_sha256": "78a834f91467a14953debb8a69628df2d7303da69302066d5db5cdb1949fb01d",
+    "annotation_sha256": "8a032403424d8a4e2cc24261f5d95a8c465e582974ee1e9837c6c95b62d49ed6",
+    "label_origin": "new_human_reviewed",
+    "annotation_revision": 1,
+    "teacher": "datos/docente/webcam_05s_web2_0000192.npz",
+    "teacher_sha256": "3fdd3547ed0e4d0f18818e9da86bff4e4d77945a7ebd9ac80fb95cf448d65f52",
+    "scene": {
+      "x_cm": 12.0,
+      "y_cm": 5.0,
+      "angle_deg": -6,
+      "length_cm": 17.0,
+      "width_cm": 1.7,
+      "mode": "ground",
+      "mesh_mm": 1.5,
+      "domain_scale": 16
+    },
+    "transform": [
+      [
+        258.04948729380294,
+        207.79595779462028
+      ],
+      [
+        [
+          0.9983870720672166,
+          0.05677371160185602
+        ],
+        [
+          0.05677371160185602,
+          -0.9983870720672166
+        ]
+      ],
+      0.001189743334460343
+    ],
+    "valid_pixels": 112896,
+    "air_pixels": 107579,
+    "content_coverage": 1.0,
+    "mesh_metrics": {
+      "nodes": 16650,
+      "triangles": 32709,
+      "solve_total_ms": 324.71,
+      "phi_min": 0.0,
+      "phi_max": 1.0,
+      "air_residual_max": 5.329070518200751e-15,
+      "ruler_charge_normalized": -4.439979580794573,
+      "ruler_phi": 0.0,
+      "ruler_equipotential_spread": 0.0,
+      "total_charge_balance": -4.769242726437861e-15
+    },
+    "dataset_source": "ruler_corpus_v2",
+    "previous_split": "train",
+    "source_teacher": "physicsai_potencial_led_finetuning_v2/datos/docente/webcam_05s_web2_0000192.npz"
+  },
+  {
+    "id": "webcam_05s_web3_0000652",
+    "split": "train",
+    "camera": "webcam",
+    "group": "webcam:web3",
+    "video_id": "web3",
+    "frame_index": 652,
+    "timestamp_s": 21.733333333333334,
+    "image": "datos/imagenes/webcam_05s_web3_0000652.jpg",
+    "mask": "datos/mascaras/webcam_05s_web3_0000652.png",
+    "image_sha256": "50b4bb7f11cae7210e1bdd010c43fe7232484be67df7fea6ea916f55079a1773",
+    "mask_sha256": "3087a48d86f54e470a1e9d7a013f3441440bb10e7ede5a8b4ab37da783b84375",
+    "original_image": "/Users/alfergar/Desktop/PhysicsAI_Regla_Experimental/Ampliacion_Frames_05s_YOLO_v1/nuevos/imagenes/webcam_05s_web3_0000652.jpg",
+    "original_sha256": "ed23dd4dc41f594aa50783f6e10bc4f531690561ce0fb40f954209a2a7708a24",
+    "original_width": 1280,
+    "original_height": 720,
+    "letterbox": {
+      "scale": 0.35,
+      "left": 0,
+      "top": 98,
+      "width": 448,
+      "height": 252
+    },
+    "masks": [
+      {
+        "class_id": 0,
+        "pixels_original": 13191,
+        "source_mask_sha256": "d9206b47e9d7eb46fe0539e1ebf37ee89dbc11daf501a2c862637debd7374716"
+      },
+      {
+        "class_id": 1,
+        "pixels_original": 20044,
+        "source_mask_sha256": "34e76811fd1926ec84b785c66373384f67b629626e225c024188ad242faf0ce4"
+      },
+      {
+        "class_id": 2,
+        "pixels_original": 5231,
+        "source_mask_sha256": "c4d6507fce12a6bd4ac0b898bf0bf4b41cc79b7090a55019b1dd355ef0b78102"
+      }
+    ],
+    "review_sha256": "78a834f91467a14953debb8a69628df2d7303da69302066d5db5cdb1949fb01d",
+    "annotation_sha256": "8a032403424d8a4e2cc24261f5d95a8c465e582974ee1e9837c6c95b62d49ed6",
+    "label_origin": "new_human_reviewed",
+    "annotation_revision": 2,
+    "teacher": "datos/docente/webcam_05s_web3_0000652.npz",
+    "teacher_sha256": "8565bda8d0b686b610fdcfaa04e5aeeb2b899f9e4b2418288bf9ccea4fc8743d",
+    "scene": {
+      "x_cm": 5.800000000000001,
+      "y_cm": 23.0,
+      "angle_deg": 34,
+      "length_cm": 17.0,
+      "width_cm": 1.7,
+      "mode": "ground",
+      "mesh_mm": 1.5,
+      "domain_scale": 16
+    },
+    "transform": [
+      [
+        233.51810317206025,
+        182.79440350315068
+      ],
+      [
+        [
+          0.9946540027692636,
+          0.10326381154635722
+        ],
+        [
+          0.10326381154635722,
+          -0.9946540027692636
+        ]
+      ],
+      0.0010095544868884499
+    ],
+    "valid_pixels": 112896,
+    "air_pixels": 107453,
+    "content_coverage": 1.0,
+    "mesh_metrics": {
+      "nodes": 17272,
+      "triangles": 33953,
+      "solve_total_ms": 328.44,
+      "phi_min": 0.0,
+      "phi_max": 1.0,
+      "air_residual_max": 2.55351295663786e-15,
+      "ruler_charge_normalized": -2.9348202231272005,
+      "ruler_phi": 0.0,
+      "ruler_equipotential_spread": 0.0,
+      "total_charge_balance": -2.666757873553971e-15
+    },
+    "dataset_source": "ruler_corpus_v2",
+    "previous_split": "train",
+    "source_teacher": "physicsai_potencial_led_finetuning_v2/datos/docente/webcam_05s_web3_0000652.npz"
+  },
+  {
+    "id": "webcam_real_000029",
+    "split": "train",
+    "camera": "webcam",
+    "group": "webcam:web1",
+    "capture_session": "webcam_2026-10-22",
+    "image": "datos/imagenes/webcam_real_000029.jpg",
+    "mask": "datos/mascaras/webcam_real_000029.png",
+    "image_sha256": "83c9c91a165231416bacacf21e0e4705ee36f1dc52daed9a41eef997d0fc5c3f",
+    "mask_sha256": "8a6bd27ee8c29a0c5d2e2479baf6ba4e227aa1223ba81950ddbb964d0de1f0a9",
+    "original_image": "/Users/alfergar/Desktop/PhysicsAI_Regla_Experimental/datos/dataset_regla_webcam_v1/imagenes/webcam_real_000029.png",
+    "original_sha256": "49e31501cd2676b9d04234336e5dc5ac51e0cdc979b955901f4f86d20dcd010d",
+    "annotation_sha256": "f77cb89c0f886cdf33aec5c30c2d3d47705235d9f4e51be3f8204b93b5d8feb4",
+    "review_sha256": "8cf6138049729428cde396e361ef291abac0688f3f107576b1d897e7e64625d2",
+    "original_width": 1280,
+    "original_height": 720,
+    "letterbox": {
+      "scale": 0.35,
+      "left": 0,
+      "top": 98,
+      "width": 448,
+      "height": 252
+    },
+    "masks": [
+      {
+        "class_id": 0,
+        "pixels_original": 4476,
+        "source_mask_sha256": "0d91f9a11827c317f7f951d8116c1f5cda9b7943ea4bc7b7a6a272dcba6422af"
+      },
+      {
+        "class_id": 1,
+        "pixels_original": 7409,
+        "source_mask_sha256": "835e03021f5343119f0ab483c26299ec66e43a523e461f046cd5510ad0601859"
+      },
+      {
+        "class_id": 2,
+        "pixels_original": 8616,
+        "source_mask_sha256": "7e1ed0a1e2224f1e3ce9b8cc72335b7697642c03b1353fb17a5d50d053822b33"
+      }
+    ],
+    "video_id": "web1",
+    "frame_index": 863,
+    "timestamp_s": 28.766666666666666,
+    "label_origin": "previous_human_reviewed",
+    "teacher": "datos/docente/webcam_real_000029.npz",
+    "teacher_sha256": "0cabca24cd9a3016d02fcbeb73d823e888bfb6cb276fe64b7ed0da56acac343c",
+    "scene": {
+      "x_cm": -7.800000000000001,
+      "y_cm": 11.8,
+      "angle_deg": 114,
+      "length_cm": 17.0,
+      "width_cm": 1.7,
+      "mode": "ground",
+      "mesh_mm": 1.5,
+      "domain_scale": 16
+    },
+    "transform": [
+      [
+        214.99145299145297,
+        234.84352399737014
+      ],
+      [
+        [
+          0.9998038466394382,
+          -0.019805762923522475
+        ],
+        [
+          -0.019805762923522475,
+          -0.9998038466394382
+        ]
+      ],
+      0.0017866945897962126
+    ],
+    "valid_pixels": 112896,
+    "air_pixels": 110538,
+    "content_coverage": 1.0,
+    "mesh_metrics": {
+      "nodes": 16236,
+      "triangles": 31881,
+      "solve_total_ms": 299.0,
+      "phi_min": 0.0,
+      "phi_max": 1.0,
+      "air_residual_max": 3.552713678800501e-15,
+      "ruler_charge_normalized": -5.203681503653922,
+      "ruler_phi": 0.0,
+      "ruler_equipotential_spread": 0.0,
+      "total_charge_balance": 1.7439175103994842e-14
+    },
+    "dataset_source": "ruler_corpus_v2",
+    "previous_split": "train",
+    "source_teacher": "physicsai_potencial_led_finetuning_v2/datos/docente/webcam_real_000029.npz"
+  },
+  {
+    "id": "webcam_real_000069",
+    "split": "train",
+    "camera": "webcam",
+    "group": "webcam:web2",
+    "capture_session": "webcam_2026-10-22",
+    "image": "datos/imagenes/webcam_real_000069.jpg",
+    "mask": "datos/mascaras/webcam_real_000069.png",
+    "image_sha256": "abcf84a82ed0e4d23473eeb7fc3b2a1c722c5f03f70d55ace1c16ffc98fbba15",
+    "mask_sha256": "abb303b0b5db55c80efe76e131f0b2c37d7a9c116efae498b7553ce5fcba4a5f",
+    "original_image": "/Users/alfergar/Desktop/PhysicsAI_Regla_Experimental/datos/dataset_regla_webcam_v1/imagenes/webcam_real_000069.png",
+    "original_sha256": "a8a7c8dd468508b812bcd7be66fd10d64632fa3250d811f6573d41f4f822aa62",
+    "annotation_sha256": "f77cb89c0f886cdf33aec5c30c2d3d47705235d9f4e51be3f8204b93b5d8feb4",
+    "review_sha256": "8cf6138049729428cde396e361ef291abac0688f3f107576b1d897e7e64625d2",
+    "original_width": 1280,
+    "original_height": 720,
+    "letterbox": {
+      "scale": 0.35,
+      "left": 0,
+      "top": 98,
+      "width": 448,
+      "height": 252
+    },
+    "masks": [
+      {
+        "class_id": 0,
+        "pixels_original": 9007,
+        "source_mask_sha256": "c02646fe15f71584a076c4c0edd7cf0daa365bda98150400212c02a63e80b3df"
+      },
+      {
+        "class_id": 1,
+        "pixels_original": 14144,
+        "source_mask_sha256": "ed978966f59c6d4281de2293298ecadeb2f4da89d18a6adec41e8c77a87b3cd1"
+      },
+      {
+        "class_id": 2,
+        "pixels_original": 12301,
+        "source_mask_sha256": "f991cebefd6a1b9f5404568b63eb987d8fdd0f1988a4a17cdbce8750adb9bea0"
+      }
+    ],
+    "video_id": "web2",
+    "frame_index": 607,
+    "timestamp_s": 20.233333333333334,
+    "label_origin": "previous_human_reviewed",
+    "teacher": "datos/docente/webcam_real_000069.npz",
+    "teacher_sha256": "217a5460049932404c6c7ae51aeb95ac937d3f77f5a34c8dad1267e4ac0271f8",
+    "scene": {
+      "x_cm": -8.6,
+      "y_cm": -1.0,
+      "angle_deg": -126,
+      "length_cm": 17.0,
+      "width_cm": 1.7,
+      "mode": "ground",
+      "mesh_mm": 1.5,
+      "domain_scale": 16
+    },
+    "transform": [
+      [
+        254.63235998085207,
+        232.90314344981647
+      ],
+      [
+        [
+          0.9969349784532284,
+          0.07823457507049454
+        ],
+        [
+          0.07823457507049454,
+          -0.9969349784532284
+        ]
+      ],
+      0.0012301769173827751
+    ],
+    "valid_pixels": 112896,
+    "air_pixels": 108604,
+    "content_coverage": 1.0,
+    "mesh_metrics": {
+      "nodes": 16439,
+      "triangles": 32287,
+      "solve_total_ms": 317.13,
+      "phi_min": 0.0,
+      "phi_max": 1.0,
+      "air_residual_max": 2.886579864025407e-15,
+      "ruler_charge_normalized": -5.109834114158167,
+      "ruler_phi": 0.0,
+      "ruler_equipotential_spread": 0.0,
+      "total_charge_balance": 4.789354676737467e-15
+    },
+    "dataset_source": "ruler_corpus_v2",
+    "previous_split": "train",
+    "source_teacher": "physicsai_potencial_led_finetuning_v2/datos/docente/webcam_real_000069.npz"
+  },
+  {
+    "id": "webcam_real_000105",
+    "split": "train",
+    "camera": "webcam",
+    "group": "webcam:web3",
+    "capture_session": "webcam_2026-10-22",
+    "image": "datos/imagenes/webcam_real_000105.jpg",
+    "mask": "datos/mascaras/webcam_real_000105.png",
+    "image_sha256": "6e9141bbd3484ff5c1bec1b22cdc5e830298691f392289deca82051a8eeb6ec4",
+    "mask_sha256": "42f2b8f0357156b68a27ee6649b117e9b48f70ea6342a6f6b123b0e527513dab",
+    "original_image": "/Users/alfergar/Desktop/PhysicsAI_Regla_Experimental/datos/dataset_regla_webcam_v1/imagenes/webcam_real_000105.png",
+    "original_sha256": "48e1b3f3bd0041217e18650a3a23d7f5ae0edbfa9cebf94855a03de2792c530a",
+    "annotation_sha256": "f77cb89c0f886cdf33aec5c30c2d3d47705235d9f4e51be3f8204b93b5d8feb4",
+    "review_sha256": "8cf6138049729428cde396e361ef291abac0688f3f107576b1d897e7e64625d2",
+    "original_width": 1280,
+    "original_height": 720,
+    "letterbox": {
+      "scale": 0.35,
+      "left": 0,
+      "top": 98,
+      "width": 448,
+      "height": 252
+    },
+    "masks": [
+      {
+        "class_id": 0,
+        "pixels_original": 12883,
+        "source_mask_sha256": "de245f97208723c74c59b789353b214824e179cf91ed1e14c4ab588089532d89"
+      },
+      {
+        "class_id": 1,
+        "pixels_original": 24092,
+        "source_mask_sha256": "96907817716767edc7307bc16d849c45b7a95200b97adcf7cc66cee49d633a42"
+      },
+      {
+        "class_id": 2,
+        "pixels_original": 0,
+        "source_mask_sha256": "85afa9a15482ed8a9a79d3a44c593674d51a70f03e66d075d6dc04388ff0a0d2"
+      }
+    ],
+    "video_id": "web3",
+    "frame_index": 877,
+    "timestamp_s": 29.233333333333334,
+    "label_origin": "previous_human_reviewed",
+    "teacher": "datos/docente/webcam_real_000105.npz",
+    "teacher_sha256": "c9778d7617f43ec7ff33d192f001d7b831fd5d793a25f6f4647505d7bb2320ee",
+    "scene": {
+      "x_cm": 11.0,
+      "y_cm": 14.0,
+      "angle_deg": 90.0,
+      "length_cm": 17.0,
+      "width_cm": 1.7,
+      "mode": "none",
+      "mesh_mm": 1.5,
+      "domain_scale": 16
+    },
+    "transform": [
+      [
+        271.7199381078691,
+        120.60897435897435
+      ],
+      [
+        [
+          0.9879430849965267,
+          0.1548175080782066
+        ],
+        [
+          0.1548175080782066,
+          -0.9879430849965267
+        ]
+      ],
+      0.0010249935707085521
+    ],
+    "valid_pixels": 112896,
+    "air_pixels": 108477,
+    "content_coverage": 1.0,
+    "mesh_metrics": {
+      "nodes": 11198,
+      "triangles": 22055,
+      "solve_total_ms": 218.66,
+      "phi_min": 0.0,
+      "phi_max": 1.0,
+      "air_residual_max": 2.7755575615628914e-15,
+      "ruler_charge_normalized": null,
+      "ruler_phi": null,
+      "ruler_equipotential_spread": null,
+      "total_charge_balance": -9.882394381988124e-15
+    },
+    "dataset_source": "ruler_corpus_v2",
+    "previous_split": "train",
+    "source_teacher": "physicsai_potencial_led_finetuning_v2/datos/docente/webcam_real_000105.npz"
+  }
+]

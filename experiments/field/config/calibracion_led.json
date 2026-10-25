@@ -1,0 +1,44 @@
+{
+  "A_V": 6.019078473682064,
+  "gamma": 0.40580894137904955,
+  "R2_log": 0.8749823928059325,
+  "observations": {
+    "colors": [
+      "white",
+      "blue",
+      "green",
+      "yellow",
+      "red"
+    ],
+    "distance_cm": [
+      5,
+      6,
+      6.5,
+      12,
+      17
+    ],
+    "assigned_voltage_V": [
+      3.3,
+      3.1,
+      2.5,
+      2.1,
+      2.0
+    ],
+    "fit": "ordinary least squares of ln(V/1 V) against ln(d/1 cm), one global calibration fitted only to the five experimental LED pairs",
+    "label_curve": "A*(d/1 cm)**(-gamma), positive distances; no artificial endpoint anchors and no target clipping",
+    "range_cm": [
+      5,
+      17
+    ],
+    "out_of_range_policy": "Retain positive query distances; identify extrapolated labels and separately report interval/extrapolation subsets. Applies to every model, without selection on results.",
+    "empirical_feature": "negative centered finite-difference derivative, half-step 0.05 cm, same fitted power law; no slope clipping required at retained queries",
+    "source": "Figure 3 and author confirmation; observed manual activation distances, color-estimated threshold voltages, LED legs separated by 2 cm"
+  },
+  "source_sha256": "18395cc09b3dfde02bcbe1114ddb118566129fa02ca67e42e2a735351bc5be05",
+  "source": "/Users/alfergar/Desktop/03_Fisica_IA_Electromagnetismo/ProyectoFinal-PhysicsAI/paper_CLAGTEE2026_revision/github_release/docs/calibration_summary.json",
+  "interval_cm": [
+    5,
+    17
+  ],
+  "interpretation": "LED-equivalent surrogate voltage; not an independently measured potential relative to ground."
+}

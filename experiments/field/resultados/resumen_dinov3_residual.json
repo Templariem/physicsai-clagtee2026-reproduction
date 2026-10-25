@@ -1,0 +1,11 @@
+{
+  "run": "dinov3_residual",
+  "best_epoch": 1,
+  "epochs": 11,
+  "best_validation_criterion_V": 0.03763584427548995,
+  "elapsed_minutes": 2.0284428674333563,
+  "checkpoint_sha256": "7b40382761247ea64dc62f214a7f330e2a517c692e7e72a9f8a11e3cf0775f4b",
+  "checkpoint": "/data/projects/physicsai_comun_led_regla_v3/modelos/dinov3_residual.pt",
+  "peak_gpu_allocated_gib": 0.3356595039367676,
+  "validation_only": true
+}

@@ -1,0 +1,415 @@
+{
+  "gmsh_version": "4.15.2",
+  "mesh_origin": "Reconstructed with the recorded teacher scene and unchanged solver; checked against stored target fields and mesh counts.",
+  "cases": [
+    {
+      "id": "led_original_frame_107",
+      "scene": {
+        "x_cm": 11.0,
+        "y_cm": 14.0,
+        "angle_deg": 90.0,
+        "length_cm": 17.0,
+        "width_cm": 1.7,
+        "mode": "none",
+        "mesh_mm": 1.5,
+        "domain_scale": 16
+      },
+      "transform": [
+        [
+          248.68769607336156,
+          233.26266073706344
+        ],
+        [
+          [
+            0.9867832448836388,
+            0.16204575778747346
+          ],
+          [
+            0.16204575778747346,
+            -0.9867832448836388
+          ]
+        ],
+        0.0005737900163092426
+      ],
+      "nodes": 11198,
+      "triangles": 22055,
+      "counts_match": true,
+      "target_phi_max_abs_error": 0.0
+    },
+    {
+      "id": "regla_var_0150",
+      "scene": {
+        "x_cm": 11.8,
+        "y_cm": 10.600000000000001,
+        "angle_deg": -6,
+        "length_cm": 17.0,
+        "width_cm": 1.7,
+        "mode": "ground",
+        "mesh_mm": 1.5,
+        "domain_scale": 16
+      },
+      "transform": [
+        [
+          188.65186167274334,
+          217.14285714285714
+        ],
+        [
+          [
+            0.9993541531852582,
+            -0.0359343361059499
+          ],
+          [
+            -0.0359343361059499,
+            -0.9993541531852582
+          ]
+        ],
+        0.0010258286931991252
+      ],
+      "nodes": 16447,
+      "triangles": 32303,
+      "counts_match": true,
+      "target_phi_max_abs_error": 0.0
+    },
+    {
+      "id": "regla_real_000008",
+      "scene": {
+        "x_cm": 12.4,
+        "y_cm": 8.4,
+        "angle_deg": 0,
+        "length_cm": 17.0,
+        "width_cm": 1.7,
+        "mode": "ground",
+        "mesh_mm": 1.5,
+        "domain_scale": 16
+      },
+      "transform": [
+        [
+          254.2014619883041,
+          209.6958089668616
+        ],
+        [
+          [
+            0.9999182796813127,
+            0.012784129190678959
+          ],
+          [
+            0.012784129190678959,
+            -0.9999182796813127
+          ]
+        ],
+        0.0009639842217012498
+      ],
+      "nodes": 16752,
+      "triangles": 32913,
+      "counts_match": true,
+      "target_phi_max_abs_error": 0.0
+    },
+    {
+      "id": "webcam_real_000010",
+      "scene": {
+        "x_cm": 12.200000000000001,
+        "y_cm": 11.8,
+        "angle_deg": 24,
+        "length_cm": 17.0,
+        "width_cm": 1.7,
+        "mode": "ground",
+        "mesh_mm": 1.5,
+        "domain_scale": 16
+      },
+      "transform": [
+        [
+          204.4014675052411,
+          226.5097833682739
+        ],
+        [
+          [
+            0.9999838630835287,
+            0.005680983413315529
+          ],
+          [
+            0.005680983413315529,
+            -0.9999838630835287
+          ]
+        ],
+        0.0018201893847560515
+      ],
+      "nodes": 16887,
+      "triangles": 33183,
+      "counts_match": true,
+      "target_phi_max_abs_error": 0.0
+    },
+    {
+      "id": "led_original_frame_219",
+      "scene": {
+        "x_cm": 11.0,
+        "y_cm": 14.0,
+        "angle_deg": 90.0,
+        "length_cm": 17.0,
+        "width_cm": 1.7,
+        "mode": "none",
+        "mesh_mm": 1.5,
+        "domain_scale": 16
+      },
+      "transform": [
+        [
+          243.65587792195169,
+          209.54215872090197
+        ],
+        [
+          [
+            0.9772604961679994,
+            0.21204226613926752
+          ],
+          [
+            0.21204226613926752,
+            -0.9772604961679994
+          ]
+        ],
+        0.000681014087356655
+      ],
+      "nodes": 11198,
+      "triangles": 22055,
+      "counts_match": true,
+      "target_phi_max_abs_error": 0.0
+    },
+    {
+      "id": "regla_var_0145",
+      "scene": {
+        "x_cm": -11.0,
+        "y_cm": 7.4,
+        "angle_deg": -168,
+        "length_cm": 17.0,
+        "width_cm": 1.7,
+        "mode": "ground",
+        "mesh_mm": 1.5,
+        "domain_scale": 16
+      },
+      "transform": [
+        [
+          235.3817943680419,
+          217.15995415848067
+        ],
+        [
+          [
+            0.9998863327516457,
+            0.015077187286267911
+          ],
+          [
+            0.015077187286267911,
+            -0.9998863327516457
+          ]
+        ],
+        0.001247781052582722
+      ],
+      "nodes": 16266,
+      "triangles": 31941,
+      "counts_match": true,
+      "target_phi_max_abs_error": 0.0
+    },
+    {
+      "id": "regla_real_000140",
+      "scene": {
+        "x_cm": -4.4,
+        "y_cm": 19.6,
+        "angle_deg": 92,
+        "length_cm": 17.0,
+        "width_cm": 1.7,
+        "mode": "ground",
+        "mesh_mm": 1.5,
+        "domain_scale": 16
+      },
+      "transform": [
+        [
+          282.88504678688724,
+          169.05664001983018
+        ],
+        [
+          [
+            0.9994721745150882,
+            0.03248649519540527
+          ],
+          [
+            0.03248649519540527,
+            -0.9994721745150882
+          ]
+        ],
+        0.0007689002952957179
+      ],
+      "nodes": 16263,
+      "triangles": 31935,
+      "counts_match": true,
+      "target_phi_max_abs_error": 0.0
+    },
+    {
+      "id": "webcam_real_000120",
+      "scene": {
+        "x_cm": 1.0,
+        "y_cm": 23.200000000000003,
+        "angle_deg": 66,
+        "length_cm": 17.0,
+        "width_cm": 1.7,
+        "mode": "ground",
+        "mesh_mm": 1.5,
+        "domain_scale": 16
+      },
+      "transform": [
+        [
+          188.47282796815506,
+          248.67930079612321
+        ],
+        [
+          [
+            0.9996840690237624,
+            -0.0251348789552196
+          ],
+          [
+            -0.0251348789552196,
+            -0.9996840690237624
+          ]
+        ],
+        0.001283640768496138
+      ],
+      "nodes": 16764,
+      "triangles": 32937,
+      "counts_match": true,
+      "target_phi_max_abs_error": 0.0
+    },
+    {
+      "id": "led_original_frame_256",
+      "scene": {
+        "x_cm": 11.0,
+        "y_cm": 14.0,
+        "angle_deg": 90.0,
+        "length_cm": 17.0,
+        "width_cm": 1.7,
+        "mode": "none",
+        "mesh_mm": 1.5,
+        "domain_scale": 16
+      },
+      "transform": [
+        [
+          204.65704036688916,
+          241.24438087454024
+        ],
+        [
+          [
+            0.9999631972324009,
+            -0.008579287893198251
+          ],
+          [
+            -0.008579287893198251,
+            -0.9999631972324009
+          ]
+        ],
+        0.0006577953410963097
+      ],
+      "nodes": 11198,
+      "triangles": 22055,
+      "counts_match": true,
+      "target_phi_max_abs_error": 0.0
+    },
+    {
+      "id": "regla_var_0176",
+      "scene": {
+        "x_cm": 11.0,
+        "y_cm": 13.8,
+        "angle_deg": 6,
+        "length_cm": 17.0,
+        "width_cm": 1.7,
+        "mode": "ground",
+        "mesh_mm": 1.5,
+        "domain_scale": 16
+      },
+      "transform": [
+        [
+          209.96091205211727,
+          218.05035287730726
+        ],
+        [
+          [
+            0.9998567029842858,
+            0.016928481839604697
+          ],
+          [
+            0.016928481839604697,
+            -0.9998567029842858
+          ]
+        ],
+        0.0011369735051584152
+      ],
+      "nodes": 16320,
+      "triangles": 32049,
+      "counts_match": true,
+      "target_phi_max_abs_error": 0.0
+    },
+    {
+      "id": "regla_real_000233",
+      "scene": {
+        "x_cm": -13.8,
+        "y_cm": 26.0,
+        "angle_deg": 110,
+        "length_cm": 17.0,
+        "width_cm": 1.7,
+        "mode": "ground",
+        "mesh_mm": 1.5,
+        "domain_scale": 16
+      },
+      "transform": [
+        [
+          220.04854148966297,
+          176.3696403285188
+        ],
+        [
+          [
+            0.9980552472532128,
+            0.062335571147845846
+          ],
+          [
+            0.062335571147845846,
+            -0.9980552472532128
+          ]
+        ],
+        0.0007352932056551895
+      ],
+      "nodes": 18179,
+      "triangles": 35767,
+      "counts_match": true,
+      "target_phi_max_abs_error": 0.0
+    },
+    {
+      "id": "webcam_real_000158",
+      "scene": {
+        "x_cm": -12.0,
+        "y_cm": 19.8,
+        "angle_deg": 138,
+        "length_cm": 17.0,
+        "width_cm": 1.7,
+        "mode": "ground",
+        "mesh_mm": 1.5,
+        "domain_scale": 16
+      },
+      "transform": [
+        [
+          250.89605568445475,
+          196.4323279195669
+        ],
+        [
+          [
+            0.9990532508539325,
+            0.043504045308332316
+          ],
+          [
+            0.043504045308332316,
+            -0.9990532508539325
+          ]
+        ],
+        0.0012147357215774748
+      ],
+      "nodes": 17421,
+      "triangles": 34251,
+      "counts_match": true,
+      "target_phi_max_abs_error": 0.0
+    }
+  ],
+  "solver_sha256": "7168d78dc059548f45e21ae73e4dc4c74ddb42e0152efbd63d2fae68acdbccc8"
+}

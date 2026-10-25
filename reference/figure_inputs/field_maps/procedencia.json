@@ -1,0 +1,88 @@
+{
+  "models": {
+    "dinov3_residual": {
+      "checkpoint_sha256": "7b40382761247ea64dc62f214a7f330e2a517c692e7e72a9f8a11e3cf0775f4b",
+      "origin": {
+        "led_original_frame_107": "checkpoint inference, no augmentation",
+        "regla_var_0150": "checkpoint inference, no augmentation",
+        "regla_real_000008": "checkpoint inference, no augmentation",
+        "webcam_real_000010": "checkpoint inference, no augmentation",
+        "led_original_frame_219": "checkpoint inference, no augmentation",
+        "regla_var_0145": "checkpoint inference, no augmentation",
+        "regla_real_000140": "checkpoint inference, no augmentation",
+        "webcam_real_000120": "checkpoint inference, no augmentation",
+        "led_original_frame_256": "existing evaluated prediction",
+        "regla_var_0176": "existing evaluated prediction",
+        "regla_real_000233": "existing evaluated prediction",
+        "webcam_real_000158": "existing evaluated prediction"
+      }
+    },
+    "dinov3_full": {
+      "checkpoint_sha256": "f369f91c2a64be1962b41c33326d410879a007566591fa271c7a23cf834e7b6b",
+      "origin": {
+        "led_original_frame_107": "checkpoint inference, no augmentation",
+        "regla_var_0150": "checkpoint inference, no augmentation",
+        "regla_real_000008": "checkpoint inference, no augmentation",
+        "webcam_real_000010": "checkpoint inference, no augmentation",
+        "led_original_frame_219": "checkpoint inference, no augmentation",
+        "regla_var_0145": "checkpoint inference, no augmentation",
+        "regla_real_000140": "checkpoint inference, no augmentation",
+        "webcam_real_000120": "checkpoint inference, no augmentation",
+        "led_original_frame_256": "existing evaluated prediction",
+        "regla_var_0176": "existing evaluated prediction",
+        "regla_real_000233": "existing evaluated prediction",
+        "webcam_real_000158": "existing evaluated prediction"
+      }
+    },
+    "ijepa_residual": {
+      "checkpoint_sha256": "99ab73c4a0c2afa9fd5b3199ddd5276948ba33bd0bfb92a377416949c6995b6b",
+      "origin": {
+        "led_original_frame_107": "checkpoint inference, no augmentation",
+        "regla_var_0150": "checkpoint inference, no augmentation",
+        "regla_real_000008": "checkpoint inference, no augmentation",
+        "webcam_real_000010": "checkpoint inference, no augmentation",
+        "led_original_frame_219": "checkpoint inference, no augmentation",
+        "regla_var_0145": "checkpoint inference, no augmentation",
+        "regla_real_000140": "checkpoint inference, no augmentation",
+        "webcam_real_000120": "checkpoint inference, no augmentation",
+        "led_original_frame_256": "existing evaluated prediction",
+        "regla_var_0176": "existing evaluated prediction",
+        "regla_real_000233": "existing evaluated prediction",
+        "webcam_real_000158": "existing evaluated prediction"
+      }
+    },
+    "ijepa_full": {
+      "checkpoint_sha256": "2c7a2b1a7eecce5d7658b11063c5f68d7ff923820dd5696ca498df5a340ba9c5",
+      "origin": {
+        "led_original_frame_107": "checkpoint inference, no augmentation",
+        "regla_var_0150": "checkpoint inference, no augmentation",
+        "regla_real_000008": "checkpoint inference, no augmentation",
+        "webcam_real_000010": "checkpoint inference, no augmentation",
+        "led_original_frame_219": "checkpoint inference, no augmentation",
+        "regla_var_0145": "checkpoint inference, no augmentation",
+        "regla_real_000140": "checkpoint inference, no augmentation",
+        "webcam_real_000120": "checkpoint inference, no augmentation",
+        "led_original_frame_256": "existing evaluated prediction",
+        "regla_var_0176": "existing evaluated prediction",
+        "regla_real_000233": "existing evaluated prediction",
+        "webcam_real_000158": "existing evaluated prediction"
+      }
+    }
+  },
+  "cases": [
+    "led_original_frame_107",
+    "regla_var_0150",
+    "regla_real_000008",
+    "webcam_real_000010",
+    "led_original_frame_219",
+    "regla_var_0145",
+    "regla_real_000140",
+    "webcam_real_000120",
+    "led_original_frame_256",
+    "regla_var_0176",
+    "regla_real_000233",
+    "webcam_real_000158"
+  ],
+  "precision": "bfloat16 autocast, matching original figure script",
+  "original_models_and_results_modified": false
+}

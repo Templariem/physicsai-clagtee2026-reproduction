@@ -1,0 +1,14 @@
+{
+  "paper_pdf_sha256": "0c67ee2d888f82c7d912d696ba58c5bcc3e8a7892d0d046e0ef297eb5018f7a6",
+  "pages": 8,
+  "equation_blocks_unchanged": true,
+  "table3_byte_identical_after_regeneration": true,
+  "all_accuracy_values_identical_after_fresh_homelab_inference": true,
+  "no_camera_application_in_release": true,
+  "no_retraining": true,
+  "performance_platform": "Linux homelab NVIDIA RTX 5060 Ti 16 GB",
+  "paper_text_changes": [
+    "Q4 explicitly implemented and available as an optional discretization; P1 learning targets",
+    "Public reproduction repository link and present-tense availability"
+  ]
+}

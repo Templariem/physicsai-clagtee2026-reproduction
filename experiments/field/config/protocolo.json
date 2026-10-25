@@ -1,0 +1,128 @@
+{
+  "version": 3,
+  "objective": "Matched common corpus including original LED videos and ruler corpus: six dense RGB variants, physical geometry baseline, two query-extended frozen PCA residual baselines.",
+  "seed": 4242,
+  "encoders": {
+    "dinov3": "Official DINOv3-S/16, 12 blocks",
+    "ijepa": "Official I-JEPA-H/14, 32 blocks"
+  },
+  "arms": {
+    "frozen": "Decoder only",
+    "partial": "Decoder, last quarter of encoder blocks (DINO 3 / I-JEPA 8), final encoder normalization",
+    "full": "Decoder and all encoder parameters"
+  },
+  "fairness": [
+    "Same common scenes, grouped split, P1 teachers and fixed LED calibration for all learned methods.",
+    "Same 60 epoch cap, patience 10, seed 4242, effective batch16, validation-only stopping and fixed loss family.",
+    "Six dense variants share decoder initialization and augmentation. Residual baselines retain frozen backbone, PCA128, MLP 64/32 and gate0.25, extended with physical query features for dense prediction.",
+    "Physical and residual methods receive oracle geometry; direct RGB models do not. Report this input advantage explicitly.",
+    "All checkpoints frozen before diagnostic test; previously inspected video holdouts are not a new blind evaluation."
+  ],
+  "teacher": {
+    "grounded_ruler": true,
+    "domain_scale": 16,
+    "mesh_mm": 1.5,
+    "nearfield_plateau_m": 0.0125,
+    "farfield_grading_transition_m": [
+      0.35,
+      2.0
+    ],
+    "original_LED_fit_and_observations_fixed": true,
+    "amplitude_remapping": "Recomputed consistently from the refined no-ruler FEM profile; not a new LED fit.",
+    "geometry": "Previous mask-to-planar-registration heuristic; 17 x 1.7 cm ruler, fixed coil; hand, RF discharge, depth and 3D not modelled."
+  },
+  "training": {
+    "max_epochs": 60,
+    "patience": 10,
+    "optimizer": "AdamW foreach=False",
+    "decoder_lr": 0.001,
+    "encoder_lr": 1e-05,
+    "weight_decay": 0.001,
+    "scheduler": "cosine to zero",
+    "effective_batch": 16,
+    "precision": "BF16 on supported GPU, otherwise FP16 with scaler",
+    "gradient_checkpointing": "non-reentrant for partial/full",
+    "sampling": "50% ruler / 50% no-ruler; equal camera/source, then equal video/scene group within condition, then equal frames; shared deterministic order across RGB methods and physical sampled-query baseline.",
+    "loss": "Unmodified v1 calibrated-potential, normalized-phi and gradient losses",
+    "selection": "0.5 real-validation air MAE + 0.5 real-validation affected-air MAE, group-equal means"
+  },
+  "augmentation": {
+    "online": true,
+    "seed": "SHA256(seed, epoch, image id); identical across arms",
+    "flip": 0.5,
+    "rotation_degrees": [
+      -8,
+      8
+    ],
+    "translation_fraction": [
+      -0.08,
+      0.08
+    ],
+    "zoom_out": {
+      "near_probability": 0.35,
+      "near_scale": 1,
+      "medium_probability": 0.4,
+      "medium_scale": [
+        0.5,
+        0.85
+      ],
+      "far_probability": 0.25,
+      "far_scale": [
+        0.22,
+        0.45
+      ]
+    },
+    "photometric": [
+      "brightness .85-1.15",
+      "contrast .85-1.15",
+      "channel gain .9-1.1",
+      "Gaussian blur probability .2 sigma .3-1.2",
+      "noise probability .25 sigma 0-4 levels",
+      "JPEG probability .2 quality 65-95"
+    ],
+    "teacher_pairing": "Same geometric warp for RGB, phi, phi0, valid, air, ruler. Normalized convolution; invalid/padded pixels excluded. Photometric changes RGB only. No object rearrangement, mosaic or cut-paste."
+  },
+  "evaluation": {
+    "video_split": {
+      "IMG_6784": "val",
+      "IMG_6787": "test",
+      "web4": "val",
+      "web5": "test",
+      "original_video_1": "train",
+      "original_video_2": "train",
+      "original_video_3": "train",
+      "original_video_4": "train",
+      "original_video_5": "train",
+      "original_video_6": "train",
+      "original_video_7": "val",
+      "original_video_8": "test",
+      "original_video_9": "test"
+    },
+    "synthetic_split": "Unchanged whole scene-family split",
+    "test": "Freeze all six checkpoints before one diagnostic test pass; no model selection or retraining afterward",
+    "prospective": "A new camera recording remains necessary; these reserved videos were inspected in earlier trials.",
+    "metrics": [
+      "air MAE/RMSE V_LED",
+      "affected-air MAE",
+      "supported/extrapolated amplitude MAE",
+      "grounded ruler MAE",
+      "with/without ruler and camera subsets",
+      "Mac inference latency, later",
+      "temporal stability on a new video, later"
+    ]
+  },
+  "limitations": [
+    "FEM-derived targets are approximate, not independently measured voltage ground truth.",
+    "Original LED calibration transfer to the grounded-ruler scene is an assumption; source and low-amplitude voltage extension are extrapolated.",
+    "Adjacent frames add observations, not independent capture sessions.",
+    "Full adjustment may overfit; no improvement is guaranteed."
+  ],
+  "release_policy": "Separate v3 experiment only. No app, manuscript, previous weight or release changes. No shutdown scheduled.",
+  "sampling": "50% ruler / 50% no-ruler; equal camera/source, then equal video/scene group within condition, then equal frames; shared deterministic order across RGB methods and physical sampled-query baseline.",
+  "legacy_extension": {
+    "input": "Frozen official encoder pooled features -> train-only PCA128 + 16 physical query features",
+    "head": "MLP (144->64 LayerNorm SiLU Dropout0.2 ->32 SiLU ->1), query evaluated on 112x112 grid, bilinear residual to448",
+    "output": "clamp(new physical baseline phi + 0.25*tanh(residual),0,1), conductor boundary values restored, same LED LUT",
+    "claim": "Query-conditioned extension of legacy scalar architecture, not unchanged original scalar weights."
+  }
+}

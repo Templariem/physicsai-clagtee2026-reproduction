@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "images": 1143,
+  "splits": {
+    "train": 926,
+    "test": 118,
+    "val": 99
+  },
+  "groups": 82,
+  "weights": 14,
+  "asset_files_checked": 6583
+}

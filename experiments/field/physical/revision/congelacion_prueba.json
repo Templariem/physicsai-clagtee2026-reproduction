@@ -1,0 +1,27 @@
+{
+  "checkpoint_sha256": "3c74cd759b75887bbb882000d175def2b87532c973e633ea1057e209d9f92fca",
+  "teacher_manifest_sha256": "3e4d609983354eef16c824ca6c5cbcbbf3fe050da38ed46671e3c974e46e681f",
+  "calibration_sha256": "165ea0251524c0d8226bd3b08f28b0b1ab7c0c140bb5dfd29f05b1e1c4dccd53",
+  "selected_with_validation_only": true,
+  "training_reports": [
+    {
+      "seed": 4242,
+      "best_epoch": 44,
+      "epochs": 54,
+      "criterion_V": 0.03678891831746849
+    },
+    {
+      "seed": 4243,
+      "best_epoch": 57,
+      "epochs": 60,
+      "criterion_V": 0.038487731078927875
+    },
+    {
+      "seed": 4244,
+      "best_epoch": 44,
+      "epochs": 54,
+      "criterion_V": 0.03733136747003536
+    }
+  ],
+  "unix_time": 1792794697.3555076
+}

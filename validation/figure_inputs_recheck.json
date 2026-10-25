@@ -1,0 +1,1098 @@
+{
+  "field_max_differences": {
+    "led_original_frame_219.npz": 0.0,
+    "webcam_real_000010.npz": 0.0,
+    "regla_real_000008.npz": 0.0,
+    "regla_var_0150.npz": 0.0,
+    "regla_real_000233.npz": 0.0,
+    "regla_real_000140.npz": 0.0,
+    "led_original_frame_107.npz": 0.0,
+    "led_original_frame_256.npz": 0.0,
+    "regla_var_0176.npz": 0.0,
+    "webcam_real_000158.npz": 0.0,
+    "regla_var_0145.npz": 0.0,
+    "webcam_real_000120.npz": 0.0
+  },
+  "panels": [
+    {
+      "name": "201.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "190.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "061.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "156.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "184.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "206.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "127.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "153.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "125.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "150.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "028.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "009.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "112.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "198.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "004.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "113.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "035.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "131.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "089.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "105.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "022.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "161.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "174.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "145.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "008.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "057.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "155.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "182.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "100.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "016.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "030.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "209.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "202.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "083.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "036.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "130.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "017.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "046.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "010.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "075.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "139.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "078.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "060.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "039.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "095.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "048.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "013.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "047.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "014.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "110.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "045.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "142.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "176.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "037.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "080.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "032.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "146.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "072.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "180.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "148.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "081.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "189.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "211.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "178.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "191.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "147.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "120.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "000.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "149.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "169.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "170.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "106.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "020.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "026.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "012.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "099.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "196.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "091.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "117.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "021.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "171.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "102.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "128.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "168.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "059.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "065.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "154.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "088.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "116.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "167.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "138.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "051.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "121.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "197.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "192.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "096.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "052.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "212.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "062.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "073.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "085.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "040.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "093.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "129.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "114.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "215.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "159.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "179.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "019.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "044.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "193.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "074.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "058.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "111.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "104.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "124.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "076.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "122.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "033.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "181.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "015.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "098.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "185.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "094.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "141.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "134.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "023.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "011.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "144.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "002.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "143.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "005.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "067.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "194.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "001.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "132.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "043.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "079.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "066.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "038.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "123.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "107.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "055.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "082.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "163.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "056.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "084.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "054.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "158.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "050.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "097.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "108.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "029.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "101.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "077.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "177.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "133.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "214.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "137.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "003.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "064.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "071.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "115.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "151.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "092.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "186.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "025.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "187.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "160.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "068.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "087.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "204.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "042.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "053.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "109.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "200.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "173.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "164.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "119.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "031.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "027.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "069.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "086.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "172.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "199.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "165.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "135.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "118.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "034.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "018.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "175.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "188.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "208.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "126.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "195.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "006.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "152.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "090.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "049.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "183.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "063.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "070.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "207.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "166.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "203.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "210.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "041.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "162.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "007.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "140.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "024.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "205.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "213.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "157.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "136.png",
+      "shape_match": false,
+      "max_difference": null
+    },
+    {
+      "name": "103.png",
+      "shape_match": false,
+      "max_difference": null
+    }
+  ]
+}

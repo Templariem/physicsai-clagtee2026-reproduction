@@ -1,0 +1,117 @@
+{
+  "assembly": "Explicit P1 constant-gradient stiffness and consistent mass; no Q4 field interpolation",
+  "boundary": "Same benchmark boundary values, diagonal penalty 1e15",
+  "cases": [
+    {
+      "case": "dipole",
+      "element": "P1",
+      "nodes": 3029,
+      "triangles": 5828,
+      "nodes_per_element": 3,
+      "free_row_relative_residual": 1.1026851541232703e-15,
+      "boundary_max_error": 5.329070518200751e-15,
+      "kind": "static",
+      "omega": 0.0,
+      "coefficients": {
+        "K": {
+          "1": 1.0
+        },
+        "C": {},
+        "M": {},
+        "source": {}
+      },
+      "mesh_sha256": "49faea67e21fcf6d9299efbe753cef53290fcafa38e3701115186b6b5eb918dc"
+    },
+    {
+      "case": "magnet",
+      "element": "P1",
+      "nodes": 3307,
+      "triangles": 6412,
+      "nodes_per_element": 3,
+      "free_row_relative_residual": 3.9681916080659185e-16,
+      "boundary_max_error": 1.92124981130005e-16,
+      "kind": "static",
+      "omega": 0.0,
+      "coefficients": {
+        "K": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0
+        },
+        "C": {},
+        "M": {},
+        "source": {
+          "1": 0.0,
+          "2": 500.0,
+          "3": -500.0
+        }
+      },
+      "mesh_sha256": "e041a03351caffb02519b3d62307e87ce6415e7d8827663c21f2782e17530606"
+    },
+    {
+      "case": "cables",
+      "element": "P1",
+      "nodes": 5981,
+      "triangles": 11688,
+      "nodes_per_element": 3,
+      "free_row_relative_residual": 5.005212684104409e-16,
+      "boundary_max_error": 1.444122200949343e-16,
+      "kind": "static",
+      "omega": 0.0,
+      "coefficients": {
+        "K": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0
+        },
+        "C": {},
+        "M": {},
+        "source": {
+          "1": 0.0,
+          "2": 800.0,
+          "3": -800.0
+        }
+      },
+      "mesh_sha256": "7f02ae750804c95f6084225d3315bb491e6a637ee2558190da7572b9ced3f7c3"
+    },
+    {
+      "case": "faraday",
+      "element": "P1",
+      "nodes": 4262,
+      "triangles": 8290,
+      "nodes_per_element": 3,
+      "free_row_relative_residual": 1.0119660849904572e-15,
+      "boundary_max_error": 1.3199586370298774e-16,
+      "kind": "harmonic",
+      "omega": 314.1592653589793,
+      "coefficients": {
+        "K": {
+          "1": 795774.7154594767,
+          "2": 795774.7154594767,
+          "3": 795774.7154594767,
+          "4": 795774.7154594767
+        },
+        "C": {
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 35000000.0
+        },
+        "M": {
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "source": {
+          "1": 0.0,
+          "2": 2000.0,
+          "3": -2000.0,
+          "4": 0.0
+        }
+      },
+      "mesh_sha256": "95b7285533fa8121eeaa5015e10c180093c456dbb4ef455c05283342643d3961"
+    }
+  ],
+  "script_sha256": "35c0b1eee1664e2ceeaa2bd3bf244766806ec3bf6533c2567787aa8c37825330"
+}

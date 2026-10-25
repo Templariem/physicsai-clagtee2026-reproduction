@@ -1,0 +1,12 @@
+{
+  "kind": "dinov3",
+  "arm": "frozen",
+  "micro_batch": 4,
+  "effective_batch": 16,
+  "trainable_encoder_parameters": 0,
+  "partial_blocks": 3,
+  "encoder_block_path": "model.layer",
+  "decoder_initialization_seed": 4242,
+  "teacher_manifest_sha256": "3e4d609983354eef16c824ca6c5cbcbbf3fe050da38ed46671e3c974e46e681f",
+  "protocol_sha256": "e71a250414e71338e6b144e7fc492868d608063c93913046b05ee2748dd87fbc"
+}

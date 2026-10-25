@@ -1,0 +1,199 @@
+{
+  "status": "passed",
+  "mode": "fresh checkpoint inference",
+  "rows": [
+    {
+      "model": "physical",
+      "air_mae_V": 0.018190353394659086,
+      "air_rmse_V": 0.025405216079172652,
+      "effect_mae_V": 0.046428910484647076,
+      "grounded_rule_mae_V": 0.0,
+      "legacy_led_air_mae_V": 1.9458964314336348e-07,
+      "iphone_air_mae_V": 0.040529421928981006,
+      "webcam_air_mae_V": 0.03223160247036905,
+      "synthetic_air_mae_V": 0.040845284233509534
+    },
+    {
+      "model": "dinov3_frozen",
+      "air_mae_V": 0.2679303136331817,
+      "air_rmse_V": 0.3589426482244712,
+      "effect_mae_V": 0.35540148745412414,
+      "grounded_rule_mae_V": 0.06947736626328982,
+      "legacy_led_air_mae_V": 0.1984674647450447,
+      "iphone_air_mae_V": 0.3621334456480466,
+      "webcam_air_mae_V": 0.31265287939459085,
+      "synthetic_air_mae_V": 0.24937859140336513
+    },
+    {
+      "model": "dinov3_partial",
+      "air_mae_V": 0.206868881561952,
+      "air_rmse_V": 0.2596335902939305,
+      "effect_mae_V": 0.1565203235628223,
+      "grounded_rule_mae_V": 0.06991164406794657,
+      "legacy_led_air_mae_V": 0.2684109572587269,
+      "iphone_air_mae_V": 0.1513215251840078,
+      "webcam_air_mae_V": 0.13933208654634655,
+      "synthetic_air_mae_V": 0.101083145228525
+    },
+    {
+      "model": "dinov3_full",
+      "air_mae_V": 0.18239723392378457,
+      "air_rmse_V": 0.22732499255594069,
+      "effect_mae_V": 0.1307360508475497,
+      "grounded_rule_mae_V": 0.07908976022356554,
+      "legacy_led_air_mae_V": 0.2411433576207076,
+      "iphone_air_mae_V": 0.11723343168313687,
+      "webcam_air_mae_V": 0.13006878877058625,
+      "synthetic_air_mae_V": 0.08937927909816305
+    },
+    {
+      "model": "dinov3_residual",
+      "air_mae_V": 0.02122408201934037,
+      "air_rmse_V": 0.02868177274077015,
+      "effect_mae_V": 0.04601536696618459,
+      "grounded_rule_mae_V": 0.0,
+      "legacy_led_air_mae_V": 0.005618653205289904,
+      "iphone_air_mae_V": 0.04087199775788646,
+      "webcam_air_mae_V": 0.03278702390889521,
+      "synthetic_air_mae_V": 0.04067683694884181
+    },
+    {
+      "model": "ijepa_frozen",
+      "air_mae_V": 0.5772403808942597,
+      "air_rmse_V": 0.7114736076641398,
+      "effect_mae_V": 0.5657557115371048,
+      "grounded_rule_mae_V": 0.7239348934705667,
+      "legacy_led_air_mae_V": 0.658400133890765,
+      "iphone_air_mae_V": 0.5725299715995789,
+      "webcam_air_mae_V": 0.41963128419592977,
+      "synthetic_air_mae_V": 0.39114127655824027
+    },
+    {
+      "model": "ijepa_partial",
+      "air_mae_V": 0.3284940221675692,
+      "air_rmse_V": 0.4120725051304172,
+      "effect_mae_V": 0.22660905052815739,
+      "grounded_rule_mae_V": 0.21641795951946685,
+      "legacy_led_air_mae_V": 0.44937858232962236,
+      "iphone_air_mae_V": 0.2607117547438695,
+      "webcam_air_mae_V": 0.15450716926716268,
+      "synthetic_air_mae_V": 0.11980933025479316
+    },
+    {
+      "model": "ijepa_full",
+      "air_mae_V": 0.2906481140009179,
+      "air_rmse_V": 0.361386536466275,
+      "effect_mae_V": 0.31388773429005046,
+      "grounded_rule_mae_V": 0.4015573589444131,
+      "legacy_led_air_mae_V": 0.29834266150636335,
+      "iphone_air_mae_V": 0.381360783886451,
+      "webcam_air_mae_V": 0.18454634910449386,
+      "synthetic_air_mae_V": 0.10867342315614224
+    },
+    {
+      "model": "ijepa_residual",
+      "air_mae_V": 0.018560843819701044,
+      "air_rmse_V": 0.025804830447452912,
+      "effect_mae_V": 0.04648209352546883,
+      "grounded_rule_mae_V": 0.0,
+      "legacy_led_air_mae_V": 0.0005402802890915024,
+      "iphone_air_mae_V": 0.04057734602807054,
+      "webcam_air_mae_V": 0.03258546867255063,
+      "synthetic_air_mae_V": 0.04086001914304992
+    }
+  ],
+  "differences": {
+    "physical": {
+      "air_mae_V": 0.0,
+      "air_rmse_V": 0.0,
+      "effect_mae_V": 0.0,
+      "grounded_rule_mae_V": 0.0,
+      "legacy_led_air_mae_V": 0.0,
+      "iphone_air_mae_V": 0.0,
+      "webcam_air_mae_V": 0.0,
+      "synthetic_air_mae_V": 0.0
+    },
+    "dinov3_frozen": {
+      "air_mae_V": 0.0,
+      "air_rmse_V": 0.0,
+      "effect_mae_V": 0.0,
+      "grounded_rule_mae_V": 0.0,
+      "legacy_led_air_mae_V": 0.0,
+      "iphone_air_mae_V": 0.0,
+      "webcam_air_mae_V": 0.0,
+      "synthetic_air_mae_V": 0.0
+    },
+    "dinov3_partial": {
+      "air_mae_V": 0.0,
+      "air_rmse_V": 0.0,
+      "effect_mae_V": 0.0,
+      "grounded_rule_mae_V": 0.0,
+      "legacy_led_air_mae_V": 0.0,
+      "iphone_air_mae_V": 0.0,
+      "webcam_air_mae_V": 0.0,
+      "synthetic_air_mae_V": 0.0
+    },
+    "dinov3_full": {
+      "air_mae_V": 0.0,
+      "air_rmse_V": 0.0,
+      "effect_mae_V": 0.0,
+      "grounded_rule_mae_V": 0.0,
+      "legacy_led_air_mae_V": 0.0,
+      "iphone_air_mae_V": 0.0,
+      "webcam_air_mae_V": 0.0,
+      "synthetic_air_mae_V": 0.0
+    },
+    "dinov3_residual": {
+      "air_mae_V": 0.0,
+      "air_rmse_V": 0.0,
+      "effect_mae_V": 0.0,
+      "grounded_rule_mae_V": 0.0,
+      "legacy_led_air_mae_V": 0.0,
+      "iphone_air_mae_V": 0.0,
+      "webcam_air_mae_V": 0.0,
+      "synthetic_air_mae_V": 0.0
+    },
+    "ijepa_frozen": {
+      "air_mae_V": 0.0,
+      "air_rmse_V": 0.0,
+      "effect_mae_V": 0.0,
+      "grounded_rule_mae_V": 0.0,
+      "legacy_led_air_mae_V": 0.0,
+      "iphone_air_mae_V": 0.0,
+      "webcam_air_mae_V": 0.0,
+      "synthetic_air_mae_V": 0.0
+    },
+    "ijepa_partial": {
+      "air_mae_V": 0.0,
+      "air_rmse_V": 0.0,
+      "effect_mae_V": 0.0,
+      "grounded_rule_mae_V": 0.0,
+      "legacy_led_air_mae_V": 0.0,
+      "iphone_air_mae_V": 0.0,
+      "webcam_air_mae_V": 0.0,
+      "synthetic_air_mae_V": 0.0
+    },
+    "ijepa_full": {
+      "air_mae_V": 0.0,
+      "air_rmse_V": 0.0,
+      "effect_mae_V": 0.0,
+      "grounded_rule_mae_V": 0.0,
+      "legacy_led_air_mae_V": 0.0,
+      "iphone_air_mae_V": 0.0,
+      "webcam_air_mae_V": 0.0,
+      "synthetic_air_mae_V": 0.0
+    },
+    "ijepa_residual": {
+      "air_mae_V": 0.0,
+      "air_rmse_V": 0.0,
+      "effect_mae_V": 0.0,
+      "grounded_rule_mae_V": 0.0,
+      "legacy_led_air_mae_V": 0.0,
+      "iphone_air_mae_V": 0.0,
+      "webcam_air_mae_V": 0.0,
+      "synthetic_air_mae_V": 0.0
+    }
+  },
+  "unit": "LED-equivalent V",
+  "independent_ground_truth": false
+}

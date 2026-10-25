@@ -1,0 +1,11 @@
+{
+  "run": "dinov3_full",
+  "best_epoch": 41,
+  "epochs": 51,
+  "best_validation_criterion_V": 0.16408727431690712,
+  "elapsed_minutes": 11.411618899950009,
+  "checkpoint_sha256": "f369f91c2a64be1962b41c33326d410879a007566591fa271c7a23cf834e7b6b",
+  "checkpoint": "/data/projects/physicsai_comun_led_regla_v3/modelos/dinov3_full.pt",
+  "peak_gpu_allocated_gib": 1.065237045288086,
+  "validation_only": true
+}

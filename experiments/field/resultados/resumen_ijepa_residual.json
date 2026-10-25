@@ -1,0 +1,11 @@
+{
+  "run": "ijepa_residual",
+  "best_epoch": 6,
+  "epochs": 16,
+  "best_validation_criterion_V": 0.03722382081205602,
+  "elapsed_minutes": 12.955610103016625,
+  "checkpoint_sha256": "99ab73c4a0c2afa9fd5b3199ddd5276948ba33bd0bfb92a377416949c6995b6b",
+  "checkpoint": "/data/projects/physicsai_comun_led_regla_v3/modelos/ijepa_residual.pt",
+  "peak_gpu_allocated_gib": 2.547360897064209,
+  "validation_only": true
+}

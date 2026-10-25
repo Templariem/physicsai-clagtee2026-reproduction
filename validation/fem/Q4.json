@@ -1,0 +1,83 @@
+{
+  "element_type": "Q4",
+  "mesh_policy": "Original conformal quadrilateral connectivity; explicit Q4 2x2 Gauss assembly.",
+  "checks": "element stiffness, consistent mass and source integral verified",
+  "verification": [
+    {
+      "mesh": "subdivision",
+      "nodes": 445,
+      "elements": 408,
+      "element_type": "Q4",
+      "relative_errors": [
+        0.0006124421865110343,
+        0.0008914760933354637,
+        0.00026764955566200725,
+        0.027424226539069167
+      ],
+      "assembly_and_solve_s": [
+        0.03821863000121084,
+        0.02759508700182778,
+        0.02670967800077051,
+        0.05172051299814484
+      ]
+    },
+    {
+      "mesh": "blossom",
+      "nodes": 911,
+      "elements": 858,
+      "element_type": "Q4",
+      "relative_errors": [
+        0.0003281630803869415,
+        0.00042445855088211467,
+        0.0001315753922373749,
+        0.00884248591943467
+      ],
+      "assembly_and_solve_s": [
+        0.05335728700083564,
+        0.05310593000103836,
+        0.055565827002283186,
+        0.11022466299982625
+      ]
+    },
+    {
+      "mesh": "transfinite",
+      "nodes": 1157,
+      "elements": 1086,
+      "element_type": "Q4",
+      "relative_errors": [
+        5.385547752912303e-05,
+        0.0001425960810079574,
+        3.867805292718934e-05,
+        0.003625488293036845
+      ],
+      "assembly_and_solve_s": [
+        0.06734918000074686,
+        0.06739077900056145,
+        0.07064554300086456,
+        0.14367292399765574
+      ]
+    }
+  ],
+  "coil": {
+    "nodes": 53827,
+    "elements": 53500,
+    "element_type": "Q4",
+    "elapsed_s": 4.661899287002598,
+    "led_FEM_V": [
+      39998.102858810846,
+      39328.28315036332,
+      39012.20551799871,
+      36067.534776829816,
+      33921.447966129665
+    ],
+    "attenuation": [
+      8.250391303929233e-05,
+      7.882367984760001e-05,
+      6.408250871247456e-05,
+      5.8224106887090694e-05,
+      5.895974729607611e-05
+    ],
+    "source_nodes": 514,
+    "ground_nodes": 33
+  }
+}

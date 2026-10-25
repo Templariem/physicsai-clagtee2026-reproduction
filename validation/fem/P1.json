@@ -1,0 +1,83 @@
+{
+  "element_type": "P1",
+  "mesh_policy": "Each existing conformal quadrilateral split along local diagonal 0-2; unchanged vertices, material interfaces and boundary nodes. P1 assembly performed anew; not Q4 interpolation.",
+  "checks": "element stiffness, consistent mass and source integral verified",
+  "verification": [
+    {
+      "mesh": "subdivision",
+      "nodes": 445,
+      "elements": 816,
+      "element_type": "P1",
+      "relative_errors": [
+        0.00021379306887625994,
+        0.00036638935890984277,
+        0.00022901170015421991,
+        0.04019957002169249
+      ],
+      "assembly_and_solve_s": [
+        0.00387533200046164,
+        0.0035397749998082872,
+        0.003956535998440813,
+        0.033183158000611
+      ]
+    },
+    {
+      "mesh": "blossom",
+      "nodes": 911,
+      "elements": 1716,
+      "element_type": "P1",
+      "relative_errors": [
+        0.00014461360243408502,
+        0.00017575540626174182,
+        0.0001171974056144852,
+        0.015563767030024716
+      ],
+      "assembly_and_solve_s": [
+        0.003593245997763006,
+        0.0034837790008168668,
+        0.003890429998136824,
+        0.05018838599789888
+      ]
+    },
+    {
+      "mesh": "transfinite",
+      "nodes": 1157,
+      "elements": 2172,
+      "element_type": "P1",
+      "relative_errors": [
+        9.632532975848176e-05,
+        0.00022154440527354796,
+        7.82601262669565e-05,
+        0.0043419344974859626
+      ],
+      "assembly_and_solve_s": [
+        0.004398283999762498,
+        0.004408051998325391,
+        0.004967181997926673,
+        0.06153706499753753
+      ]
+    }
+  ],
+  "coil": {
+    "nodes": 53827,
+    "elements": 107000,
+    "element_type": "P1",
+    "elapsed_s": 0.7814357139977801,
+    "led_FEM_V": [
+      39993.94297916114,
+      39323.79369967528,
+      39007.73966659877,
+      36063.25876601684,
+      33916.97958949855
+    ],
+    "attenuation": [
+      8.251249449746594e-05,
+      7.883267885279335e-05,
+      6.408984528115787e-05,
+      5.823101050365625e-05,
+      5.8967514920439566e-05
+    ],
+    "source_nodes": 514,
+    "ground_nodes": 33
+  }
+}

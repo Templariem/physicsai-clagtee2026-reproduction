@@ -1,0 +1,30 @@
+{
+  "method": "Fixed monotone FEM-amplitude to LED-equivalent-voltage map; PCHIP through dense samples of the ORIGINAL fitted law along the no-ruler reference profile.",
+  "A_V": 6.019078473682064,
+  "gamma": 0.40580894137904955,
+  "distance_interval_cm": [
+    5,
+    17
+  ],
+  "phi_supported": [
+    0.6943221480848499,
+    0.8587087126202934
+  ],
+  "source_equivalent_voltage_extrapolated": 5.007271095943818,
+  "ground_voltage": 0.0,
+  "max_inrange_reproduction_error_V": 8.067051504134781e-06,
+  "assumptions": [
+    "Original coil and operating conditions; no LED refit.",
+    "Same amplitude remapping is transferred to the grounded-ruler FEM. This transfer is a hypothesis, not a measured calibration with the ruler.",
+    "Ground value 0 is a physical boundary convention, not an additional LED observation; low-amplitude extension is extrapolation.",
+    "Above the fitted amplitude interval, extend with its endpoint tangent; source value is extrapolated and is NOT measured terminal voltage.",
+    "Nonlinear LED remapping is a surrogate visualization. Do not impose Laplace on the remapped voltage or claim its gradient is a measured electric field."
+  ],
+  "fixed_FEM_domain_scale": 16.0,
+  "bounds_m": [
+    -5.6,
+    5.6,
+    -4.205,
+    4.595000000000001
+  ]
+}

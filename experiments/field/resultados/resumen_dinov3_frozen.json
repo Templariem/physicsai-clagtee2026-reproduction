@@ -1,0 +1,11 @@
+{
+  "run": "dinov3_frozen",
+  "best_epoch": 24,
+  "epochs": 34,
+  "best_validation_criterion_V": 0.3713124636878735,
+  "elapsed_minutes": 4.024105486466699,
+  "checkpoint_sha256": "22931ec84ec31e9df7479a05a1ed9629f19f86cb2e984a2dc6528d0d4cc3bfb9",
+  "checkpoint": "/data/projects/physicsai_comun_led_regla_v3/modelos/dinov3_frozen.pt",
+  "peak_gpu_allocated_gib": 0.6730194091796875,
+  "validation_only": true
+}

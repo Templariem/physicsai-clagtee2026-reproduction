@@ -1,0 +1,21 @@
+\begin{table*}[!t]
+\centering\caption{Potential errors against FEM targets (LED-equivalent V; lower is better), model size and inference time. Recorded-video errors equally weight four reserved videos (92 frames); 26 synthetic ST images are scored separately. FEM supplies targets, not independent accuracy.}
+\label{tab:all_models}
+\setlength{\tabcolsep}{3pt}\footnotesize
+\begin{tabular}{llrrrrrrrrrr}\toprule
+Method & Input & Parameters & Inference & \multicolumn{4}{c}{Test on recorded videos} & \multicolumn{4}{c}{MAE by image source}\\
+\cmidrule(lr){5-8}\cmidrule(lr){9-12}
+ & & (M) & (ms) & MAE & RMSE & \shortstack{Perturbed\\region MAE} & \shortstack{Ruler\\MAE} & IP+LED & IP+RULE & WB & ST\\\midrule
+Physical Adapter & Geometry & 0.195 & 19.1 & 0.0182 & 0.0254 & 0.0464 & 0.0000 & 0.0000 & 0.0405 & 0.0322 & 0.0408\\
+DINOv3 residual & RGB + geometry & 21.804 & 23.3 & 0.0212 & 0.0287 & 0.0460 & 0.0000 & 0.0056 & 0.0409 & 0.0328 & 0.0407\\
+I-JEPA residual & RGB + geometry & 630.969 & 64.2 & 0.0186 & 0.0258 & 0.0465 & 0.0000 & 0.0005 & 0.0406 & 0.0326 & 0.0409\\
+\midrule
+DINOv3 frozen & RGB & 21.747 & 4.7 & 0.2679 & 0.3589 & 0.3554 & 0.0695 & 0.1985 & 0.3621 & 0.3127 & 0.2494\\
+DINOv3 partial & RGB & 21.747 & 4.7 & 0.2069 & 0.2596 & 0.1565 & 0.0699 & 0.2684 & 0.1513 & 0.1393 & 0.1011\\
+DINOv3 full & RGB & 21.747 & 4.7 & 0.1824 & 0.2273 & 0.1307 & 0.0791 & 0.2411 & 0.1172 & 0.1301 & 0.0894\\
+I-JEPA frozen & RGB & 630.970 & 45.6 & 0.5772 & 0.7115 & 0.5658 & 0.7239 & 0.6584 & 0.5725 & 0.4196 & 0.3911\\
+I-JEPA partial & RGB & 630.970 & 45.8 & 0.3285 & 0.4121 & 0.2266 & 0.2164 & 0.4494 & 0.2607 & 0.1545 & 0.1198\\
+I-JEPA full & RGB & 630.970 & 45.8 & 0.2906 & 0.3614 & 0.3139 & 0.4016 & 0.2983 & 0.3814 & 0.1845 & 0.1087\\
+\bottomrule\end{tabular}
+\par\smallskip\begin{minipage}{.98\textwidth}\footnotesize Geometry: reviewed masks; RGB: color image. MAE/RMSE: mean absolute/root mean squared error outside conductors and padding. Perturbed-region MAE: air pixels changed $>0.1$ equivalent V from the no-ruler target; ruler MAE: ruler pixels. Geometry-assisted methods impose conductor values; physical FEM reuse explains near-zero IP+LED error. Parameters include frozen encoders and physical ensemble (M: millions). Timing: RTX 5060 Ti, $448\times448$, batch 1, 100-run median; residuals include physical inference. Excludes preprocessing, transfers, detection, FEM solving and rendering.\end{minipage}
+\end{table*}

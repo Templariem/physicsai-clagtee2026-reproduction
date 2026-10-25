@@ -91,7 +91,7 @@ def solve_prior(nodes, elements, materials, boundaries):
 
 
 def remap_prior(nodes, elements, magnitude, amplitude_v, exponent):
-    triangles = np.vstack([elements[:, [0, 1, 2]], elements[:, [0, 2, 3]]])
+    triangles = elements if elements.shape[1]==3 else np.vstack([elements[:, [0, 1, 2]], elements[:, [0, 2, 3]]])
     interpolator = mtri.LinearTriInterpolator(
         mtri.Triangulation(nodes[:, 0], nodes[:, 1], triangles), magnitude)
     radial_x = np.linspace(R_SPHERE_M+0.0001, DOMAIN_M-0.1, 1000)

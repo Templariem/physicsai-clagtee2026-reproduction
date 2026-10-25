@@ -1,0 +1,11 @@
+{
+  "run": "ijepa_partial",
+  "best_epoch": 56,
+  "epochs": 60,
+  "best_validation_criterion_V": 0.3037580930848144,
+  "elapsed_minutes": 83.65495887133342,
+  "checkpoint_sha256": "6d275e4b3fa8f90cb8c06cba26ad019aeb0e514af2afb4e4f6f90e0629e6f7b2",
+  "checkpoint": "/data/projects/physicsai_comun_led_regla_v3/modelos/ijepa_partial.pt",
+  "peak_gpu_allocated_gib": 4.783417224884033,
+  "validation_only": true
+}

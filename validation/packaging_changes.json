@@ -1,0 +1,12 @@
+{
+  "scripts/modelo.py": {
+    "training_sha256": "6282b6230c672747b7df95fb566c3c0e5e18d1e095032a54476c419ee3f96fd7",
+    "release_sha256": "94a6d4665fbd8f3a390d4ac6c24e18f8297c6e5c70f89bf72a62d40ef092331c",
+    "reason": "Portable path defaults; scientific operations unchanged"
+  },
+  "scripts/docente_base.py": {
+    "training_sha256": "0afb2017cac84a5eb0f3743589f83b343dca5e1c5b01c687cb1010795c5f85e9",
+    "release_sha256": "32c91ba455728d8d8a18402ef7d7c207bd67774a7a92a58e602684ae81890400",
+    "reason": "Portable path defaults; scientific operations unchanged"
+  }
+}

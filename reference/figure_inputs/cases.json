@@ -1,0 +1,191 @@
+{
+  "cases": [
+    {
+      "id": "led_original_frame_107",
+      "split": "train",
+      "camera": "legacy_led",
+      "crop": [
+        97,
+        128,
+        303
+      ]
+    },
+    {
+      "id": "regla_var_0150",
+      "split": "train",
+      "camera": "synthetic",
+      "crop": [
+        143,
+        132,
+        221
+      ]
+    },
+    {
+      "id": "regla_real_000008",
+      "split": "train",
+      "camera": "iphone",
+      "crop": [
+        190,
+        128,
+        258
+      ]
+    },
+    {
+      "id": "webcam_real_000010",
+      "split": "train",
+      "camera": "webcam",
+      "crop": [
+        174,
+        182,
+        144
+      ]
+    },
+    {
+      "id": "led_original_frame_219",
+      "split": "val",
+      "camera": "legacy_led",
+      "crop": [
+        103,
+        114,
+        276
+      ]
+    },
+    {
+      "id": "regla_var_0145",
+      "split": "val",
+      "camera": "synthetic",
+      "crop": [
+        70,
+        140,
+        207
+      ]
+    },
+    {
+      "id": "regla_real_000140",
+      "split": "val",
+      "camera": "iphone",
+      "crop": [
+        122,
+        35,
+        323
+      ]
+    },
+    {
+      "id": "webcam_real_000120",
+      "split": "val",
+      "camera": "webcam",
+      "crop": [
+        63,
+        98,
+        252
+      ]
+    },
+    {
+      "id": "led_original_frame_256",
+      "split": "test",
+      "camera": "legacy_led",
+      "crop": [
+        64,
+        144,
+        281
+      ]
+    },
+    {
+      "id": "regla_var_0176",
+      "split": "test",
+      "camera": "synthetic",
+      "crop": [
+        146,
+        159,
+        175
+      ]
+    },
+    {
+      "id": "regla_real_000233",
+      "split": "test",
+      "camera": "iphone",
+      "crop": [
+        32,
+        0,
+        375
+      ]
+    },
+    {
+      "id": "webcam_real_000158",
+      "split": "test",
+      "camera": "webcam",
+      "crop": [
+        111,
+        98,
+        218
+      ]
+    }
+  ],
+  "PCA": {
+    "dinov3": {
+      "training_images": [
+        "led_original_frame_001",
+        "led_original_frame_042",
+        "led_original_frame_084",
+        "led_original_frame_127",
+        "led_original_frame_168",
+        "led_original_frame_209",
+        "regla_var_0001",
+        "regla_var_0061",
+        "regla_var_0118",
+        "regla_var_0183",
+        "regla_var_0233",
+        "regla_var_0299",
+        "iphone_05s_IMG_6777_0000067",
+        "iphone_05s_IMG_6781_0000246",
+        "iphone_05s_IMG_6786_0000216",
+        "regla_real_000042",
+        "regla_real_000118",
+        "regla_real_000220",
+        "webcam_05s_web1_0000018",
+        "webcam_05s_web2_0000192",
+        "webcam_05s_web3_0000652",
+        "webcam_real_000029",
+        "webcam_real_000069",
+        "webcam_real_000105"
+      ],
+      "basis": "joint training representations of frozen, partial and full, reused unchanged for residual",
+      "colors": "training 1st/99th percentiles fixed across images and arms; not cross-backbone physical quantities"
+    },
+    "ijepa": {
+      "training_images": [
+        "led_original_frame_001",
+        "led_original_frame_042",
+        "led_original_frame_084",
+        "led_original_frame_127",
+        "led_original_frame_168",
+        "led_original_frame_209",
+        "regla_var_0001",
+        "regla_var_0061",
+        "regla_var_0118",
+        "regla_var_0183",
+        "regla_var_0233",
+        "regla_var_0299",
+        "iphone_05s_IMG_6777_0000067",
+        "iphone_05s_IMG_6781_0000246",
+        "iphone_05s_IMG_6786_0000216",
+        "regla_real_000042",
+        "regla_real_000118",
+        "regla_real_000220",
+        "webcam_05s_web1_0000018",
+        "webcam_05s_web2_0000192",
+        "webcam_05s_web3_0000652",
+        "webcam_real_000029",
+        "webcam_real_000069",
+        "webcam_real_000105"
+      ],
+      "basis": "joint training representations of frozen, partial and full, reused unchanged for residual",
+      "colors": "training 1st/99th percentiles fixed across images and arms; not cross-backbone physical quantities"
+    }
+  },
+  "voltage_range": [
+    0.1,
+    8
+  ],
+  "display_only_crop": true
+}

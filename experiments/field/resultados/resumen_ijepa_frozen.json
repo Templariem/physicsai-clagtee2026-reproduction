@@ -1,0 +1,11 @@
+{
+  "run": "ijepa_frozen",
+  "best_epoch": 9,
+  "epochs": 19,
+  "best_validation_criterion_V": 0.5464478086934964,
+  "elapsed_minutes": 15.772884006383295,
+  "checkpoint_sha256": "e8b0a12abd836ad102ba75be5b90b5db33cefc83ef82ebac1ad09bda71f6dd9e",
+  "checkpoint": "/data/projects/physicsai_comun_led_regla_v3/modelos/ijepa_frozen.pt",
+  "peak_gpu_allocated_gib": 2.5939583778381348,
+  "validation_only": true
+}

@@ -1,0 +1,6 @@
+{
+  "images": 1143,
+  "physical_checkpoint_sha256": "3c74cd759b75887bbb882000d175def2b87532c973e633ea1057e209d9f92fca",
+  "targets_used": false,
+  "source": "reviewed mask-derived transforms; oracle geometry input"
+}
